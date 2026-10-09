@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Waiting Time Analytics & Estimation Model | MediPulse</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <!-- Top Academic Disclaimer Banner -->
+  <div class="academic-disclaimer-banner text-center">
+    <i class="bi bi-info-circle-fill me-1"></i>
+    <strong>ACADEMIC PROJECT DEMONSTRATOR:</strong>
+    Information shown by this academic system is for demonstration and informational purposes only. Availability and healthcare decisions should be confirmed directly with the healthcare provider.
+  </div>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom sticky-top py-2 shadow-sm">
+    <div class="container-fluid px-lg-5">
+      <a class="navbar-brand navbar-brand-custom" href="../index.html">
+        <div class="brand-icon-box"><i class="bi bi-hospital"></i></div>
+        <div>
+          <span>MediPulse</span>
+          <div style="font-size: 0.65rem; color: #64748b; font-weight: 500; letter-spacing: 0.5px;">HEALTHCARE RESOURCE INTELLIGENCE</div>
+        </div>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4 gap-1">
+          <li class="nav-item"><a class="nav-link" href="../index.html"><i class="bi bi-house-door me-1"></i>Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="hospitals.html"><i class="bi bi-building me-1"></i>Hospitals</a></li>
+          <li class="nav-item"><a class="nav-link" href="surgery.html"><i class="bi bi-scissors me-1"></i>Surgeries</a></li>
+          <li class="nav-item"><a class="nav-link" href="blood.html"><i class="bi bi-droplet-fill text-danger me-1"></i>Blood Bank</a></li>
+          <li class="nav-item"><a class="nav-link" href="resources.html"><i class="bi bi-activity me-1"></i>Resources</a></li>
+          <li class="nav-item"><a class="nav-link active" href="waiting-time.html"><i class="bi bi-clock-history me-1"></i>Wait Times</a></li>
+        </ul>
+
+        <div class="d-flex align-items-center gap-2">
+          <a href="admin.html" class="btn btn-outline-primary btn-sm px-3 fw-semibold">
+            <i class="bi bi-shield-lock me-1"></i>Admin Portal
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <div class="bg-white border-bottom py-4">
+    <div class="container px-lg-5">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb small mb-1">
+          <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Waiting Time Estimation Model</li>
+        </ol>
+      </nav>
+      <h2 class="fw-bold mb-1 text-dark">Transparent Waiting Time Analytics</h2>
+      <p class="text-muted small mb-0">Explainable queuing theory estimation combining live patient queues, triage service times, and emergency load factors.</p>
+    </div>
+  </div>
+
+  <div class="container px-lg-5 py-4">
+    <!-- Backend Connection Status Banner -->
+    <div id="backendStatusContainer"></div>
+
+    <!-- Mathematical Model Explanation Card (Viva Ready) -->
+    <div class="custom-card mb-4 bg-primary text-white border-0">
+      <div class="row align-items-center">
+        <div class="col-lg-8">
+          <span class="badge bg-white text-primary mb-2 fw-bold"><i class="bi bi-mortarboard-fill me-1"></i>Viva Defense / Conceptual Model</span>
+          <h3 class="fw-bold mb-2">Deterministic Waiting Time Model</h3>
+          <p class="mb-3 opacity-90">
+            Rather than relying on ungrounded black-box neural networks, our system implements an academically defensible M/M/c queuing formulation adjusted for triage priority:
+          </p>
+          <div class="p-3 bg-black bg-opacity-25 rounded-3 font-monospace small">
+            Estimated Waiting Time = (Queue Length &times; Service Time) &times; Emergency Penalty Factor &times; Bed Congestion Adjustment
+          </div>
+        </div>
+        <div class="col-lg-4 text-center mt-3 mt-lg-0">
+          <div class="p-3 bg-white text-dark rounded-4 shadow-sm">
+            <div class="small text-muted text-uppercase fw-bold">Average System Wait</div>
+            <div class="display-5 fw-bold text-primary" id="cityAvgWait">34.2</div>
+            <div class="text-muted small">minutes across all facilities</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row g-4 mb-4">
+      <!-- Interactive Queue Simulator -->
+      <div class="col-lg-5">
+        <div class="custom-card h-100">
+          <div class="d-flex align-items-center gap-2 mb-3 border-bottom pb-2">
+            <i class="bi bi-sliders2 text-primary fs-5"></i>
+            <h5 class="fw-bold mb-0 text-dark">Interactive Wait Time Simulator</h5>
+          </div>
+          <p class="small text-muted mb-3">Adjust parameters below to see the dynamic waiting time calculation in real-time:</p>
+
+          <div class="mb-3">
+            <div class="d-flex justify-content-between small fw-bold mb-1">
+              <span>Patient Queue Length</span>
+              <span id="simQueueVal" class="text-primary">15 Patients</span>
+            </div>
+            <input type="range" class="form-range" id="simQueueInput" min="1" max="50" value="15">
+          </div>
+
+          <div class="mb-3">
+            <div class="d-flex justify-content-between small fw-bold mb-1">
+              <span>Average Consultation Service Time</span>
+              <span id="simServiceVal" class="text-primary">8 mins / patient</span>
+            </div>
+            <input type="range" class="form-range" id="simServiceInput" min="4" max="20" value="8">
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label small fw-bold text-dark mb-1">Emergency Trauma Load</label>
+            <select id="simLoadSelect" class="form-select form-select-sm">
+              <option value="1.0">Low Load (Factor 1.0x)</option>
+              <option value="1.25" selected>Moderate Load (Factor 1.25x)</option>
+              <option value="1.6">High Load (Factor 1.6x)</option>
+              <option value="2.2">Critical Trauma Load (Factor 2.2x)</option>
+            </select>
+          </div>
+
+          <div class="p-3 bg-light rounded-3 text-center border mt-4">
+            <div class="small text-muted text-uppercase fw-semibold">Calculated Estimated Wait Time</div>
+            <div class="display-6 fw-bold text-primary mt-1" id="simResultWait">35 mins</div>
+            <div class="small text-muted mt-1" id="simFormulaBreakdown">
+              15 patients &times; (8 min / 4 staff) &times; 1.25 load = ~35 mins
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Real Hospital Wait Times Directory -->
+      <div class="col-lg-7">
+        <div class="custom-card h-100">
+          <div class="d-flex flex-wrap justify-content-between align-items-center mb-3 border-bottom pb-2 gap-2">
+            <div class="d-flex align-items-center gap-2">
+              <h5 class="fw-bold mb-0 text-dark"><i class="bi bi-clock-history text-primary me-2"></i>Current Hospital Queues</h5>
+              <span class="badge bg-primary-subtle text-primary" id="activeFacilitiesBadge">1,000 Active Facilities</span>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+              <select id="filterQueueDistrict" class="form-select form-select-sm" style="width: auto; min-width: 130px;" aria-label="Filter by District">
+                <option value="All" selected>All Districts</option>
+                <option value="Alappuzha">Alappuzha</option>
+                <option value="Ernakulam">Ernakulam</option>
+                <option value="Idukki">Idukki</option>
+                <option value="Kannur">Kannur</option>
+                <option value="Kasaragod">Kasaragod</option>
+                <option value="Kollam">Kollam</option>
+                <option value="Kottayam">Kottayam</option>
+                <option value="Kozhikode">Kozhikode</option>
+                <option value="Malappuram">Malappuram</option>
+                <option value="Palakkad">Palakkad</option>
+                <option value="Pathanamthitta">Pathanamthitta</option>
+                <option value="Thiruvananthapuram">Thiruvananthapuram</option>
+                <option value="Thrissur">Thrissur</option>
+                <option value="Wayanad">Wayanad</option>
+              </select>
+              <select id="sortQueueControl" class="queue-sort-dropdown" aria-label="Sort Hospital Queues">
+                <option value="queue" selected>Queue Length</option>
+                <option value="load">Emergency Load</option>
+                <option value="wait">Expected Time</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="table-responsive" style="max-height: 480px; overflow-y: auto;">
+            <table class="table table-hover align-middle mb-0 small">
+              <thead class="table-light sticky-top">
+                <tr>
+                  <th>Hospital</th>
+                  <th>District</th>
+                  <th>Queue Length</th>
+                  <th>Emergency Load</th>
+                  <th>Expected Wait</th>
+                </tr>
+              </thead>
+              <tbody id="waitTimeTableBody">
+                <!-- Rendered by script below -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container px-lg-5">
+      <div class="row g-4">
+        <div class="col-lg-6">
+          <div class="navbar-brand-custom text-white mb-2">
+            <div class="brand-icon-box bg-primary"><i class="bi bi-hospital"></i></div>
+            <span class="text-white">MediPulse</span>
+          </div>
+          <p class="small text-secondary mb-0">Waiting Time Estimation Module &bull; Final Year B.Tech Project.</p>
+        </div>
+        <div class="col-lg-6 text-lg-end">
+          <p class="small text-secondary mb-0">Explainable academic healthcare information architecture.</p>
+        </div>
+      </div>
+      <div class="footer-bottom text-center">
+        <p class="mb-0">MediPulse &copy; 2026. Academic Healthcare Recommendation System.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../js/sample-data.js"></script>
+  <script src="../js/app.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", async function () {
+      const waitTableBody = document.getElementById("waitTimeTableBody");
+      const avgWaitEl = document.getElementById("cityAvgWait");
+
+      // Simulator controls
+      const simQueue = document.getElementById("simQueueInput");
+      const simQueueVal = document.getElementById("simQueueVal");
+      const simService = document.getElementById("simServiceInput");
+      const simServiceVal = document.getElementById("simServiceVal");
+      const simLoad = document.getElementById("simLoadSelect");
+      const simResult = document.getElementById("simResultWait");
+      const simBreakdown = document.getElementById("simFormulaBreakdown");
+
+      function updateSimulator() {
+        const q = parseInt(simQueue.value, 10);
+        const s = parseInt(simService.value, 10);
+        const loadFactor = parseFloat(simLoad.value);
+
+        simQueueVal.textContent = `${q} Patients`;
+        simServiceVal.textContent = `${s} mins / patient`;
+
+        // Baseline 4 parallel triage doctors
+        const doctors = 4;
+        const estimated = Math.round((q * s / doctors) * loadFactor);
+
+        simResult.textContent = `${estimated} mins`;
+        simBreakdown.innerHTML = `${q} patients &times; (${s} min / ${doctors} docs) &times; ${loadFactor}x factor = <strong>${estimated} mins</strong>`;
+      }
+
+      if (simQueue) simQueue.addEventListener("input", updateSimulator);
+      if (simService) simService.addEventListener("input", updateSimulator);
+      if (simLoad) simLoad.addEventListener("change", updateSimulator);
+
+      // Queue Table Controls & Sorting
+      let allQueueRecords = [];
+      const districtFilter = document.getElementById("filterQueueDistrict");
+      const sortControl = document.getElementById("sortQueueControl");
+      const activeBadge = document.getElementById("activeFacilitiesBadge");
+
+      function getEmergencyPriority(load) {
+        const l = String(load || "").toLowerCase().trim();
+        if (l === "critical" || l === "high") return 3;
+        if (l === "moderate" || l === "medium") return 2;
+        if (l === "low") return 1;
+        return 0;
+      }
+
+      function extractWaitMinutes(val) {
+        if (val == null) return 0;
+        if (typeof val === "number") return val;
+        const match = String(val).match(/\d+/);
+        return match ? parseInt(match[0], 10) : 0;
+      }
+
+      function renderQueueTable() {
+        if (!waitTableBody || !allQueueRecords.length) return;
+
+        const selectedDistrict = districtFilter ? districtFilter.value : "All";
+        const sortBy = sortControl ? sortControl.value : "queue";
+
+        // 1. Filter by District
+        let filtered = allQueueRecords.filter(rec => {
+          if (selectedDistrict === "All") return true;
+          const dTarget = selectedDistrict.toLowerCase();
+          const dVal = String(rec.district || "").toLowerCase();
+          const locVal = String(rec.location || "").toLowerCase();
+          return dVal === dTarget || locVal.includes(dTarget);
+        });
+
+        // 2. Sort Highest -> Lowest
+        filtered.sort((a, b) => {
+          if (sortBy === "queue") {
+            const qA = parseInt(a.queue_length, 10) || 0;
+            const qB = parseInt(b.queue_length, 10) || 0;
+            return qB - qA;
+          }
+          if (sortBy === "load") {
+            const pA = getEmergencyPriority(a.emergency_load);
+            const pB = getEmergencyPriority(b.emergency_load);
+            if (pB !== pA) return pB - pA;
+            return (parseInt(b.queue_length, 10) || 0) - (parseInt(a.queue_length, 10) || 0);
+          }
+          if (sortBy === "wait") {
+            const wA = extractWaitMinutes(a.estimated_wait_time ?? a.average_wait_time);
+            const wB = extractWaitMinutes(b.estimated_wait_time ?? b.average_wait_time);
+            if (wB !== wA) return wB - wA;
+            return (parseInt(b.queue_length, 10) || 0) - (parseInt(a.queue_length, 10) || 0);
+          }
+          return 0;
+        });
+
+        // Update active facilities badge
+        if (activeBadge) {
+          activeBadge.textContent = `${filtered.length.toLocaleString()} Active Facilities`;
+        }
+
+        if (filtered.length === 0) {
+          waitTableBody.innerHTML = `
+            <tr>
+              <td colspan="5" class="text-center py-4 text-muted">
+                <i class="bi bi-info-circle me-1"></i>No hospital queues found for the selected district.
+              </td>
+            </tr>
+          `;
+          return;
+        }
+
+        waitTableBody.innerHTML = filtered.map(rec => `
+          <tr>
+            <td>
+              <strong>${rec.hospital_name}</strong>
+              <div class="text-muted" style="font-size: 0.72rem;">ID: ${rec.hospital_id || rec.id} &bull; ${rec.service_channels || 4} Triage Channels</div>
+            </td>
+            <td><i class="bi bi-geo-alt me-1 text-muted"></i>${rec.district || rec.location}</td>
+            <td>
+              <span class="badge bg-secondary-subtle text-secondary border">
+                <i class="bi bi-people me-1"></i>${rec.queue_length} patients
+              </span>
+            </td>
+            <td>${App.getEmergencyBadge(rec.emergency_load)}</td>
+            <td>
+              ${App.getWaitTimeBadge(rec.estimated_wait_time ?? rec.average_wait_time)}
+            </td>
+          </tr>
+        `).join("");
+      }
+
+      if (districtFilter) districtFilter.addEventListener("change", renderQueueTable);
+      if (sortControl) sortControl.addEventListener("change", renderQueueTable);
+
+      // Fetch dynamic analytics from Flask REST API
+      try {
+        const res = await App.apiGet("/waiting-time/analytics");
+        if (res && res.success && res.data && res.data.records) {
+          App.renderBackendStatusBanner(true);
+          if (avgWaitEl) avgWaitEl.textContent = res.data.average_wait_minutes;
+          allQueueRecords = res.data.records;
+          renderQueueTable();
+        } else {
+          throw new Error("Invalid analytics response");
+        }
+      } catch (err) {
+        console.warn("Backend unavailable, falling back to local dataset:", err);
+        App.renderBackendStatusBanner(false);
+
+        if (window.SAMPLE_DATA) {
+          allQueueRecords = window.SAMPLE_DATA.hospitals;
+          const totalWait = allQueueRecords.reduce((sum, h) => sum + (h.average_wait_time || 0), 0);
+          const avg = (totalWait / (allQueueRecords.length || 1)).toFixed(1);
+          if (avgWaitEl) avgWaitEl.textContent = avg;
+          renderQueueTable();
+        }
+      }
+
+      updateSimulator();
+    });
+  </script>
+</body>
+</html>

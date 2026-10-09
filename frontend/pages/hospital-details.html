@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hospital Details & Facility Intelligence | MediPulse</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <!-- Top Academic Disclaimer Banner -->
+  <div class="academic-disclaimer-banner text-center">
+    <i class="bi bi-info-circle-fill me-1"></i>
+    <strong>ACADEMIC PROJECT DEMONSTRATOR:</strong>
+    Information shown by this academic system is for demonstration and informational purposes only. Availability and healthcare decisions should be confirmed directly with the healthcare provider.
+  </div>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom sticky-top py-2 shadow-sm">
+    <div class="container-fluid px-lg-5">
+      <a class="navbar-brand navbar-brand-custom" href="../index.html">
+        <div class="brand-icon-box"><i class="bi bi-hospital"></i></div>
+        <div>
+          <span>MediPulse</span>
+          <div style="font-size: 0.65rem; color: #64748b; font-weight: 500; letter-spacing: 0.5px;">HEALTHCARE RESOURCE INTELLIGENCE</div>
+        </div>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4 gap-1">
+          <li class="nav-item"><a class="nav-link" href="../index.html"><i class="bi bi-house-door me-1"></i>Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="hospitals.html"><i class="bi bi-building me-1"></i>Hospitals</a></li>
+          <li class="nav-item"><a class="nav-link" href="surgery.html"><i class="bi bi-scissors me-1"></i>Surgeries</a></li>
+          <li class="nav-item"><a class="nav-link" href="blood.html"><i class="bi bi-droplet-fill text-danger me-1"></i>Blood Bank</a></li>
+          <li class="nav-item"><a class="nav-link" href="resources.html"><i class="bi bi-activity me-1"></i>Resources</a></li>
+          <li class="nav-item"><a class="nav-link" href="waiting-time.html"><i class="bi bi-clock-history me-1"></i>Wait Times</a></li>
+        </ul>
+
+        <div class="d-flex align-items-center gap-2">
+          <a href="admin.html" class="btn btn-outline-primary btn-sm px-3 fw-semibold">
+            <i class="bi bi-shield-lock me-1"></i>Admin Portal
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hospital Details Container -->
+  <div class="container px-lg-5 py-5" id="detailsMainContainer">
+    <!-- Populated dynamically by script below -->
+  </div>
+
+  <!-- Explainable Factor Modal -->
+  <div class="modal fade" id="explainModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content rounded-4 border-0 shadow">
+        <div class="modal-header border-bottom">
+          <h5 class="modal-title fw-bold" id="explainModalTitle">Recommendation Score Analysis</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-4" id="explainModalBody"></div>
+        <div class="modal-footer border-top bg-light">
+          <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container px-lg-5">
+      <div class="row g-4">
+        <div class="col-lg-6">
+          <div class="navbar-brand-custom text-white mb-2">
+            <div class="brand-icon-box bg-primary"><i class="bi bi-hospital"></i></div>
+            <span class="text-white">MediPulse</span>
+          </div>
+          <p class="small text-secondary mb-0">
+            Real-Time Hospital Resource, Surgery and Blood Donation Recommendation System.
+          </p>
+        </div>
+        <div class="col-lg-6 text-lg-end">
+          <p class="small text-secondary mb-0">
+            Academic Project Presentation &bull; Final Year B.Tech Computer Science (Data Science).
+          </p>
+        </div>
+      </div>
+      <div class="footer-bottom text-center">
+        <p class="mb-0">Academic Healthcare Information System &copy; 2026.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../js/sample-data.js"></script>
+  <script src="../js/app.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", async function () {
+      const container = document.getElementById("detailsMainContainer");
+      const urlParams = new URLSearchParams(window.location.search);
+      const hospitalId = urlParams.get("id") || "H0001";
+
+      container.innerHTML = `
+        <div class="text-center py-5">
+          <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Loading hospital data...</span>
+          </div>
+          <p class="text-muted small mt-2">Connecting to healthcare API & retrieving facility telemetry...</p>
+        </div>
+      `;
+
+      let rawHospital = null;
+      let associatedSurgeries = [];
+      let districtBloodBanks = [];
+      let scoreObj = null;
+      let isLive = false;
+
+      // Try dynamic Flask API first
+      const apiRes = await App.apiGet("/hospitals/" + hospitalId);
+      if (apiRes && apiRes.success) {
+        const payload = apiRes.data || apiRes;
+        rawHospital = payload.hospital;
+        associatedSurgeries = payload.available_surgeries || [];
+        districtBloodBanks = payload.district_blood_banks || [];
+        scoreObj = payload.baseline_recommendation || {};
+        isLive = true;
+      } else if (window.SAMPLE_DATA) {
+        // Local offline fallback
+        rawHospital = window.SAMPLE_DATA.hospitals.find(h => (h.hospital_id || h.id) === hospitalId) || window.SAMPLE_DATA.hospitals[0];
+        associatedSurgeries = window.SAMPLE_DATA.surgeries.filter(s => s.hospital_id === (rawHospital.hospital_id || rawHospital.id));
+        districtBloodBanks = window.SAMPLE_DATA.bloodBanks.filter(b => b.location === (rawHospital.location || rawHospital.district));
+        scoreObj = {
+          total_score: 75,
+          distance: 4.5,
+          breakdown: { specialty_match: 80, distance: 75, resource_availability: 70, waiting_time: 75, cost: 75, emergency_load: 75 }
+        };
+      }
+
+      if (!rawHospital) {
+        container.innerHTML = `
+          <div class="alert alert-danger p-4 text-center">
+            <i class="bi bi-exclamation-triangle-fill fs-2 d-block mb-2"></i>
+            <h5>Hospital Facility Not Found</h5>
+            <p>Could not locate hospital record for ID "${hospitalId}".</p>
+            <a href="hospitals.html" class="btn btn-outline-danger btn-sm">Return to Hospital Directory</a>
+          </div>
+        `;
+        return;
+      }
+
+      const recScore = (scoreObj && (scoreObj.total_score !== undefined ? scoreObj.total_score : (scoreObj.totalScore !== undefined ? scoreObj.totalScore : 74))) || 74;
+      const recDistance = (scoreObj && (scoreObj.distance !== undefined ? scoreObj.distance : 2.1)) || 2.1;
+      const recBreakdown = (scoreObj && scoreObj.breakdown) || {};
+
+      window.currentDetailHospital = App.normalizeHospitalModel({
+        ...rawHospital,
+        recommendation_score: recScore,
+        calculated_distance: recDistance,
+        factor_breakdown: recBreakdown,
+        recommendation_explanation: (scoreObj && scoreObj.explanation) || `Facility baseline score computed by backend for ${rawHospital.specialty || 'General Medicine'} in ${rawHospital.district || rawHospital.location || 'Kerala'}.`
+      });
+
+      const normalized = window.currentDetailHospital;
+
+      // Provide unified object with both canonical and snake_case properties
+      const hospital = {
+        ...rawHospital,
+        ...normalized,
+        id: normalized.id || rawHospital.hospital_id || rawHospital.id,
+        hospital_id: rawHospital.hospital_id || normalized.id || rawHospital.id,
+        name: normalized.name || rawHospital.hospital_name || rawHospital.name,
+        hospital_name: rawHospital.hospital_name || normalized.name || rawHospital.name,
+        specialty: rawHospital.specialty || normalized.specialty || "General Medicine",
+        address: rawHospital.address || normalized.address || "",
+        contact: rawHospital.contact || rawHospital.phone || normalized.contact || "+91-80-2800-0000",
+        phone: rawHospital.phone || rawHospital.contact || normalized.contact || "+91-80-2800-0000",
+        rating: normalized.rating !== undefined ? normalized.rating : (rawHospital.rating || 4.5),
+        total_beds: rawHospital.total_beds !== undefined ? rawHospital.total_beds : (normalized.totalBeds || 0),
+        totalBeds: normalized.totalBeds !== undefined ? normalized.totalBeds : (rawHospital.total_beds || 0),
+        available_beds: rawHospital.available_beds !== undefined ? rawHospital.available_beds : (normalized.availableBeds || 0),
+        availableBeds: normalized.availableBeds !== undefined ? normalized.availableBeds : (rawHospital.available_beds || 0),
+        icu_beds: rawHospital.icu_beds !== undefined ? rawHospital.icu_beds : (rawHospital.icu_total !== undefined ? rawHospital.icu_total : (normalized.icuBeds || 0)),
+        icuBeds: normalized.icuBeds !== undefined ? normalized.icuBeds : (rawHospital.icu_beds !== undefined ? rawHospital.icu_beds : (rawHospital.icu_total || 0)),
+        available_icu_beds: rawHospital.available_icu_beds !== undefined ? rawHospital.available_icu_beds : (rawHospital.icu_available !== undefined ? rawHospital.icu_available : (normalized.availableIcuBeds || 0)),
+        availableIcuBeds: normalized.availableIcuBeds !== undefined ? normalized.availableIcuBeds : (rawHospital.available_icu_beds !== undefined ? rawHospital.available_icu_beds : (rawHospital.icu_available || 0)),
+        average_wait_time: rawHospital.average_wait_time !== undefined ? rawHospital.average_wait_time : (rawHospital.average_wait_minutes !== undefined ? rawHospital.average_wait_minutes : (normalized.averageWaitTime || 30)),
+        averageWaitTime: normalized.averageWaitTime !== undefined ? normalized.averageWaitTime : (rawHospital.average_wait_time !== undefined ? rawHospital.average_wait_time : (rawHospital.average_wait_minutes || 30)),
+        queue_length: rawHospital.queue_length !== undefined ? rawHospital.queue_length : (normalized.queueLength || 0),
+        queueLength: normalized.queueLength !== undefined ? normalized.queueLength : (rawHospital.queue_length || 0),
+        estimated_cost: rawHospital.estimated_cost !== undefined ? rawHospital.estimated_cost : (rawHospital.standard_cost !== undefined ? rawHospital.standard_cost : (normalized.estimatedCost || 0)),
+        estimatedCost: normalized.estimatedCost !== undefined ? normalized.estimatedCost : (rawHospital.estimated_cost !== undefined ? rawHospital.estimated_cost : (rawHospital.standard_cost || 0)),
+        emergency_load: rawHospital.emergency_load || normalized.emergencyLoad || "Medium",
+        emergencyLoad: normalized.emergencyLoad || rawHospital.emergency_load || "Medium",
+        location: rawHospital.location || rawHospital.district || normalized.location || "Kerala",
+        district: rawHospital.district || rawHospital.location || normalized.location || "Kerala",
+        blood_bank_attached: rawHospital.blood_bank_attached !== undefined ? Boolean(rawHospital.blood_bank_attached) : Boolean(normalized.bloodBankAttached),
+        bloodBankAttached: normalized.bloodBankAttached !== undefined ? Boolean(normalized.bloodBankAttached) : Boolean(rawHospital.blood_bank_attached),
+        recommendation_score: recScore,
+        recommendationScore: recScore,
+        total_score: recScore,
+        totalScore: recScore
+      };
+
+      container.innerHTML = `
+        ${!isLive ? `
+          <div class="alert alert-warning py-2 px-3 small mb-3 border-warning d-flex align-items-center justify-content-between">
+            <span><i class="bi bi-exclamation-triangle-fill text-warning me-2"></i>Backend unavailable — showing demonstration data.</span>
+            <span class="badge bg-warning text-dark">Demo Fallback</span>
+          </div>
+        ` : ''}
+
+        <!-- Top Nav Buttons -->
+        <div class="d-flex justify-content-between align-items-center mb-4">
+          <a href="hospitals.html" class="btn btn-outline-secondary btn-sm">
+            <i class="bi bi-arrow-left me-1"></i>Back to Results
+          </a>
+          <button class="btn btn-primary btn-sm" onclick="App.showExplainableModal(window.currentDetailHospital)">
+            <i class="bi bi-calculator me-1"></i>Explain Backend Recommendation Score
+          </button>
+        </div>
+
+        <!-- Main Hospital Header Card -->
+        <div class="custom-card mb-4">
+          <div class="d-flex flex-wrap justify-content-between align-items-start gap-3">
+            <div>
+              <div class="d-flex align-items-center gap-2 mb-2">
+                <span class="badge bg-primary fs-6">${hospital.specialty}</span>
+                <span class="badge bg-light text-dark border">ID: ${hospital.hospital_id || hospital.id}</span>
+                ${App.getEmergencyBadge(hospital.emergency_load || hospital.emergencyLoad)}
+              </div>
+              <h2 class="fw-bold text-dark mb-1">${hospital.hospital_name || hospital.name}</h2>
+              <div class="text-muted d-flex flex-wrap align-items-center gap-3">
+                <span><i class="bi bi-geo-alt-fill text-danger me-1"></i>${hospital.address}</span>
+                <span>&bull;</span>
+                <span><i class="bi bi-telephone me-1"></i>${hospital.contact || hospital.phone}</span>
+                <span>&bull;</span>
+                <span class="rating-pill"><i class="bi bi-star-fill text-warning"></i>${hospital.rating} / 5.0</span>
+              </div>
+            </div>
+
+            <div class="d-flex align-items-center gap-3">
+              <div class="text-end">
+                <div class="small text-muted text-uppercase fw-semibold">Recommendation Score</div>
+                <div class="display-6 fw-bold text-primary">${recScore}%</div>
+              </div>
+              <div class="score-badge-circle" style="width: 64px; height: 64px; font-size: 1.25rem;">
+                ${recScore}%
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Resource Stats Grid -->
+        <div class="row g-3 mb-4">
+          <div class="col-md-3">
+            <div class="p-3 bg-white rounded-3 border">
+              <div class="text-muted small fw-semibold text-uppercase">General Beds</div>
+              <div class="fs-3 fw-bold text-primary mt-1">${hospital.available_beds} <small class="fs-6 text-muted fw-normal">/ ${hospital.total_beds}</small></div>
+              <div class="progress mt-2" style="height: 6px;">
+                <div class="progress-bar bg-primary" style="width: ${hospital.total_beds ? Math.round((hospital.available_beds / hospital.total_beds) * 100) : 0}%"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="p-3 bg-white rounded-3 border">
+              <div class="text-muted small fw-semibold text-uppercase">ICU Units</div>
+              <div class="fs-3 fw-bold ${hospital.available_icu_beds > 4 ? 'text-success' : 'text-danger'} mt-1">${hospital.available_icu_beds} <small class="fs-6 text-muted fw-normal">/ ${hospital.icu_beds}</small></div>
+              <div class="progress mt-2" style="height: 6px;">
+                <div class="progress-bar bg-success" style="width: ${hospital.icu_beds ? Math.round((hospital.available_icu_beds / hospital.icu_beds) * 100) : 0}%"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="p-3 bg-white rounded-3 border">
+              <div class="text-muted small fw-semibold text-uppercase">Estimated Wait Time</div>
+              <div class="fs-3 fw-bold text-dark mt-1">~${hospital.average_wait_time} <small class="fs-6 text-muted fw-normal">mins</small></div>
+              <div class="small text-muted mt-1"><i class="bi bi-people me-1"></i>${hospital.queue_length} patients in queue</div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="p-3 bg-white rounded-3 border">
+              <div class="text-muted small fw-semibold text-uppercase">Standard Care Cost</div>
+              <div class="fs-3 fw-bold text-dark mt-1">${App.formatCurrency(hospital.estimated_cost)}</div>
+              <div class="small text-muted mt-1">Standard inpatient base rate</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row g-4 mb-4">
+          <!-- Surgery Slots Available -->
+          <div class="col-lg-6">
+            <div class="custom-card h-100">
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <h5 class="fw-bold mb-0"><i class="bi bi-scissors me-2 text-primary"></i>Available Surgery Procedures</h5>
+                <span class="badge bg-primary-subtle text-primary">${associatedSurgeries.length} Procedures</span>
+              </div>
+              ${associatedSurgeries.length === 0 ? '<div class="text-muted small py-3">No specific scheduled surgical slots listed. Consult outpatient desk.</div>' : `
+                <div class="list-group list-group-flush">
+                  ${associatedSurgeries.map(s => `
+                    <div class="list-group-item px-0 py-2 d-flex justify-content-between align-items-center">
+                      <div>
+                        <strong>${s.surgery_name}</strong>
+                        <div class="small text-muted">Waiting period: ~${s.waiting_days} days &bull; ${s.available_slots} slots available</div>
+                      </div>
+                      <div class="text-end">
+                        <strong class="text-dark">${App.formatCurrency(s.estimated_cost)}</strong>
+                      </div>
+                    </div>
+                  `).join("")}
+                </div>
+              `}
+            </div>
+          </div>
+
+          <!-- Blood Bank Status in Sector -->
+          <div class="col-lg-6">
+            <div class="custom-card h-100">
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <h5 class="fw-bold mb-0"><i class="bi bi-droplet-fill me-2 text-danger"></i>District Blood Availability (${hospital.location})</h5>
+                <a href="blood.html" class="btn btn-sm btn-outline-danger">All Blood Units</a>
+              </div>
+              <div class="row g-2">
+                ${districtBloodBanks.slice(0, 8).map(b => `
+                  <div class="col-3">
+                    <div class="p-2 border rounded-3 text-center bg-light">
+                      <div class="fw-bold text-danger">${b.blood_group}</div>
+                      <div class="fs-6 fw-bold ${b.available_units < 5 ? 'text-danger' : 'text-dark'}">${b.available_units} <small class="text-muted" style="font-size:0.65rem;">units</small></div>
+                    </div>
+                  </div>
+                `).join("")}
+              </div>
+              <div class="small text-muted mt-3">
+                <i class="bi bi-shield-check text-success me-1"></i>Attached Blood Bank: <strong>${hospital.blood_bank_attached ? 'Yes (On-site Center)' : 'No (Partner District Hub)'}</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Action Callout -->
+        <div class="p-4 rounded-4 bg-light border d-flex flex-wrap justify-content-between align-items-center gap-3">
+          <div>
+            <h5 class="fw-bold mb-1">Require immediate hospital routing or consultation?</h5>
+            <p class="text-muted small mb-0">Use our multi-factor scoring model to evaluate whether this facility matches your requirements compared to alternative hospitals.</p>
+          </div>
+          <div class="d-flex gap-2">
+            <a href="hospitals.html" class="btn btn-outline-secondary">
+              <i class="bi bi-arrow-left me-1"></i>Back to Results
+            </a>
+            <button class="btn btn-primary" onclick="App.showExplainableModal(window.currentDetailHospital)">
+              <i class="bi bi-graph-up-arrow me-1"></i>Explain Recommendation Score
+            </button>
+          </div>
+        </div>
+      `;
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+id,hospital_id,resource_name,resource_type,total_quantity,available_quantity,status,last_updated
+RES-DIAL-H101,H101,Hemodialysis Station,Specialized Care,8,3,Available,2026-10-01 18:30
+RES-DIAL-H102,H102,Hemodialysis Station,Specialized Care,8,3,Available,2026-10-01 18:30
+RES-DIAL-H103,H103,Hemodialysis Station,Specialized Care,8,3,Available,2026-10-01 18:30
+RES-DIAL-H104,H104,Hemodialysis Station,Specialized Care,8,3,Available,2026-10-01 18:30
+RES-DIAL-H105,H105,Hemodialysis Station,Specialized Care,8,3,Available,2026-10-01 18:30
+RES-DIAL-H106,H106,Hemodialysis Station,Specialized Care,8,3,Available,2026-10-01 18:30
+RES-DIAL-H107,H107,Hemodialysis Station,Specialized Care,8,3,Available,2026-10-01 18:30
+RES-DIAL-H108,H108,Hemodialysis Station,Specialized Care,8,3,Available,2026-10-01 18:30
+RES-DIAL-H109,H109,Hemodialysis Station,Specialized Care,8,3,Available,2026-10-01 18:30
+RES-DIAL-H110,H110,Hemodialysis Station,Specialized Care,8,3,Available,2026-10-01 18:30
+RES-DIAL-H111,H111,Hemodialysis Station,Specialized Care,8,3,Available,2026-10-01 18:30
+RES-DIAL-H112,H112,Hemodialysis Station,Specialized Care,8,3,Available,2026-10-01 18:30
+RES-DIAL-H113,H113,Hemodialysis Station,Specialized Care,8,3,Available,2026-10-01 18:30
+RES-DIAL-H114,H114,Hemodialysis Station,Specialized Care,8,3,Available,2026-10-01 18:30
+RES-DIAL-H115,H115,Hemodialysis Station,Specialized Care,8,3,Available,2026-10-01 18:30
+RES-DIAL-H116,H116,Hemodialysis Station,Specialized Care,8,3,Available,2026-10-01 18:30
+RES-DIAL-H117,H117,Hemodialysis Station,Specialized Care,8,3,Available,2026-10-01 18:30
+RES-DIAL-H118,H118,Hemodialysis Station,Specialized Care,8,3,Available,2026-10-01 18:30
+RES-DIAL-H119,H119,Hemodialysis Station,Specialized Care,8,3,Available,2026-10-01 18:30
+RES-DIAL-H120,H120,Hemodialysis Station,Specialized Care,8,3,Available,2026-10-01 18:30
+RES-DIAL-H121,H121,Hemodialysis Station,Specialized Care,8,3,Available,2026-10-01 18:30
+RES-DIAL-H122,H122,Hemodialysis Station,Specialized Care,8,3,Available,2026-10-01 18:30
+RES-DIAL-H123,H123,Hemodialysis Station,Specialized Care,8,3,Available,2026-10-01 18:30
+RES-DIAL-H124,H124,Hemodialysis Station,Specialized Care,8,3,Available,2026-10-01 18:30
+RES-OXY-H101,H101,High-Flow Oxygen Bed,Inpatient Care,140,52,Available,2026-10-01 18:30
+RES-OXY-H102,H102,High-Flow Oxygen Bed,Inpatient Care,112,42,Available,2026-10-01 18:30
+RES-OXY-H103,H103,High-Flow Oxygen Bed,Inpatient Care,200,75,Available,2026-10-01 18:30
+RES-OXY-H104,H104,High-Flow Oxygen Bed,Inpatient Care,88,33,Available,2026-10-01 18:30
+RES-OXY-H105,H105,High-Flow Oxygen Bed,Inpatient Care,124,46,Available,2026-10-01 18:30
+RES-OXY-H106,H106,High-Flow Oxygen Bed,Inpatient Care,72,27,Available,2026-10-01 18:30
+RES-OXY-H107,H107,High-Flow Oxygen Bed,Inpatient Care,160,60,Available,2026-10-01 18:30
+RES-OXY-H108,H108,High-Flow Oxygen Bed,Inpatient Care,84,31,Available,2026-10-01 18:30
+RES-OXY-H109,H109,High-Flow Oxygen Bed,Inpatient Care,64,24,Available,2026-10-01 18:30
+RES-OXY-H110,H110,High-Flow Oxygen Bed,Inpatient Care,76,28,Available,2026-10-01 18:30
+RES-OXY-H111,H111,High-Flow Oxygen Bed,Inpatient Care,128,48,Available,2026-10-01 18:30
+RES-OXY-H112,H112,High-Flow Oxygen Bed,Inpatient Care,60,22,Available,2026-10-01 18:30
+RES-OXY-H113,H113,High-Flow Oxygen Bed,Inpatient Care,36,13,Available,2026-10-01 18:30
+RES-OXY-H114,H114,High-Flow Oxygen Bed,Inpatient Care,168,63,Available,2026-10-01 18:30
+RES-OXY-H115,H115,High-Flow Oxygen Bed,Inpatient Care,104,39,Available,2026-10-01 18:30
+RES-OXY-H116,H116,High-Flow Oxygen Bed,Inpatient Care,96,36,Available,2026-10-01 18:30
+RES-OXY-H117,H117,High-Flow Oxygen Bed,Inpatient Care,120,45,Available,2026-10-01 18:30
+RES-OXY-H118,H118,High-Flow Oxygen Bed,Inpatient Care,56,21,Available,2026-10-01 18:30
+RES-OXY-H119,H119,High-Flow Oxygen Bed,Inpatient Care,64,24,Available,2026-10-01 18:30
+RES-OXY-H120,H120,High-Flow Oxygen Bed,Inpatient Care,34,12,Available,2026-10-01 18:30
+RES-OXY-H121,H121,High-Flow Oxygen Bed,Inpatient Care,108,40,Available,2026-10-01 18:30
+RES-OXY-H122,H122,High-Flow Oxygen Bed,Inpatient Care,80,30,Available,2026-10-01 18:30
+RES-OXY-H123,H123,High-Flow Oxygen Bed,Inpatient Care,152,57,Available,2026-10-01 18:30
+RES-OXY-H124,H124,High-Flow Oxygen Bed,Inpatient Care,70,26,Available,2026-10-01 18:30
+RES-VENT-H101,H101,Mechanical Ventilator,Critical Care,40,15,Available,2026-10-01 18:30
+RES-VENT-H102,H102,Mechanical Ventilator,Critical Care,32,12,Available,2026-10-01 18:30
+RES-VENT-H103,H103,Mechanical Ventilator,Critical Care,48,18,Available,2026-10-01 18:30
+RES-VENT-H104,H104,Mechanical Ventilator,Critical Care,24,9,Available,2026-10-01 18:30
+RES-VENT-H105,H105,Mechanical Ventilator,Critical Care,36,13,Available,2026-10-01 18:30
+RES-VENT-H106,H106,Mechanical Ventilator,Critical Care,20,7,Available,2026-10-01 18:30
+RES-VENT-H107,H107,Mechanical Ventilator,Critical Care,56,21,Available,2026-10-01 18:30
+RES-VENT-H108,H108,Mechanical Ventilator,Critical Care,28,10,Available,2026-10-01 18:30
+RES-VENT-H109,H109,Mechanical Ventilator,Critical Care,12,4,Available,2026-10-01 18:30
+RES-VENT-H110,H110,Mechanical Ventilator,Critical Care,20,7,Available,2026-10-01 18:30
+RES-VENT-H111,H111,Mechanical Ventilator,Critical Care,40,15,Available,2026-10-01 18:30
+RES-VENT-H112,H112,Mechanical Ventilator,Critical Care,16,6,Available,2026-10-01 18:30
+RES-VENT-H113,H113,Mechanical Ventilator,Critical Care,6,2,Available,2026-10-01 18:30
+RES-VENT-H114,H114,Mechanical Ventilator,Critical Care,44,16,Available,2026-10-01 18:30
+RES-VENT-H115,H115,Mechanical Ventilator,Critical Care,36,13,Available,2026-10-01 18:30
+RES-VENT-H116,H116,Mechanical Ventilator,Critical Care,30,11,Available,2026-10-01 18:30
+RES-VENT-H117,H117,Mechanical Ventilator,Critical Care,20,7,Available,2026-10-01 18:30
+RES-VENT-H118,H118,Mechanical Ventilator,Critical Care,14,5,Available,2026-10-01 18:30
+RES-VENT-H119,H119,Mechanical Ventilator,Critical Care,17,6,Available,2026-10-01 18:30
+RES-VENT-H120,H120,Mechanical Ventilator,Critical Care,5,2,Available,2026-10-01 18:30
+RES-VENT-H121,H121,Mechanical Ventilator,Critical Care,28,10,Available,2026-10-01 18:30
+RES-VENT-H122,H122,Mechanical Ventilator,Critical Care,22,8,Available,2026-10-01 18:30
+RES-VENT-H123,H123,Mechanical Ventilator,Critical Care,48,18,Available,2026-10-01 18:30
+RES-VENT-H124,H124,Mechanical Ventilator,Critical Care,19,7,Available,2026-10-01 18:30

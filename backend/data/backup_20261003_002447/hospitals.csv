@@ -1,0 +1,25 @@
+hospital_id,hospital_name,location,latitude,longitude,specialty,total_beds,available_beds,icu_beds,available_icu_beds,queue_length,emergency_load,average_wait_time,estimated_cost,emergency_services,rating
+H101,Apex Multi-Specialty Medical Center,Central District,12.9716,77.5946,Cardiology,350,68,50,12,14,Medium,35,45000,Yes,4.8
+H102,St. Jude Memorial Hospital,North Zone,13.0358,77.597,Neurology,280,42,40,6,22,High,55,55000,Yes,4.6
+H103,Metro General & Trauma Institute,East Metro,12.9784,77.6408,General Medicine,500,110,60,18,9,Low,20,18000,Yes,4.5
+H104,Sunrise Care Orthopedic Hospital,South Zone,12.925,77.5938,Orthopedics,220,55,30,9,11,Low,25,38000,Yes,4.7
+H105,Global Life Oncology Center,West District,12.99,77.55,Oncology,310,38,45,8,19,Medium,45,62000,Yes,4.9
+H106,Lotus Children & Pediatric Care,Central District,12.965,77.6,Pediatrics,180,48,25,7,8,Low,15,22000,Yes,4.7
+H107,Apollo Royal Heart Institute,South Zone,12.912,77.61,Cardiology,400,72,70,16,16,Medium,40,60000,Yes,4.9
+H108,Fortis Green Neuro & Spine Clinic,West District,12.975,77.535,Neurology,210,29,35,4,26,High,60,52000,Yes,4.4
+H109,CareWell Community Hospital,North Zone,13.045,77.612,General Medicine,160,50,15,5,12,Low,30,12000,Yes,4.2
+H110,Silver Oak Ortho & Sports Institute,East Metro,12.985,77.652,Orthopedics,190,34,25,5,15,Medium,35,42000,Yes,4.6
+H111,Hope Cancer Care & Research Foundation,Central District,12.962,77.585,Oncology,320,40,50,11,18,Medium,50,70000,Yes,4.8
+H112,Primacy Mother & Child Healthcare,South Zone,12.93,77.625,Gynecology,150,39,20,6,10,Low,20,25000,Yes,4.5
+H113,DermaCare Skin & Aesthetic Center,Central District,12.98,77.59,Dermatology,90,32,8,3,7,Low,15,14000,No,4.3
+H114,Trinity Emergency & Trauma Hospital,West District,12.982,77.521,General Medicine,420,25,55,3,32,Critical,70,28000,Yes,4.1
+H115,Pulse Cardiac & Vascular Hospital,East Metro,12.969,77.66,Cardiology,260,58,45,14,13,Low,25,48000,Yes,4.7
+H116,Zenith Brain Institute & Stroke Unit,Central District,12.974,77.588,Neurology,240,36,38,7,21,High,50,58000,Yes,4.8
+H117,City Health Charitable Hospital,North Zone,13.06,77.59,General Medicine,300,85,25,9,16,Medium,35,8500,Yes,4.0
+H118,Bliss Maternity & Women Clinic,East Metro,12.992,77.635,Gynecology,140,28,18,4,14,Medium,30,30000,Yes,4.6
+H119,Little Stars Pediatric Hospital,West District,12.96,77.54,Pediatrics,160,44,22,6,9,Low,20,20000,Yes,4.6
+H120,SkinGuard Dermatology & Allergy,South Zone,12.918,77.605,Dermatology,85,26,6,2,6,Low,15,16000,No,4.4
+H121,MedStar Advanced Oncology Hospital,North Zone,13.02,77.58,Oncology,270,31,35,5,24,High,55,65000,Yes,4.5
+H122,Divine Mercy Joint & Bone Care,Central District,12.968,77.605,Orthopedics,200,45,28,8,12,Low,25,35000,Yes,4.5
+H123,Highland Critical Care Hospital,South Zone,12.905,77.63,General Medicine,380,30,60,4,35,Critical,65,32000,Yes,4.2
+H124,Evergreen Women & Infant Hospital,North Zone,13.04,77.62,Gynecology,175,52,24,9,11,Low,20,27000,Yes,4.7

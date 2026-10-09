@@ -1,0 +1,9 @@
+blood_group,reporting_centers,total_available_units,avg_units_per_center,min_reserve_units,max_reserve_units,low_stock_centers_count
+A+,46,2543,55.3,4,93,5
+O+,46,2451,53.3,5,93,5
+B+,46,2342,50.9,5,94,5
+A-,46,2290,49.8,6,91,5
+AB+,46,2211,48.1,10,93,2
+AB-,46,2194,47.7,5,91,4
+B-,46,2124,46.2,5,85,5
+O-,46,2030,44.1,5,91,5

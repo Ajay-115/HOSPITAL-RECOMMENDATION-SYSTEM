@@ -1,0 +1,41 @@
+blood_bank_id,name,location,blood_group,available_units,contact,last_updated
+B301,Central Rotary Blood Center,Central District,A+,42,+91-80-22114400,2026-10-01 18:30
+B302,Central Rotary Blood Center,Central District,A-,14,+91-80-22114400,2026-10-01 18:30
+B303,Central Rotary Blood Center,Central District,B+,55,+91-80-22114400,2026-10-01 18:30
+B304,Central Rotary Blood Center,Central District,B-,12,+91-80-22114400,2026-10-01 18:30
+B305,Central Rotary Blood Center,Central District,O+,68,+91-80-22114400,2026-10-01 18:30
+B306,Central Rotary Blood Center,Central District,O-,8,+91-80-22114400,2026-10-01 18:30
+B307,Central Rotary Blood Center,Central District,AB+,25,+91-80-22114400,2026-10-01 18:30
+B308,Central Rotary Blood Center,Central District,AB-,6,+91-80-22114400,2026-10-01 18:30
+B309,Red Cross Blood & Component Bank,North Zone,A+,35,+91-80-23445511,2026-10-01 19:15
+B310,Red Cross Blood & Component Bank,North Zone,A-,9,+91-80-23445511,2026-10-01 19:15
+B311,Red Cross Blood & Component Bank,North Zone,B+,48,+91-80-23445511,2026-10-01 19:15
+B312,Red Cross Blood & Component Bank,North Zone,B-,11,+91-80-23445511,2026-10-01 19:15
+B313,Red Cross Blood & Component Bank,North Zone,O+,52,+91-80-23445511,2026-10-01 19:15
+B314,Red Cross Blood & Component Bank,North Zone,O-,5,+91-80-23445511,2026-10-01 19:15
+B315,Red Cross Blood & Component Bank,North Zone,AB+,20,+91-80-23445511,2026-10-01 19:15
+B316,Red Cross Blood & Component Bank,North Zone,AB-,4,+91-80-23445511,2026-10-01 19:15
+B317,East Metro Lifeline Blood Bank,East Metro,A+,28,+91-80-25667788,2026-10-01 20:00
+B318,East Metro Lifeline Blood Bank,East Metro,A-,8,+91-80-25667788,2026-10-01 20:00
+B319,East Metro Lifeline Blood Bank,East Metro,B+,36,+91-80-25667788,2026-10-01 20:00
+B320,East Metro Lifeline Blood Bank,East Metro,B-,7,+91-80-25667788,2026-10-01 20:00
+B321,East Metro Lifeline Blood Bank,East Metro,O+,44,+91-80-25667788,2026-10-01 20:00
+B322,East Metro Lifeline Blood Bank,East Metro,O-,3,+91-80-25667788,2026-10-01 20:00
+B323,East Metro Lifeline Blood Bank,East Metro,AB+,16,+91-80-25667788,2026-10-01 20:00
+B324,East Metro Lifeline Blood Bank,East Metro,AB-,2,+91-80-25667788,2026-10-01 20:00
+B325,South Zone Voluntary Blood Bank,South Zone,A+,38,+91-80-26778899,2026-10-01 20:45
+B326,South Zone Voluntary Blood Bank,South Zone,A-,10,+91-80-26778899,2026-10-01 20:45
+B327,South Zone Voluntary Blood Bank,South Zone,B+,40,+91-80-26778899,2026-10-01 20:45
+B328,South Zone Voluntary Blood Bank,South Zone,B-,8,+91-80-26778899,2026-10-01 20:45
+B329,South Zone Voluntary Blood Bank,South Zone,O+,60,+91-80-26778899,2026-10-01 20:45
+B330,South Zone Voluntary Blood Bank,South Zone,O-,7,+91-80-26778899,2026-10-01 20:45
+B331,South Zone Voluntary Blood Bank,South Zone,AB+,18,+91-80-26778899,2026-10-01 20:45
+B332,South Zone Voluntary Blood Bank,South Zone,AB-,3,+91-80-26778899,2026-10-01 20:45
+B333,West District Trauma Blood Unit,West District,A+,22,+91-80-28990011,2026-10-01 21:10
+B334,West District Trauma Blood Unit,West District,A-,5,+91-80-28990011,2026-10-01 21:10
+B335,West District Trauma Blood Unit,West District,B+,31,+91-80-28990011,2026-10-01 21:10
+B336,West District Trauma Blood Unit,West District,B-,6,+91-80-28990011,2026-10-01 21:10
+B337,West District Trauma Blood Unit,West District,O+,35,+91-80-28990011,2026-10-01 21:10
+B338,West District Trauma Blood Unit,West District,O-,2,+91-80-28990011,2026-10-01 21:10
+B339,West District Trauma Blood Unit,West District,AB+,14,+91-80-28990011,2026-10-01 21:10
+B340,West District Trauma Blood Unit,West District,AB-,1,+91-80-28990011,2026-10-01 21:10

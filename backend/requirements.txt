@@ -1,0 +1,8 @@
+# Core Flask REST API & CORS
+flask>=3.0.0
+flask-cors>=4.0.0
+
+# Optional Data Science Packages (Requires Python 3.10-3.12 wheel support)
+# pandas
+# numpy
+# pyspark

@@ -1,0 +1,10 @@
+specialty,surgery_types_offered,avg_surgery_cost,min_surgery_cost,max_surgery_cost,avg_waiting_days,total_ot_slots_open
+General Surgery,518,79982.0,59601,101704,7.5,1881
+Orthopedics,506,243570.0,187334,299818,7.7,1774
+Cardiology,499,265483.0,157336,406887,7.5,1653
+Gynecology,278,66248.0,55345,77456,7.7,997
+Ophthalmology,272,46760.0,38269,53904,7.0,1003
+Nephrology,253,6127.0,5100,7196,7.2,910
+Neurology,248,286521.0,238040,335652,7.6,908
+Urology,240,112763.0,93641,131940,7.9,902
+Oncology,237,257582.0,212685,299872,7.8,799

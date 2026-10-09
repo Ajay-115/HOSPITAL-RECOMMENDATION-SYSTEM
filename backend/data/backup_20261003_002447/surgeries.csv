@@ -1,0 +1,25 @@
+surgery_id,hospital_id,surgery_name,specialty,estimated_cost,waiting_days,available_slots,location
+S201,H101,Coronary Angioplasty,Cardiology,185000,3,4,Central District
+S202,H101,Coronary Artery Bypass Grafting (CABG),Cardiology,340000,7,2,Central District
+S203,H107,Coronary Angioplasty,Cardiology,195000,2,5,South Zone
+S204,H115,Heart Valve Replacement,Cardiology,380000,5,3,East Metro
+S205,H102,Craniotomy & Tumor Excision,Neurology,280000,6,2,North Zone
+S206,H108,Microscopic Spine Decompression,Neurology,190000,4,3,West District
+S207,H116,Deep Brain Stimulation / Stroke Surgery,Neurology,320000,5,2,Central District
+S208,H104,Total Knee Replacement (TKR),Orthopedics,160000,3,6,South Zone
+S209,H110,Arthroscopic ACL Reconstruction,Orthopedics,95000,2,8,East Metro
+S210,H122,Total Hip Replacement (THR),Orthopedics,175000,4,4,Central District
+S211,H105,Mastectomy & Reconstruction,Oncology,170000,5,3,West District
+S212,H111,Colorectal Tumor Resection,Oncology,240000,6,2,Central District
+S213,H121,Radical Prostatectomy,Oncology,220000,7,2,North Zone
+S214,H103,Laparoscopic Cholecystectomy,General Medicine,65000,2,9,East Metro
+S215,H109,Laparoscopic Appendectomy,General Medicine,45000,1,10,North Zone
+S216,H114,Emergency Exploratory Laparotomy,General Medicine,90000,1,3,West District
+S217,H117,Inguinal Hernia Repair,General Medicine,38000,2,8,North Zone
+S218,H112,Cesarean Section (C-Section),Gynecology,55000,1,7,South Zone
+S219,H118,Total Laparoscopic Hysterectomy,Gynecology,85000,3,5,East Metro
+S220,H124,Myomectomy (Fibroid Removal),Gynecology,75000,2,6,North Zone
+S221,H106,Pediatric Tonsillectomy & Adenoidectomy,Pediatrics,35000,2,7,Central District
+S222,H119,Pediatric Herniotomy,Pediatrics,32000,1,6,West District
+S223,H113,Skin Lesion Excision & Grafting,Dermatology,28000,2,5,Central District
+S224,H120,Advanced Mohs Micrographic Surgery,Dermatology,45000,3,4,South Zone

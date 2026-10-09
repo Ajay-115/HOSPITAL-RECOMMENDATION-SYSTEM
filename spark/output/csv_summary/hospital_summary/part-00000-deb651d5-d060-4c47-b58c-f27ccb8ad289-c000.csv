@@ -1,0 +1,1001 @@
+hospital_id,hospital_name,location,district,specialty,rating,total_beds,available_beds,icu_beds,available_icu_beds,queue_length,emergency_load,emergency_services,average_wait_time,estimated_cost,bed_occupancy_percentage,icu_occupancy_percentage,total_equipment_installed,available_equipment_ready,resource_utilization_percentage,active_surgeries_count,open_ot_slots
+H0761,Kundara General Hospital 0761,"Kundara, Kollam, Kerala",Kollam,Pediatrics,4.9,755,322,88,17,16,Medium,No,29,31935,57.4,80.7,437,111,74.6,3,14
+H0262,Chalakudy Community Health Centre 0262,"Chalakudy, Thrissur, Kerala",Thrissur,Oncology,4.9,884,314,57,2,33,Medium,Yes,55,17937,64.5,96.5,562,73,87.0,2,0
+H0960,Perinthalmanna Community Health Centre 0960,"Perinthalmanna, Malappuram, Kerala",Malappuram,Nephrology,4.9,702,296,71,2,38,Medium,Yes,74,70149,57.8,97.2,683,83,87.8,2,2
+H0526,Neyyattinkara Taluk Hospital 0526,"Neyyattinkara, Thiruvananthapuram, Kerala",Thiruvananthapuram,Nephrology,4.9,564,242,81,9,38,High,Yes,16,49122,57.1,88.9,525,99,81.1,3,10
+H0358,Ettumanoor Multispecialty Hospital 0358,"Ettumanoor, Kottayam, Kerala",Kottayam,General Surgery,4.9,810,221,125,3,20,High,Yes,51,62252,72.7,97.6,418,152,63.6,4,19
+H0480,Kanhangad Multispecialty Hospital 0480,"Kanhangad, Kasaragod, Kerala",Kasaragod,Nephrology,4.9,494,221,68,17,32,Low,Yes,72,21605,55.3,75.0,406,83,79.6,4,11
+H0132,Kasaragod Specialty Hospital 0132,"Kasaragod, Kasaragod, Kerala",Kasaragod,Dermatology,4.9,682,211,101,0,19,Low,Yes,54,78561,69.1,100.0,492,286,41.9,4,17
+H0503,Perinthalmanna Specialty Hospital 0503,"Perinthalmanna, Malappuram, Kerala",Malappuram,Orthopedics,4.9,646,210,96,2,30,Medium,Yes,66,43656,67.5,97.9,252,45,82.1,2,9
+H0625,Kattappana Family Health Centre 0625,"Kattappana, Idukki, Kerala",Idukki,General Surgery,4.9,522,210,26,6,28,Medium,Yes,62,77022,59.8,76.9,317,79,75.1,3,11
+H0949,Uppala Family Health Centre 0949,"Uppala, Kasaragod, Kerala",Kasaragod,Gynecology,4.9,800,204,123,3,26,Medium,Yes,85,34096,74.5,97.6,394,174,55.8,3,15
+H0622,Kumbla Community Health Centre 0622,"Kumbla, Kasaragod, Kerala",Kasaragod,Pediatrics,4.9,900,196,139,22,4,Low,Yes,12,75264,78.2,84.2,551,177,67.9,3,11
+H0371,Taliparamba General Hospital 0371,"Taliparamba, Kannur, Kerala",Kannur,Ophthalmology,4.9,356,155,54,4,37,Medium,No,10,29732,56.5,92.6,516,280,45.7,3,14
+H0370,Manjeri Taluk Hospital 0370,"Manjeri, Malappuram, Kerala",Malappuram,Pulmonology,4.9,429,152,57,17,8,Medium,Yes,25,80340,64.6,70.2,340,47,86.2,3,8
+H0278,Kundara General Hospital 0278,"Kundara, Kollam, Kerala",Kollam,Ophthalmology,4.9,547,142,86,27,12,Medium,Yes,78,46899,74.0,68.6,606,169,72.1,2,8
+H0743,Perinthalmanna Family Health Centre 0743,"Perinthalmanna, Malappuram, Kerala",Malappuram,Oncology,4.9,762,134,49,18,22,Medium,Yes,24,18219,82.4,63.3,359,154,57.1,4,9
+H0310,Ramanattukara Family Health Centre 0310,"Ramanattukara, Kozhikode, Kerala",Kozhikode,Urology,4.9,404,130,55,7,22,Low,Yes,25,58356,67.8,87.3,609,291,52.2,3,12
+H0004,Chengannur Family Health Centre 0004,"Chengannur, Alappuzha, Kerala",Alappuzha,Gynecology,4.9,671,90,93,18,14,Medium,Yes,20,42113,86.6,80.6,299,110,63.2,4,21
+H0056,Kannur Multispecialty Hospital 0056,"Kannur, Kannur, Kerala",Kannur,General Medicine,4.9,834,88,103,29,18,Medium,Yes,13,77820,89.4,71.8,448,197,56.0,3,15
+H0170,Manjeri Specialty Hospital 0170,"Manjeri, Malappuram, Kerala",Malappuram,Orthopedics,4.9,522,88,37,12,19,Medium,Yes,59,65990,83.1,67.6,443,213,51.9,4,19
+H0971,Iritty Specialty Hospital 0971,"Iritty, Kannur, Kerala",Kannur,Nephrology,4.9,413,77,63,9,3,Medium,Yes,41,43832,81.4,85.7,496,127,74.4,4,17
+H0845,Perumbavoor Multispecialty Hospital 0845,"Perumbavoor, Ernakulam, Kerala",Ernakulam,Orthopedics,4.9,245,73,14,5,21,Medium,Yes,13,81668,70.2,64.3,337,77,77.2,4,12
+H0160,Varkala Family Health Centre 0160,"Varkala, Thiruvananthapuram, Kerala",Thiruvananthapuram,Nephrology,4.9,519,71,32,5,43,High,Yes,49,56678,86.3,84.4,410,116,71.7,2,10
+H0680,Kannur Community Health Centre 0680,"Kannur, Kannur, Kerala",Kannur,General Surgery,4.9,174,71,24,8,11,High,Yes,11,39155,59.2,66.7,261,109,58.2,2,8
+H0713,Kayamkulam Family Health Centre 0713,"Kayamkulam, Alappuzha, Kerala",Alappuzha,Pediatrics,4.9,196,62,25,4,31,Low,Yes,10,18971,68.4,84.0,416,174,58.2,2,5
+H0134,Chalakudy Family Health Centre 0134,"Chalakudy, Thrissur, Kerala",Thrissur,Cardiology,4.9,447,48,22,4,29,Medium,No,22,52853,89.3,81.8,342,123,64.0,4,17
+H0991,Nedumkandam Multispecialty Hospital 0991,"Nedumkandam, Idukki, Kerala",Idukki,Pediatrics,4.9,110,41,11,1,43,Medium,Yes,15,82645,62.7,90.9,473,174,63.2,3,14
+H0825,Mananthavady Specialty Hospital 0825,"Mananthavady, Wayanad, Kerala",Wayanad,Gynecology,4.9,239,37,29,9,10,Low,Yes,59,8314,84.5,69.0,209,105,49.8,3,17
+H0996,Kattappana Family Health Centre 0996,"Kattappana, Idukki, Kerala",Idukki,Oncology,4.9,119,35,9,3,18,Medium,Yes,82,68952,70.6,66.7,266,72,72.9,3,16
+H0461,Attingal District Hospital 0461,"Attingal, Thiruvananthapuram, Kerala",Thiruvananthapuram,Nephrology,4.9,109,27,11,0,17,High,Yes,12,34778,75.2,100.0,365,82,77.5,2,11
+H0292,Muvattupuzha Specialty Hospital 0292,"Muvattupuzha, Ernakulam, Kerala",Ernakulam,Gastroenterology,4.9,517,26,54,4,27,Low,Yes,76,56708,95.0,92.6,546,247,54.8,4,20
+H0660,Pathanamthitta General Hospital 0660,"Pathanamthitta, Pathanamthitta, Kerala",Pathanamthitta,Urology,4.9,359,26,54,2,43,High,Yes,56,35208,92.8,96.3,658,209,68.2,4,7
+H0014,Munnar Community Health Centre 0014,"Munnar, Idukki, Kerala",Idukki,Ophthalmology,4.9,233,19,23,0,29,Low,Yes,21,51785,91.8,100.0,539,73,86.5,4,13
+H0529,Vadakara Multispecialty Hospital 0529,"Vadakara, Kozhikode, Kerala",Kozhikode,Gynecology,4.9,192,17,29,4,19,Low,Yes,74,64308,91.1,86.2,423,190,55.1,3,8
+H0094,Aluva Taluk Hospital 0094,"Aluva, Ernakulam, Kerala",Ernakulam,Neurology,4.9,215,12,17,6,20,Medium,Yes,44,52533,94.4,64.7,356,101,71.6,3,5
+H0965,Ottapalam Community Health Centre 0965,"Ottapalam, Palakkad, Kerala",Palakkad,Pulmonology,4.9,78,12,5,1,3,High,Yes,48,64420,84.6,80.0,354,159,55.1,3,11
+H0738,Kothamangalam Specialty Hospital 0738,"Kothamangalam, Ernakulam, Kerala",Ernakulam,Cardiology,4.9,31,8,2,0,27,Medium,Yes,22,57798,74.2,100.0,383,100,73.9,2,10
+H0867,Malappuram Specialty Hospital 0867,"Malappuram, Malappuram, Kerala",Malappuram,Neurology,4.9,79,7,6,1,10,Medium,Yes,13,11866,91.1,83.3,356,168,52.8,4,27
+H0822,Thodupuzha Family Health Centre 0822,"Thodupuzha, Idukki, Kerala",Idukki,General Medicine,4.8,879,326,86,20,8,Low,Yes,64,48202,62.9,76.7,275,62,77.5,4,8
+H0928,Karunagappally Community Health Centre 0928,"Karunagappally, Kollam, Kerala",Kollam,General Surgery,4.8,814,318,126,46,15,Medium,Yes,67,71485,60.9,63.5,436,190,56.4,4,20
+H0355,Varkala Medical College 0355,"Varkala, Thiruvananthapuram, Kerala",Thiruvananthapuram,Dermatology,4.8,995,313,61,23,30,High,No,61,42113,68.5,62.3,278,101,63.7,2,3
+H0672,Taliparamba Community Health Centre 0672,"Taliparamba, Kannur, Kerala",Kannur,Nephrology,4.8,814,303,78,2,26,Medium,Yes,49,12433,62.8,97.4,566,192,66.1,4,13
+H0432,Aluva Family Health Centre 0432,"Aluva, Ernakulam, Kerala",Ernakulam,Gynecology,4.8,635,280,101,18,23,Medium,No,50,45299,55.9,82.2,396,35,91.2,3,18
+H0584,Kasaragod Specialty Hospital 0584,"Kasaragod, Kasaragod, Kerala",Kasaragod,Gynecology,4.8,816,277,45,4,27,Medium,No,27,42319,66.1,91.1,543,85,84.3,4,7
+H0430,Shoranur Multispecialty Hospital 0430,"Shoranur, Palakkad, Kerala",Palakkad,Orthopedics,4.8,670,270,105,46,20,Medium,Yes,72,77072,59.7,56.2,509,74,85.5,4,19
+H0755,Malappuram Family Health Centre 0755,"Malappuram, Malappuram, Kerala",Malappuram,Cardiology,4.8,685,255,35,2,24,Medium,No,22,36218,62.8,94.3,443,113,74.5,4,10
+H0799,Adoor Specialty Hospital 0799,"Adoor, Pathanamthitta, Kerala",Pathanamthitta,Neurology,4.8,643,252,97,28,23,Low,Yes,80,61279,60.8,71.1,561,148,73.6,2,1
+H0195,Kanhangad Taluk Hospital 0195,"Kanhangad, Kasaragod, Kerala",Kasaragod,Cardiology,4.8,809,232,43,11,40,Medium,Yes,62,18719,71.3,74.4,623,283,54.6,4,15
+H0446,Sulthan Bathery General Hospital 0446,"Sulthan Bathery, Wayanad, Kerala",Wayanad,Pediatrics,4.8,652,230,90,4,8,High,No,77,60660,64.7,95.6,445,187,58.0,2,1
+H0099,Kanhangad Medical College 0099,"Kanhangad, Kasaragod, Kerala",Kasaragod,Gynecology,4.8,1085,216,166,1,42,Low,No,31,59686,80.1,99.4,446,99,77.8,4,8
+H0341,Attingal Multispecialty Hospital 0341,"Attingal, Thiruvananthapuram, Kerala",Thiruvananthapuram,Cardiology,4.8,495,206,42,2,4,High,Yes,87,50768,58.4,95.2,549,238,56.6,2,6
+H0379,Ramanattukara Multispecialty Hospital 0379,"Ramanattukara, Kozhikode, Kerala",Kozhikode,General Surgery,4.8,880,200,118,18,2,High,Yes,60,73588,77.3,84.7,597,249,58.3,2,4
+H0414,Ramanattukara District Hospital 0414,"Ramanattukara, Kozhikode, Kerala",Kozhikode,Pulmonology,4.8,853,200,51,21,18,Medium,Yes,56,74675,76.6,58.8,633,133,79.0,3,6
+H0141,Kayamkulam Multispecialty Hospital 0141,"Kayamkulam, Alappuzha, Kerala",Alappuzha,Urology,4.8,783,197,116,32,8,High,Yes,48,71147,74.8,72.4,493,196,60.2,4,12
+H0964,Kunnamkulam Community Health Centre 0964,"Kunnamkulam, Thrissur, Kerala",Thrissur,Cardiology,4.8,615,193,68,9,23,High,Yes,51,81580,68.6,86.8,472,171,63.8,3,15
+H0313,Uppala General Hospital 0313,"Uppala, Kasaragod, Kerala",Kasaragod,Cardiology,4.8,430,184,35,3,10,Low,Yes,59,40893,57.2,91.4,396,93,76.5,4,11
+H0187,Ettumanoor Taluk Hospital 0187,"Ettumanoor, Kottayam, Kerala",Kottayam,Ophthalmology,4.8,491,183,74,29,18,Medium,Yes,27,20008,62.7,60.8,531,205,61.4,2,6
+H0994,Ottapalam Multispecialty Hospital 0994,"Ottapalam, Palakkad, Kerala",Palakkad,Neurology,4.8,560,177,50,18,33,Low,Yes,22,13253,68.4,64.0,685,174,74.6,4,9
+H0831,Kollam District Hospital 0831,"Kollam, Kollam, Kerala",Kollam,Gynecology,4.8,852,171,95,18,4,Medium,Yes,40,11955,79.9,81.1,308,90,70.8,4,9
+H0295,Kumbla Family Health Centre 0295,"Kumbla, Kasaragod, Kerala",Kasaragod,Nephrology,4.8,845,170,45,13,34,Medium,Yes,54,11791,79.9,71.1,251,86,65.7,4,10
+H0873,Cherthala Taluk Hospital 0873,"Cherthala, Alappuzha, Kerala",Alappuzha,Gynecology,4.8,715,169,91,22,5,Medium,Yes,88,14905,76.4,75.8,428,154,64.0,4,16
+H0541,Pathanamthitta Taluk Hospital 0541,"Pathanamthitta, Pathanamthitta, Kerala",Pathanamthitta,Neurology,4.8,653,163,86,4,34,Low,No,17,15951,75.0,95.3,386,142,63.2,2,8
+H0374,Pala Multispecialty Hospital 0374,"Pala, Kottayam, Kerala",Kottayam,ENT,4.8,405,155,24,3,23,Medium,Yes,81,18319,61.7,87.5,284,89,68.7,3,7
+H0385,Vaikom Medical College 0385,"Vaikom, Kottayam, Kerala",Kottayam,Neurology,4.8,871,149,84,7,44,High,Yes,45,9726,82.9,91.7,531,166,68.7,2,8
+H0663,Meppadi Family Health Centre 0663,"Meppadi, Wayanad, Kerala",Wayanad,General Surgery,4.8,891,146,80,29,29,Low,Yes,41,31750,83.6,63.7,301,120,60.1,4,17
+H0854,Feroke Multispecialty Hospital 0854,"Feroke, Kozhikode, Kerala",Kozhikode,Ophthalmology,4.8,840,145,128,7,10,Low,Yes,50,31013,82.7,94.5,444,204,54.1,4,16
+H0724,Mannarkkad General Hospital 0724,"Mannarkkad, Palakkad, Kerala",Palakkad,Gastroenterology,4.8,391,126,36,15,15,Low,Yes,58,42687,67.8,58.3,310,83,73.2,4,8
+H0335,Kattappana Specialty Hospital 0335,"Kattappana, Idukki, Kerala",Idukki,Cardiology,4.8,461,125,57,19,19,Medium,Yes,12,23001,72.9,66.7,474,194,59.1,4,4
+H0808,Meppadi Taluk Hospital 0808,"Meppadi, Wayanad, Kerala",Wayanad,Pulmonology,4.8,603,117,45,6,17,Medium,Yes,87,77086,80.6,86.7,391,57,85.4,2,9
+H0566,Thrissur Family Health Centre 0566,"Thrissur, Thrissur, Kerala",Thrissur,General Medicine,4.8,554,110,58,8,28,Medium,Yes,16,62612,80.1,86.2,385,142,63.1,4,22
+H0901,Muvattupuzha District Hospital 0901,"Muvattupuzha, Ernakulam, Kerala",Ernakulam,Urology,4.8,519,108,35,14,39,Low,Yes,86,66118,79.2,60.0,252,93,63.1,4,8
+H0763,Iritty Taluk Hospital 0763,"Iritty, Kannur, Kerala",Kannur,ENT,4.8,276,106,36,9,43,High,Yes,74,54661,61.6,75.0,557,261,53.1,3,5
+H0997,Kollam Community Health Centre 0997,"Kollam, Kollam, Kerala",Kollam,Oncology,4.8,249,101,31,10,27,Low,Yes,65,51269,59.4,67.7,271,112,58.7,3,10
+H0943,Ottapalam General Hospital 0943,"Ottapalam, Palakkad, Kerala",Palakkad,Gastroenterology,4.8,216,94,14,5,2,Low,Yes,64,10001,56.5,64.3,424,162,61.8,2,11
+H0100,Kasaragod Family Health Centre 0100,"Kasaragod, Kasaragod, Kerala",Kasaragod,Pediatrics,4.8,633,92,68,2,38,Low,Yes,62,65908,85.5,97.1,486,148,69.5,3,6
+H0974,Mavelikara Taluk Hospital 0974,"Mavelikara, Alappuzha, Kerala",Alappuzha,Ophthalmology,4.8,219,91,20,6,8,High,Yes,54,19277,58.4,70.0,377,48,87.3,3,12
+H0798,Feroke Specialty Hospital 0798,"Feroke, Kozhikode, Kerala",Kozhikode,Neurology,4.8,326,89,40,3,15,Low,Yes,42,55374,72.7,92.5,335,89,73.4,4,25
+H0990,Chengannur Multispecialty Hospital 0990,"Chengannur, Alappuzha, Kerala",Alappuzha,Oncology,4.8,731,88,72,10,15,Low,Yes,20,48291,88.0,86.1,495,115,76.8,3,18
+H0041,Varkala Taluk Hospital 0041,"Varkala, Thiruvananthapuram, Kerala",Thiruvananthapuram,Gynecology,4.8,470,85,31,5,16,Low,Yes,15,9468,81.9,83.9,290,147,49.3,2,11
+H0644,Punalur Family Health Centre 0644,"Punalur, Kollam, Kerala",Kollam,Ophthalmology,4.8,474,76,32,2,33,High,Yes,71,74131,84.0,93.8,495,73,85.3,2,4
+H0416,Iritty General Hospital 0416,"Iritty, Kannur, Kerala",Kannur,General Surgery,4.8,180,73,10,1,24,Low,Yes,54,26950,59.4,90.0,521,211,59.5,3,5
+H0717,Mannarkkad Community Health Centre 0717,"Mannarkkad, Palakkad, Kerala",Palakkad,Gynecology,4.8,531,72,61,16,15,Medium,No,79,83046,86.4,73.8,336,172,48.8,3,16
+H0962,Nileshwar Community Health Centre 0962,"Nileshwar, Kasaragod, Kerala",Kasaragod,Pediatrics,4.8,627,67,82,15,26,High,Yes,61,18803,89.3,81.7,576,149,74.1,4,12
+H0040,Payyannur Specialty Hospital 0040,"Payyannur, Kannur, Kerala",Kannur,Urology,4.8,750,66,48,3,39,High,No,34,12931,91.2,93.8,580,304,47.6,3,16
+H0083,Kochi Specialty Hospital 0083,"Kochi, Ernakulam, Kerala",Ernakulam,Oncology,4.8,754,66,69,6,6,Low,No,68,27059,91.2,91.3,586,281,52.0,3,10
+H0656,Nileshwar General Hospital 0656,"Nileshwar, Kasaragod, Kerala",Kasaragod,Pulmonology,4.8,722,66,44,18,26,Medium,Yes,29,80264,90.9,59.1,210,55,73.8,4,14
+H0769,Payyannur General Hospital 0769,"Payyannur, Kannur, Kerala",Kannur,ENT,4.8,341,66,34,6,21,High,No,30,63155,80.6,82.4,592,75,87.3,2,3
+H0792,Adimali General Hospital 0792,"Adimali, Idukki, Kerala",Idukki,Dermatology,4.8,623,64,76,18,6,Medium,Yes,20,47185,89.7,76.3,417,55,86.8,2,9
+H0604,Payyannur Multispecialty Hospital 0604,"Payyannur, Kannur, Kerala",Kannur,Neurology,4.8,178,63,23,5,44,Medium,Yes,60,63071,64.6,78.3,569,256,55.0,2,8
+H0276,Mavelikara Community Health Centre 0276,"Mavelikara, Alappuzha, Kerala",Alappuzha,Dermatology,4.8,273,62,29,3,36,Medium,Yes,73,23851,77.3,89.7,489,142,71.0,3,8
+H0434,Nedumangad Specialty Hospital 0434,"Nedumangad, Thiruvananthapuram, Kerala",Thiruvananthapuram,Pediatrics,4.8,147,59,8,2,30,Low,Yes,74,33487,59.9,75.0,595,132,77.8,2,6
+H0894,Ettumanoor Multispecialty Hospital 0894,"Ettumanoor, Kottayam, Kerala",Kottayam,Dermatology,4.8,399,53,45,3,30,High,Yes,74,51339,86.7,93.3,320,158,50.6,3,7
+H0677,Payyannur Community Health Centre 0677,"Payyannur, Kannur, Kerala",Kannur,Oncology,4.8,362,50,53,11,26,Medium,No,84,78968,86.2,79.2,667,265,60.3,2,5
+H0226,Palakkad District Hospital 0226,"Palakkad, Palakkad, Kerala",Palakkad,Nephrology,4.8,499,49,33,9,36,Medium,Yes,85,72465,90.2,72.7,334,77,76.9,3,0
+H0730,Thrissur Specialty Hospital 0730,"Thrissur, Thrissur, Kerala",Thrissur,Gastroenterology,4.8,463,49,68,13,8,Low,Yes,81,60100,89.4,80.9,587,132,77.5,2,9
+H0185,Guruvayur Multispecialty Hospital 0185,"Guruvayur, Thrissur, Kerala",Thrissur,Urology,4.8,142,47,7,1,15,Medium,Yes,81,42148,66.9,85.7,682,325,52.3,4,11
+H0169,Cherthala Taluk Hospital 0169,"Cherthala, Alappuzha, Kerala",Alappuzha,General Medicine,4.8,142,45,11,3,2,Medium,Yes,76,28025,68.3,72.7,296,71,76.0,4,4
+H0642,Payyannur Multispecialty Hospital 0642,"Payyannur, Kannur, Kerala",Kannur,Dermatology,4.8,153,45,17,4,9,Medium,No,51,76750,70.6,76.5,237,108,54.4,4,12
+H0408,Adimali Taluk Hospital 0408,"Adimali, Idukki, Kerala",Idukki,Orthopedics,4.8,172,43,14,0,9,High,No,46,9402,75.0,100.0,208,91,56.3,2,9
+H0017,Payyannur Community Health Centre 0017,"Payyannur, Kannur, Kerala",Kannur,Cardiology,4.8,423,42,31,1,17,Medium,Yes,13,36409,90.1,96.8,525,320,39.0,4,13
+H0889,Palakkad Specialty Hospital 0889,"Palakkad, Palakkad, Kerala",Palakkad,Gastroenterology,4.8,92,39,9,2,40,High,Yes,12,76712,57.6,77.8,591,300,49.2,3,12
+H0519,Ponnani Family Health Centre 0519,"Ponnani, Malappuram, Kerala",Malappuram,Gynecology,4.8,174,37,25,5,40,High,Yes,80,45472,78.7,80.0,519,253,51.3,2,9
+H0875,Muvattupuzha Community Health Centre 0875,"Muvattupuzha, Ernakulam, Kerala",Ernakulam,Orthopedics,4.8,509,37,77,18,10,Medium,Yes,84,84176,92.7,76.6,457,197,56.9,4,21
+H0069,Payyannur District Hospital 0069,"Payyannur, Kannur, Kerala",Kannur,ENT,4.8,303,34,42,1,30,High,Yes,17,13501,88.8,97.6,359,171,52.4,4,16
+H0467,Mavelikara Specialty Hospital 0467,"Mavelikara, Alappuzha, Kerala",Alappuzha,Gynecology,4.8,582,33,72,26,2,Medium,Yes,79,12642,94.3,63.9,440,173,60.7,2,12
+H0643,Thodupuzha Community Health Centre 0643,"Thodupuzha, Idukki, Kerala",Idukki,Orthopedics,4.8,121,32,6,1,6,Low,Yes,42,62368,73.6,83.3,492,208,57.7,2,10
+H0176,Tirur Multispecialty Hospital 0176,"Tirur, Malappuram, Kerala",Malappuram,Ophthalmology,4.8,110,31,14,2,12,Low,Yes,66,25060,71.8,85.7,459,236,48.6,3,8
+H0935,Kochi Taluk Hospital 0935,"Kochi, Ernakulam, Kerala",Ernakulam,General Surgery,4.8,201,30,14,0,23,High,No,18,29862,85.1,100.0,581,248,57.3,3,14
+H0153,Iritty Medical College 0153,"Iritty, Kannur, Kerala",Kannur,ENT,4.8,570,29,66,27,29,Low,No,18,72130,94.9,59.1,484,121,75.0,4,19
+H0394,Mannarkkad Taluk Hospital 0394,"Mannarkkad, Palakkad, Kerala",Palakkad,Gynecology,4.8,412,26,38,4,13,Low,Yes,31,73843,93.7,89.5,411,115,72.0,3,10
+H0523,Pala Taluk Hospital 0523,"Pala, Kottayam, Kerala",Kottayam,Ophthalmology,4.8,352,17,45,13,43,Medium,Yes,80,60003,95.2,71.1,442,32,92.8,4,15
+H0818,Palakkad Taluk Hospital 0818,"Palakkad, Palakkad, Kerala",Palakkad,Gastroenterology,4.8,64,16,7,0,33,Medium,Yes,59,60419,75.0,100.0,680,265,61.0,3,8
+H0552,Muvattupuzha Multispecialty Hospital 0552,"Muvattupuzha, Ernakulam, Kerala",Ernakulam,Orthopedics,4.8,38,9,3,0,7,High,Yes,84,10249,76.3,100.0,594,140,76.4,3,13
+H0727,Cherthala Multispecialty Hospital 0727,"Cherthala, Alappuzha, Kerala",Alappuzha,Dermatology,4.8,71,9,6,0,22,Low,Yes,30,48260,87.3,100.0,659,371,43.7,3,16
+H0476,Mananthavady Family Health Centre 0476,"Mananthavady, Wayanad, Kerala",Wayanad,Gynecology,4.8,22,6,2,0,28,Low,Yes,66,76166,72.7,100.0,459,42,90.8,3,16
+H0052,Pathanamthitta District Hospital 0052,"Pathanamthitta, Pathanamthitta, Kerala",Pathanamthitta,ENT,4.8,27,1,4,0,28,Medium,Yes,50,20979,96.3,100.0,424,185,56.4,4,10
+H0633,Manjeri General Hospital 0633,"Manjeri, Malappuram, Kerala",Malappuram,Orthopedics,4.7,900,401,110,30,4,High,Yes,75,31890,55.4,72.7,278,149,46.4,2,8
+H0486,Kundara Family Health Centre 0486,"Kundara, Kollam, Kerala",Kollam,Orthopedics,4.7,881,344,97,10,33,Medium,Yes,43,76139,61.0,89.7,485,271,44.1,3,9
+H0219,Kannur Family Health Centre 0219,"Kannur, Kannur, Kerala",Kannur,ENT,4.7,870,335,124,41,12,High,Yes,14,22317,61.5,66.9,286,84,70.6,2,9
+H0881,Pala Community Health Centre 0881,"Pala, Kottayam, Kerala",Kottayam,Pulmonology,4.7,832,317,52,3,41,Medium,Yes,64,10358,61.9,94.2,542,220,59.4,3,12
+H0027,Tirur Family Health Centre 0027,"Tirur, Malappuram, Kerala",Malappuram,Orthopedics,4.7,712,313,39,16,17,Medium,Yes,21,43422,56.0,59.0,669,318,52.5,4,13
+H0639,Perinthalmanna Medical College 0639,"Perinthalmanna, Malappuram, Kerala",Malappuram,General Surgery,4.7,909,301,119,25,34,Low,Yes,42,20189,66.9,79.0,400,197,50.7,4,18
+H0665,Ponnani Community Health Centre 0665,"Ponnani, Malappuram, Kerala",Malappuram,Urology,4.7,710,278,66,25,23,Medium,Yes,18,26851,60.8,62.1,328,111,66.2,4,14
+H0157,Kozhikode Family Health Centre 0157,"Kozhikode, Kozhikode, Kerala",Kozhikode,Ophthalmology,4.7,633,265,44,4,41,Medium,Yes,16,66431,58.1,90.9,598,217,63.7,2,6
+H0015,Nedumangad Multispecialty Hospital 0015,"Nedumangad, Thiruvananthapuram, Kerala",Thiruvananthapuram,Nephrology,4.7,757,250,76,33,36,Low,Yes,36,42017,67.0,56.6,545,265,51.4,3,15
+H0768,Tirur Multispecialty Hospital 0768,"Tirur, Malappuram, Kerala",Malappuram,Cardiology,4.7,786,235,114,6,10,Medium,Yes,36,8659,70.1,94.7,340,155,54.4,2,9
+H0767,Chittur Medical College 0767,"Chittur, Palakkad, Kerala",Palakkad,Cardiology,4.7,616,216,96,27,8,Medium,No,82,18576,64.9,71.9,330,77,76.7,4,15
+H0447,Kodungallur Taluk Hospital 0447,"Kodungallur, Thrissur, Kerala",Thrissur,ENT,4.7,833,202,55,9,9,High,Yes,57,13847,75.8,83.6,433,141,67.4,4,13
+H0577,Palakkad Specialty Hospital 0577,"Palakkad, Palakkad, Kerala",Palakkad,General Medicine,4.7,635,193,53,19,40,Medium,Yes,55,40276,69.6,64.2,197,20,89.8,2,14
+H0782,Sulthan Bathery Family Health Centre 0782,"Sulthan Bathery, Wayanad, Kerala",Wayanad,Cardiology,4.7,606,189,78,22,18,Medium,Yes,40,64696,68.8,71.8,393,58,85.2,3,9
+H0391,Kunnamkulam Community Health Centre 0391,"Kunnamkulam, Thrissur, Kerala",Thrissur,Nephrology,4.7,828,182,41,5,23,Medium,Yes,49,67784,78.0,87.8,630,93,85.2,2,2
+H0336,Kayamkulam Family Health Centre 0336,"Kayamkulam, Alappuzha, Kerala",Alappuzha,Gynecology,4.7,830,171,70,8,44,Low,No,70,15959,79.4,88.6,537,204,62.0,4,19
+H0473,Vaikom Medical College 0473,"Vaikom, Kottayam, Kerala",Kottayam,ENT,4.7,669,163,39,3,5,Medium,Yes,52,26879,75.6,92.3,439,232,47.2,3,12
+H0284,Koyilandy General Hospital 0284,"Koyilandy, Kozhikode, Kerala",Kozhikode,Ophthalmology,4.7,694,155,73,14,37,Medium,Yes,75,75820,77.7,80.8,452,68,85.0,3,9
+H0775,Koyilandy District Hospital 0775,"Koyilandy, Kozhikode, Kerala",Kozhikode,General Medicine,4.7,348,155,24,2,42,Medium,Yes,54,53721,55.5,91.7,605,165,72.7,2,6
+H0789,Shoranur Specialty Hospital 0789,"Shoranur, Palakkad, Kerala",Palakkad,Gynecology,4.7,654,155,44,10,10,Low,Yes,33,61285,76.3,77.3,397,128,67.8,3,5
+H0205,Kodungallur Family Health Centre 0205,"Kodungallur, Thrissur, Kerala",Thrissur,Ophthalmology,4.7,409,145,59,21,18,Medium,Yes,66,30962,64.5,64.4,523,264,49.5,4,17
+H0466,Taliparamba General Hospital 0466,"Taliparamba, Kannur, Kerala",Kannur,Cardiology,4.7,398,134,44,11,35,Medium,Yes,23,20245,66.3,75.0,535,229,57.2,2,12
+H0581,Kodungallur Multispecialty Hospital 0581,"Kodungallur, Thrissur, Kerala",Thrissur,Gastroenterology,4.7,387,131,36,3,43,High,Yes,62,42046,66.1,91.7,365,96,73.7,3,6
+H0811,Iritty General Hospital 0811,"Iritty, Kannur, Kerala",Kannur,Nephrology,4.7,336,126,47,18,38,Medium,Yes,60,49117,62.5,61.7,528,127,75.9,4,9
+H0890,Punalur Medical College 0890,"Punalur, Kollam, Kerala",Kollam,Ophthalmology,4.7,980,125,115,44,23,High,Yes,87,52772,87.2,61.7,703,243,65.4,3,7
+H0531,Nedumkandam Community Health Centre 0531,"Nedumkandam, Idukki, Kerala",Idukki,Nephrology,4.7,517,120,51,15,18,Medium,Yes,14,65504,76.8,70.6,509,219,57.0,2,11
+H0130,Mananthavady District Hospital 0130,"Mananthavady, Wayanad, Kerala",Wayanad,Oncology,4.7,819,118,55,17,36,Low,Yes,57,43923,85.6,69.1,547,177,67.6,3,11
+H0012,Thodupuzha District Hospital 0012,"Thodupuzha, Idukki, Kerala",Idukki,Pediatrics,4.7,462,116,23,3,7,High,Yes,15,28897,74.9,87.0,342,203,40.6,4,17
+H0609,Kannur Taluk Hospital 0609,"Kannur, Kannur, Kerala",Kannur,Dermatology,4.7,442,116,40,3,10,High,Yes,43,62143,73.8,92.5,377,45,88.1,2,11
+H0388,Varkala General Hospital 0388,"Varkala, Thiruvananthapuram, Kerala",Thiruvananthapuram,Nephrology,4.7,541,115,58,2,12,Medium,No,50,61431,78.7,96.6,564,207,63.3,4,6
+H0528,Alappuzha Community Health Centre 0528,"Alappuzha, Alappuzha, Kerala",Alappuzha,Ophthalmology,4.7,411,100,50,13,11,Medium,Yes,73,57670,75.7,74.0,588,160,72.8,3,17
+H0453,Changanassery District Hospital 0453,"Changanassery, Kottayam, Kerala",Kottayam,Oncology,4.7,563,99,52,13,38,Low,Yes,13,59831,82.4,75.0,523,122,76.7,4,15
+H0700,Malappuram District Hospital 0700,"Malappuram, Malappuram, Kerala",Malappuram,Oncology,4.7,565,99,42,6,12,Medium,Yes,28,48359,82.5,85.7,320,90,71.9,4,12
+H0978,Kottarakkara Family Health Centre 0978,"Kottarakkara, Kollam, Kerala",Kollam,Orthopedics,4.7,532,99,61,2,33,Medium,Yes,40,61331,81.4,96.7,496,167,66.3,3,11
+H0536,Munnar Community Health Centre 0536,"Munnar, Idukki, Kerala",Idukki,Cardiology,4.7,307,98,27,6,24,High,Yes,41,14970,68.1,77.8,557,274,50.8,4,15
+H0683,Attingal Multispecialty Hospital 0683,"Attingal, Thiruvananthapuram, Kerala",Thiruvananthapuram,General Medicine,4.7,234,98,27,8,7,Low,Yes,58,78551,58.1,70.4,396,88,77.8,4,16
+H0511,Nileshwar Multispecialty Hospital 0511,"Nileshwar, Kasaragod, Kerala",Kasaragod,Oncology,4.7,630,96,41,3,11,Low,No,11,22836,84.8,92.7,618,206,66.7,4,22
+H0001,Adoor Specialty Hospital 0001,"Adoor, Pathanamthitta, Kerala",Pathanamthitta,General Medicine,4.7,517,95,39,4,2,Medium,Yes,63,45990,81.6,89.7,638,185,71.0,3,10
+H0547,Pathanamthitta Family Health Centre 0547,"Pathanamthitta, Pathanamthitta, Kerala",Pathanamthitta,Urology,4.7,326,94,36,2,41,Medium,No,16,33556,71.2,94.4,286,95,66.8,2,5
+H0359,Ponnani Taluk Hospital 0359,"Ponnani, Malappuram, Kerala",Malappuram,General Medicine,4.7,659,92,91,23,31,Medium,Yes,26,82757,86.0,74.7,258,60,76.7,3,10
+H0158,Feroke Multispecialty Hospital 0158,"Feroke, Kozhikode, Kerala",Kozhikode,Pulmonology,4.7,454,78,68,6,20,Medium,Yes,66,44150,82.8,91.2,577,118,79.5,4,18
+H0637,Shoranur Multispecialty Hospital 0637,"Shoranur, Palakkad, Kerala",Palakkad,Nephrology,4.7,398,74,63,16,13,Medium,Yes,83,48033,81.4,74.6,308,151,51.0,3,8
+H0150,Munnar Specialty Hospital 0150,"Munnar, Idukki, Kerala",Idukki,Oncology,4.7,263,71,32,12,34,Low,Yes,54,83090,73.0,62.5,671,211,68.6,2,7
+H0564,Perinthalmanna General Hospital 0564,"Perinthalmanna, Malappuram, Kerala",Malappuram,General Medicine,4.7,205,66,12,1,40,Medium,Yes,86,51775,67.8,91.7,442,172,61.1,4,5
+H0652,Pandalam Family Health Centre 0652,"Pandalam, Pathanamthitta, Kerala",Pathanamthitta,Ophthalmology,4.7,290,65,32,4,13,High,Yes,57,78247,77.6,87.5,635,197,69.0,3,9
+H0481,Vadakara Family Health Centre 0481,"Vadakara, Kozhikode, Kerala",Kozhikode,Urology,4.7,367,63,52,22,2,Medium,No,73,18914,82.8,57.7,218,101,53.7,2,9
+H0048,Vadakara General Hospital 0048,"Vadakara, Kozhikode, Kerala",Kozhikode,Cardiology,4.7,146,60,16,1,33,High,No,33,80217,58.9,93.8,673,363,46.1,3,8
+H0535,Mannarkkad Community Health Centre 0535,"Mannarkkad, Palakkad, Kerala",Palakkad,Ophthalmology,4.7,158,57,15,3,10,High,Yes,18,23666,63.9,80.0,344,109,68.3,3,5
+H0356,Karunagappally Community Health Centre 0356,"Karunagappally, Kollam, Kerala",Kollam,Pediatrics,4.7,128,53,19,1,6,Low,Yes,63,16456,58.6,94.7,504,113,77.6,3,16
+H0793,Uppala Multispecialty Hospital 0793,"Uppala, Kasaragod, Kerala",Kasaragod,Oncology,4.7,136,53,16,5,13,Medium,Yes,45,58635,61.0,68.8,569,172,69.8,4,5
+H0708,Kanhangad Multispecialty Hospital 0708,"Kanhangad, Kasaragod, Kerala",Kasaragod,ENT,4.7,241,45,29,9,5,Medium,Yes,65,60088,81.3,69.0,436,91,79.1,3,14
+H0653,Kottarakkara Community Health Centre 0653,"Kottarakkara, Kollam, Kerala",Kollam,Gynecology,4.7,557,40,69,7,29,Medium,Yes,21,16952,92.8,89.9,653,364,44.3,4,18
+H0425,Malappuram Community Health Centre 0425,"Malappuram, Malappuram, Kerala",Malappuram,Gynecology,4.7,281,37,33,9,21,Low,Yes,52,61343,86.8,72.7,292,134,54.1,2,0
+H0290,Thrissur Specialty Hospital 0290,"Thrissur, Thrissur, Kerala",Thrissur,General Surgery,4.7,372,36,54,2,24,Low,No,88,72195,90.3,96.3,289,75,74.0,2,4
+H0693,Koyilandy Multispecialty Hospital 0693,"Koyilandy, Kozhikode, Kerala",Kozhikode,Orthopedics,4.7,268,30,13,4,10,Medium,Yes,39,44709,88.8,69.2,270,92,65.9,2,6
+H0725,Chittur General Hospital 0725,"Chittur, Palakkad, Kerala",Palakkad,Pulmonology,4.7,171,30,14,2,40,Medium,Yes,73,77380,82.5,85.7,669,177,73.5,4,13
+H0269,Perinthalmanna Family Health Centre 0269,"Perinthalmanna, Malappuram, Kerala",Malappuram,General Medicine,4.7,106,28,10,0,6,Medium,Yes,47,21201,73.6,100.0,430,103,76.0,3,9
+H0074,Perinthalmanna Multispecialty Hospital 0074,"Perinthalmanna, Malappuram, Kerala",Malappuram,Ophthalmology,4.7,65,19,8,0,11,Medium,Yes,37,63281,70.8,100.0,673,197,70.7,3,13
+H0970,Kunnamkulam Family Health Centre 0970,"Kunnamkulam, Thrissur, Kerala",Thrissur,ENT,4.7,121,17,12,4,10,Low,Yes,83,36581,86.0,66.7,627,208,66.8,3,9
+H0876,Shoranur Community Health Centre 0876,"Shoranur, Palakkad, Kerala",Palakkad,Pediatrics,4.7,62,15,3,0,42,Medium,Yes,75,65539,75.8,100.0,458,139,69.7,3,6
+H0148,Chalakudy Multispecialty Hospital 0148,"Chalakudy, Thrissur, Kerala",Thrissur,Orthopedics,4.7,133,11,7,1,2,Low,No,17,17532,91.7,85.7,215,86,60.0,4,19
+H0426,Chalakudy Multispecialty Hospital 0426,"Chalakudy, Thrissur, Kerala",Thrissur,Gastroenterology,4.7,26,5,3,0,12,Low,Yes,55,54946,80.8,100.0,583,160,72.6,4,17
+H0263,Kothamangalam Multispecialty Hospital 0263,"Kothamangalam, Ernakulam, Kerala",Ernakulam,Oncology,4.7,91,4,4,0,23,Low,Yes,69,36853,95.6,100.0,377,189,49.9,2,3
+H0417,Kanhangad Family Health Centre 0417,"Kanhangad, Kasaragod, Kerala",Kasaragod,Dermatology,4.7,41,2,3,0,28,Medium,Yes,74,27047,95.1,100.0,369,182,50.7,2,12
+H0878,Changanassery Taluk Hospital 0878,"Changanassery, Kottayam, Kerala",Kottayam,Oncology,4.6,879,392,62,17,33,Low,Yes,28,25668,55.4,72.6,413,181,56.2,2,8
+H0104,Chittur Taluk Hospital 0104,"Chittur, Palakkad, Kerala",Palakkad,Orthopedics,4.6,862,323,49,9,37,Medium,Yes,84,61632,62.5,81.6,555,182,67.2,4,21
+H0607,Thiruvalla Specialty Hospital 0607,"Thiruvalla, Pathanamthitta, Kerala",Pathanamthitta,Cardiology,4.6,823,307,117,40,35,Medium,Yes,65,82599,62.7,65.8,309,90,70.9,4,18
+H0557,Shoranur Medical College 0557,"Shoranur, Palakkad, Kerala",Palakkad,Cardiology,4.6,982,303,108,26,35,Medium,Yes,68,65591,69.1,75.9,522,149,71.5,3,8
+H0911,Punalur District Hospital 0911,"Punalur, Kollam, Kerala",Kollam,Orthopedics,4.6,700,288,63,4,20,Low,No,59,60873,58.9,93.7,359,93,74.1,4,17
+H0266,Kodungallur Taluk Hospital 0266,"Kodungallur, Thrissur, Kerala",Thrissur,Pediatrics,4.6,728,272,95,32,39,Medium,Yes,75,36031,62.6,66.3,570,259,54.6,3,11
+H0515,Cherthala Multispecialty Hospital 0515,"Cherthala, Alappuzha, Kerala",Alappuzha,Ophthalmology,4.6,645,268,37,3,19,High,Yes,89,83362,58.4,91.9,519,187,64.0,4,18
+H0948,Karunagappally Community Health Centre 0948,"Karunagappally, Kollam, Kerala",Kollam,Pulmonology,4.6,882,261,107,16,43,High,Yes,89,54803,70.4,85.0,406,166,59.1,3,14
+H0908,Attingal Taluk Hospital 0908,"Attingal, Thiruvananthapuram, Kerala",Thiruvananthapuram,Pediatrics,4.6,812,249,44,9,24,Low,Yes,76,54905,69.3,79.5,723,345,52.3,3,6
+H0403,Feroke Multispecialty Hospital 0403,"Feroke, Kozhikode, Kerala",Kozhikode,General Surgery,4.6,539,241,39,16,7,Medium,Yes,12,31088,55.3,59.0,580,189,67.4,4,13
+H0634,Nedumangad Multispecialty Hospital 0634,"Nedumangad, Thiruvananthapuram, Kerala",Thiruvananthapuram,Oncology,4.6,688,217,77,10,40,Low,Yes,35,38213,68.5,87.0,358,171,52.2,4,3
+H0837,Cherthala Family Health Centre 0837,"Cherthala, Alappuzha, Kerala",Alappuzha,ENT,4.6,654,204,99,9,32,Low,Yes,12,30325,68.8,90.9,677,381,43.7,3,10
+H0664,Ponnani Family Health Centre 0664,"Ponnani, Malappuram, Kerala",Malappuram,Cardiology,4.6,557,202,76,9,18,Medium,Yes,49,45073,63.7,88.2,658,210,68.1,2,10
+H0721,Tirur Community Health Centre 0721,"Tirur, Malappuram, Kerala",Malappuram,General Medicine,4.6,465,200,66,3,22,Low,Yes,64,35476,57.0,95.5,439,159,63.8,4,16
+H0562,Chengannur Community Health Centre 0562,"Chengannur, Alappuzha, Kerala",Alappuzha,Dermatology,4.6,483,187,35,7,36,Medium,Yes,23,27561,61.3,80.0,601,343,42.9,4,23
+H0093,Kollam Family Health Centre 0093,"Kollam, Kollam, Kerala",Kollam,Ophthalmology,4.6,786,184,53,14,9,Medium,Yes,53,23407,76.6,73.6,675,286,57.6,2,7
+H0568,Varkala Community Health Centre 0568,"Varkala, Thiruvananthapuram, Kerala",Thiruvananthapuram,Cardiology,4.6,783,175,93,16,5,Low,Yes,51,67439,77.7,82.8,383,133,65.3,3,12
+H0078,Ranni Taluk Hospital 0078,"Ranni, Pathanamthitta, Kerala",Pathanamthitta,General Surgery,4.6,691,173,66,25,34,Low,No,28,32555,75.0,62.1,665,31,95.3,4,22
+H0554,Ponnani Family Health Centre 0554,"Ponnani, Malappuram, Kerala",Malappuram,Urology,4.6,553,173,53,16,7,High,Yes,56,40490,68.7,69.8,551,79,85.7,4,5
+H0333,Chengannur Multispecialty Hospital 0333,"Chengannur, Alappuzha, Kerala",Alappuzha,General Surgery,4.6,520,166,40,2,41,Medium,Yes,80,21793,68.1,95.0,668,129,80.7,3,10
+H0332,Thodupuzha Multispecialty Hospital 0332,"Thodupuzha, Idukki, Kerala",Idukki,Neurology,4.6,607,157,57,13,42,Low,Yes,52,47944,74.1,77.2,469,114,75.7,4,13
+H0806,Kottarakkara Multispecialty Hospital 0806,"Kottarakkara, Kollam, Kerala",Kollam,Pulmonology,4.6,361,150,48,12,41,High,Yes,61,60653,58.4,75.0,533,37,93.1,4,12
+H0197,Feroke Multispecialty Hospital 0197,"Feroke, Kozhikode, Kerala",Kozhikode,Dermatology,4.6,655,148,103,1,7,Low,No,88,72227,77.4,99.0,242,98,59.5,4,15
+H0032,Munnar Taluk Hospital 0032,"Munnar, Idukki, Kerala",Idukki,Pediatrics,4.6,386,145,60,8,16,Medium,Yes,70,41881,62.4,86.7,384,116,69.8,2,12
+H0465,Thalassery General Hospital 0465,"Thalassery, Kannur, Kerala",Kannur,ENT,4.6,459,137,40,13,37,Low,Yes,36,20667,70.2,67.5,645,314,51.3,4,12
+H0098,Kunnamkulam Specialty Hospital 0098,"Kunnamkulam, Thrissur, Kerala",Thrissur,Urology,4.6,479,135,54,9,40,Medium,Yes,55,42734,71.8,83.3,334,123,63.2,2,8
+H0392,Meppadi Multispecialty Hospital 0392,"Meppadi, Wayanad, Kerala",Wayanad,Urology,4.6,607,127,69,18,12,High,Yes,10,32403,79.1,73.9,520,121,76.7,2,5
+H0487,Shoranur Community Health Centre 0487,"Shoranur, Palakkad, Kerala",Palakkad,Urology,4.6,392,117,28,4,33,High,Yes,82,68984,70.2,85.7,380,82,78.4,2,11
+H0155,Kasaragod Community Health Centre 0155,"Kasaragod, Kasaragod, Kerala",Kasaragod,Neurology,4.6,892,116,80,33,6,Medium,Yes,58,56145,87.0,58.8,592,271,54.2,2,8
+H0443,Uppala Community Health Centre 0443,"Uppala, Kasaragod, Kerala",Kasaragod,Dermatology,4.6,427,113,55,10,29,Medium,No,49,33273,73.5,81.8,633,208,67.1,3,10
+H0089,Adoor Multispecialty Hospital 0089,"Adoor, Pathanamthitta, Kerala",Pathanamthitta,Ophthalmology,4.6,815,112,42,9,5,Medium,Yes,67,50973,86.3,78.6,403,158,60.8,4,10
+H0373,Mananthavady Community Health Centre 0373,"Mananthavady, Wayanad, Kerala",Wayanad,Pediatrics,4.6,414,109,57,20,33,Medium,Yes,86,27305,73.7,64.9,537,54,89.9,3,13
+H0860,Adimali General Hospital 0860,"Adimali, Idukki, Kerala",Idukki,General Surgery,4.6,747,108,107,40,40,Medium,Yes,77,80121,85.5,62.6,389,223,42.7,4,9
+H0428,Mavelikara Family Health Centre 0428,"Mavelikara, Alappuzha, Kerala",Alappuzha,General Surgery,4.6,547,102,64,18,34,Medium,Yes,70,67129,81.4,71.9,537,256,52.3,3,14
+H0791,Kasaragod Multispecialty Hospital 0791,"Kasaragod, Kasaragod, Kerala",Kasaragod,Orthopedics,4.6,518,95,28,9,14,High,Yes,88,38768,81.7,67.9,366,23,93.7,2,8
+H0463,Kasaragod General Hospital 0463,"Kasaragod, Kasaragod, Kerala",Kasaragod,Nephrology,4.6,729,90,61,24,31,Medium,Yes,74,41632,87.7,60.7,396,71,82.1,2,5
+H0950,Varkala Taluk Hospital 0950,"Varkala, Thiruvananthapuram, Kerala",Thiruvananthapuram,Dermatology,4.6,293,87,41,16,40,Medium,Yes,55,12135,70.3,61.0,239,79,66.9,3,16
+H0136,Aluva Family Health Centre 0136,"Aluva, Ernakulam, Kerala",Ernakulam,Pulmonology,4.6,350,84,38,3,32,Low,Yes,60,33000,76.0,92.1,385,197,48.8,2,10
+H0924,Thiruvalla General Hospital 0924,"Thiruvalla, Pathanamthitta, Kerala",Pathanamthitta,General Surgery,4.6,616,80,86,4,19,Medium,Yes,43,33589,87.0,95.3,455,97,78.7,4,2
+H0350,Mananthavady Community Health Centre 0350,"Mananthavady, Wayanad, Kerala",Wayanad,General Medicine,4.6,416,76,61,6,9,Medium,Yes,73,30711,81.7,90.2,555,75,86.5,4,23
+H0147,Vythiri Family Health Centre 0147,"Vythiri, Wayanad, Kerala",Wayanad,Dermatology,4.6,442,74,52,4,2,Medium,Yes,53,15142,83.3,92.3,586,139,76.3,3,11
+H0339,Neyyattinkara Multispecialty Hospital 0339,"Neyyattinkara, Thiruvananthapuram, Kerala",Thiruvananthapuram,General Surgery,4.6,626,74,78,2,13,Low,Yes,41,37977,88.2,97.4,318,109,65.7,3,7
+H0489,Munnar General Hospital 0489,"Munnar, Idukki, Kerala",Idukki,Gynecology,4.6,333,74,32,12,30,Low,Yes,54,74932,77.8,62.5,383,143,62.7,4,11
+H0874,Nedumangad Specialty Hospital 0874,"Nedumangad, Thiruvananthapuram, Kerala",Thiruvananthapuram,General Medicine,4.6,204,65,26,1,43,Medium,Yes,16,63232,68.1,96.2,631,209,66.9,3,7
+H0551,Karunagappally General Hospital 0551,"Karunagappally, Kollam, Kerala",Kollam,Gastroenterology,4.6,857,58,76,15,28,Low,Yes,88,11588,93.2,80.3,280,69,75.4,3,5
+H0597,Changanassery Family Health Centre 0597,"Changanassery, Kottayam, Kerala",Kottayam,Urology,4.6,333,57,51,12,13,Low,Yes,30,79890,82.9,76.5,601,277,53.9,3,11
+H0137,Tirur District Hospital 0137,"Tirur, Malappuram, Kerala",Malappuram,Gastroenterology,4.6,544,56,69,8,42,Medium,Yes,88,67209,89.7,88.4,528,104,80.3,2,1
+H0087,Kundara Medical College 0087,"Kundara, Kollam, Kerala",Kollam,Gastroenterology,4.6,610,55,87,21,14,Low,Yes,10,50182,91.0,75.9,423,142,66.4,4,8
+H0482,Aluva General Hospital 0482,"Aluva, Ernakulam, Kerala",Ernakulam,Pulmonology,4.6,791,53,111,12,21,Medium,No,86,75230,93.3,89.2,515,274,46.8,4,12
+H0904,Mananthavady Family Health Centre 0904,"Mananthavady, Wayanad, Kerala",Wayanad,Gynecology,4.6,416,42,58,18,9,Low,No,15,12199,89.9,69.0,446,192,57.0,4,16
+H0502,Perumbavoor General Hospital 0502,"Perumbavoor, Ernakulam, Kerala",Ernakulam,Oncology,4.6,116,32,10,2,22,High,Yes,76,70249,72.4,80.0,329,151,54.1,4,12
+H0369,Kayamkulam Multispecialty Hospital 0369,"Kayamkulam, Alappuzha, Kerala",Alappuzha,Neurology,4.6,213,31,30,7,20,Low,Yes,77,80198,85.4,76.7,384,133,65.4,3,17
+H0264,Aluva Taluk Hospital 0264,"Aluva, Ernakulam, Kerala",Ernakulam,Urology,4.6,544,28,35,9,9,Medium,Yes,74,42653,94.9,74.3,452,144,68.1,4,9
+H0322,Kannur Multispecialty Hospital 0322,"Kannur, Kannur, Kerala",Kannur,Pediatrics,4.6,439,27,68,15,35,Medium,Yes,21,38652,93.8,77.9,455,195,57.1,4,9
+H0534,Kannur Taluk Hospital 0534,"Kannur, Kannur, Kerala",Kannur,Gynecology,4.6,171,24,9,3,14,High,No,57,57542,86.0,66.7,582,233,60.0,2,11
+H0803,Cherthala Specialty Hospital 0803,"Cherthala, Alappuzha, Kerala",Alappuzha,Gynecology,4.6,391,21,51,11,17,Low,Yes,55,50333,94.6,78.4,546,115,78.9,3,14
+H0151,Ettumanoor Multispecialty Hospital 0151,"Ettumanoor, Kottayam, Kerala",Kottayam,General Medicine,4.6,153,16,16,6,37,Medium,Yes,38,39670,89.5,62.5,496,183,63.1,3,6
+H0585,Thiruvalla Multispecialty Hospital 0585,"Thiruvalla, Pathanamthitta, Kerala",Pathanamthitta,Urology,4.6,209,16,21,4,20,Medium,No,56,41393,92.3,81.0,349,149,57.3,4,14
+H0433,Varkala General Hospital 0433,"Varkala, Thiruvananthapuram, Kerala",Thiruvananthapuram,Neurology,4.6,40,11,5,1,27,Medium,Yes,64,31676,72.5,80.0,713,173,75.7,2,9
+H0605,Kayamkulam Family Health Centre 0605,"Kayamkulam, Alappuzha, Kerala",Alappuzha,Nephrology,4.6,216,11,15,3,20,High,Yes,66,74982,94.9,80.0,384,114,70.3,3,15
+H0260,Perumbavoor Taluk Hospital 0260,"Perumbavoor, Ernakulam, Kerala",Ernakulam,Urology,4.6,40,9,4,0,2,High,Yes,79,8137,77.5,100.0,567,277,51.1,4,15
+H0272,Vaikom Multispecialty Hospital 0272,"Vaikom, Kottayam, Kerala",Kottayam,Nephrology,4.6,34,6,4,0,29,High,Yes,51,84311,82.4,100.0,274,51,81.4,2,13
+H0488,Neyyattinkara Multispecialty Hospital 0488,"Neyyattinkara, Thiruvananthapuram, Kerala",Thiruvananthapuram,Neurology,4.6,39,5,4,0,4,Low,Yes,15,62358,87.2,100.0,511,241,52.8,3,15
+H0114,Iritty Taluk Hospital 0114,"Iritty, Kannur, Kerala",Kannur,Pulmonology,4.6,37,4,3,0,13,Low,Yes,21,69043,89.2,100.0,372,21,94.4,4,8
+H0830,Kottarakkara Taluk Hospital 0830,"Kottarakkara, Kollam, Kerala",Kollam,Nephrology,4.6,46,4,5,1,21,Low,Yes,63,20031,91.3,80.0,373,62,83.4,2,2
+H0435,Chittur Family Health Centre 0435,"Chittur, Palakkad, Kerala",Palakkad,Nephrology,4.6,58,3,4,0,23,High,Yes,10,16140,94.8,100.0,267,112,58.1,3,11
+H0989,Ottapalam General Hospital 0989,"Ottapalam, Palakkad, Kerala",Palakkad,Dermatology,4.5,820,326,52,3,38,Low,Yes,34,8355,60.2,94.2,317,142,55.2,3,15
+H0478,Tirur Taluk Hospital 0478,"Tirur, Malappuram, Kerala",Malappuram,Urology,4.5,772,318,54,2,28,Medium,Yes,19,57689,58.8,96.3,252,60,76.2,3,13
+H0338,Meppadi Specialty Hospital 0338,"Meppadi, Wayanad, Kerala",Wayanad,Gastroenterology,4.5,884,268,124,1,11,Medium,No,29,68652,69.7,99.2,595,326,45.2,3,14
+H0337,Feroke Community Health Centre 0337,"Feroke, Kozhikode, Kerala",Kozhikode,Cardiology,4.5,729,264,85,14,13,Medium,Yes,75,46288,63.8,83.5,326,100,69.3,2,5
+H0545,Pala Medical College 0545,"Pala, Kottayam, Kerala",Kottayam,Oncology,4.5,803,264,57,20,17,Medium,Yes,22,81449,67.1,64.9,672,336,50.0,2,11
+H0457,Feroke General Hospital 0457,"Feroke, Kozhikode, Kerala",Kozhikode,Cardiology,4.5,681,260,101,0,33,Low,Yes,85,51355,61.8,100.0,363,58,84.0,4,10
+H0589,Chengannur Medical College 0589,"Chengannur, Alappuzha, Kerala",Alappuzha,General Medicine,4.5,776,259,89,7,14,Low,Yes,20,72797,66.6,92.1,411,130,68.4,3,10
+H0258,Chalakudy General Hospital 0258,"Chalakudy, Thrissur, Kerala",Thrissur,Orthopedics,4.5,717,239,106,38,38,Low,Yes,56,82300,66.7,64.2,625,153,75.5,4,19
+H0623,Ranni Specialty Hospital 0623,"Ranni, Pathanamthitta, Kerala",Pathanamthitta,Cardiology,4.5,685,239,53,1,5,Medium,Yes,57,35667,65.1,98.1,627,130,79.3,4,16
+H0307,Ramanattukara District Hospital 0307,"Ramanattukara, Kozhikode, Kerala",Kozhikode,Pediatrics,4.5,890,238,96,25,18,High,Yes,87,74428,73.3,74.0,416,127,69.5,4,16
+H0885,Changanassery Taluk Hospital 0885,"Changanassery, Kottayam, Kerala",Kottayam,Orthopedics,4.5,772,218,82,1,42,Medium,Yes,79,46404,71.8,98.8,466,77,83.5,2,8
+H0533,Uppala Family Health Centre 0533,"Uppala, Kasaragod, Kerala",Kasaragod,Pediatrics,4.5,768,206,83,9,18,Low,Yes,26,70037,73.2,89.2,485,53,89.1,2,6
+H0940,Kalpetta Family Health Centre 0940,"Kalpetta, Wayanad, Kerala",Wayanad,Cardiology,4.5,603,206,68,16,4,Low,Yes,77,69666,65.8,76.5,559,107,80.9,4,13
+H0567,Neyyattinkara District Hospital 0567,"Neyyattinkara, Thiruvananthapuram, Kerala",Thiruvananthapuram,Pulmonology,4.5,686,191,74,23,31,Medium,Yes,60,75865,72.2,68.9,546,60,89.0,4,9
+H0227,Mannarkkad Medical College 0227,"Mannarkkad, Palakkad, Kerala",Palakkad,Pediatrics,4.5,854,178,44,9,10,Low,No,65,14860,79.2,79.5,495,85,82.8,3,12
+H0110,Chalakudy Taluk Hospital 0110,"Chalakudy, Thrissur, Kerala",Thrissur,Neurology,4.5,774,173,72,6,33,Medium,Yes,19,48553,77.6,91.7,333,147,55.9,3,16
+H0657,Thrissur Medical College 0657,"Thrissur, Thrissur, Kerala",Thrissur,ENT,4.5,572,166,48,6,17,Medium,Yes,67,26875,71.0,87.5,481,76,84.2,2,8
+H0737,Vadakara Medical College 0737,"Vadakara, Kozhikode, Kerala",Kozhikode,Gynecology,4.5,1177,164,114,34,28,Low,Yes,43,47903,86.1,70.2,487,166,65.9,4,5
+H0485,Nileshwar Family Health Centre 0485,"Nileshwar, Kasaragod, Kerala",Kasaragod,ENT,4.5,566,162,42,4,21,Low,No,43,63095,71.4,90.5,342,47,86.3,3,12
+H0687,Pala Medical College 0687,"Pala, Kottayam, Kerala",Kottayam,Gastroenterology,4.5,691,162,101,4,12,Medium,Yes,64,76864,76.6,96.0,649,105,83.8,4,8
+H0252,Chalakudy Specialty Hospital 0252,"Chalakudy, Thrissur, Kerala",Thrissur,ENT,4.5,895,156,111,39,43,High,Yes,35,11292,82.6,64.9,559,267,52.2,3,8
+H0121,Mannarkkad Family Health Centre 0121,"Mannarkkad, Palakkad, Kerala",Palakkad,Ophthalmology,4.5,601,155,48,4,39,Medium,Yes,43,40887,74.2,91.7,518,290,44.0,4,20
+H0072,Adoor Community Health Centre 0072,"Adoor, Pathanamthitta, Kerala",Pathanamthitta,Pediatrics,4.5,814,153,89,32,12,Low,Yes,64,70745,81.2,64.0,421,224,46.8,2,10
+H0022,Kodungallur Multispecialty Hospital 0022,"Kodungallur, Thrissur, Kerala",Thrissur,Gastroenterology,4.5,666,144,64,10,40,Medium,Yes,60,77593,78.4,84.4,554,314,43.3,3,15
+H0294,Varkala Family Health Centre 0294,"Varkala, Thiruvananthapuram, Kerala",Thiruvananthapuram,Dermatology,4.5,333,137,47,15,5,Low,Yes,42,24209,58.9,68.1,391,75,80.8,3,16
+H0236,Thiruvananthapuram Multispecialty Hospital 0236,"Thiruvananthapuram, Thiruvananthapuram, Kerala",Thiruvananthapuram,Oncology,4.5,367,132,56,1,44,Medium,Yes,16,63022,64.0,98.2,379,114,69.9,3,9
+H0900,Mavelikara General Hospital 0900,"Mavelikara, Alappuzha, Kerala",Alappuzha,Pediatrics,4.5,783,130,85,3,43,Low,Yes,80,61359,83.4,96.5,275,104,62.2,4,13
+H0221,Punalur Specialty Hospital 0221,"Punalur, Kollam, Kerala",Kollam,Gastroenterology,4.5,458,127,67,5,24,Medium,Yes,25,10764,72.3,92.5,588,83,85.9,4,20
+H0225,Malappuram Multispecialty Hospital 0225,"Malappuram, Malappuram, Kerala",Malappuram,General Surgery,4.5,317,124,39,12,12,High,Yes,78,20807,60.9,69.2,464,227,51.1,3,14
+H0439,Meppadi Specialty Hospital 0439,"Meppadi, Wayanad, Kerala",Wayanad,Pediatrics,4.5,272,120,19,1,18,Low,Yes,31,57325,55.9,94.7,661,84,87.3,3,9
+H0328,Kundara Community Health Centre 0328,"Kundara, Kollam, Kerala",Kollam,Dermatology,4.5,355,110,28,9,35,Low,Yes,83,20590,69.0,67.9,456,94,79.4,2,12
+H0118,Nedumangad Community Health Centre 0118,"Nedumangad, Thiruvananthapuram, Kerala",Thiruvananthapuram,ENT,4.5,591,98,68,7,7,Medium,Yes,62,76705,83.4,89.7,698,197,71.8,3,14
+H0431,Guruvayur Family Health Centre 0431,"Guruvayur, Thrissur, Kerala",Thrissur,Urology,4.5,403,97,57,20,28,Medium,Yes,72,49745,75.9,64.9,518,116,77.6,2,8
+H0395,Tirur General Hospital 0395,"Tirur, Malappuram, Kerala",Malappuram,Urology,4.5,364,96,45,16,16,Medium,Yes,43,44552,73.6,64.4,548,126,77.0,3,15
+H0026,Ramanattukara Taluk Hospital 0026,"Ramanattukara, Kozhikode, Kerala",Kozhikode,Gynecology,4.5,517,87,58,22,41,Medium,Yes,38,55424,83.2,62.1,470,114,75.7,3,13
+H0003,Thrissur General Hospital 0003,"Thrissur, Thrissur, Kerala",Thrissur,Neurology,4.5,467,83,56,21,28,Low,Yes,51,71948,82.2,62.5,440,219,50.2,3,6
+H0470,Kochi Family Health Centre 0470,"Kochi, Ernakulam, Kerala",Ernakulam,General Medicine,4.5,280,80,34,4,6,Medium,Yes,80,32936,71.4,88.2,598,316,47.2,3,10
+H0988,Payyannur Multispecialty Hospital 0988,"Payyannur, Kannur, Kerala",Kannur,Gynecology,4.5,298,75,44,7,6,Medium,Yes,50,52674,74.8,84.1,380,102,73.2,3,13
+H0254,Varkala Multispecialty Hospital 0254,"Varkala, Thiruvananthapuram, Kerala",Thiruvananthapuram,Orthopedics,4.5,894,70,108,23,6,Medium,Yes,29,61881,92.2,78.7,355,163,54.1,4,15
+H0469,Thiruvananthapuram Community Health Centre 0469,"Thiruvananthapuram, Thiruvananthapuram, Kerala",Thiruvananthapuram,General Medicine,4.5,285,67,21,6,40,Low,Yes,81,33332,76.5,71.4,204,63,69.1,4,15
+H0922,Punalur Multispecialty Hospital 0922,"Punalur, Kollam, Kerala",Kollam,General Surgery,4.5,524,64,79,23,25,Low,Yes,87,74966,87.8,70.9,713,213,70.1,2,4
+H0215,Perumbavoor Multispecialty Hospital 0215,"Perumbavoor, Ernakulam, Kerala",Ernakulam,Gynecology,4.5,197,62,14,2,3,Medium,Yes,80,52407,68.5,85.7,302,121,59.9,3,13
+H0419,Ettumanoor Community Health Centre 0419,"Ettumanoor, Kottayam, Kerala",Kottayam,Oncology,4.5,185,56,20,6,4,High,No,20,20578,69.7,70.0,601,216,64.1,4,15
+H0494,Shoranur Multispecialty Hospital 0494,"Shoranur, Palakkad, Kerala",Palakkad,Cardiology,4.5,523,53,81,23,17,Low,Yes,59,46228,89.9,71.6,479,125,73.9,3,12
+H0754,Mavelikara Specialty Hospital 0754,"Mavelikara, Alappuzha, Kerala",Alappuzha,Cardiology,4.5,798,53,82,8,16,High,Yes,56,11503,93.4,90.2,521,82,84.3,4,19
+H0980,Thiruvalla Multispecialty Hospital 0980,"Thiruvalla, Pathanamthitta, Kerala",Pathanamthitta,Neurology,4.5,320,50,49,18,21,Medium,Yes,49,48542,84.4,63.3,448,216,51.8,2,5
+H0530,Kannur Multispecialty Hospital 0530,"Kannur, Kannur, Kerala",Kannur,ENT,4.5,233,46,37,5,25,Medium,Yes,37,34998,80.3,86.5,407,104,74.4,2,1
+H0212,Nedumkandam Multispecialty Hospital 0212,"Nedumkandam, Idukki, Kerala",Idukki,General Medicine,4.5,159,44,8,0,8,Medium,Yes,12,74185,72.3,100.0,414,117,71.7,4,12
+H0399,Thodupuzha Family Health Centre 0399,"Thodupuzha, Idukki, Kerala",Idukki,Neurology,4.5,631,43,54,11,15,Low,Yes,27,30786,93.2,79.6,262,93,64.5,2,4
+H0842,Ettumanoor District Hospital 0842,"Ettumanoor, Kottayam, Kerala",Kottayam,ENT,4.5,514,42,76,19,12,High,No,23,80328,91.8,75.0,224,71,68.3,4,8
+H0916,Chittur Family Health Centre 0916,"Chittur, Palakkad, Kerala",Palakkad,General Medicine,4.5,111,37,15,3,14,Low,Yes,54,60273,66.7,80.0,610,239,60.8,3,14
+H0702,Thiruvalla Family Health Centre 0702,"Thiruvalla, Pathanamthitta, Kerala",Pathanamthitta,General Surgery,4.5,714,36,35,11,30,Medium,Yes,45,12052,95.0,68.6,498,138,72.3,4,16
+H0178,Guruvayur Specialty Hospital 0178,"Guruvayur, Thrissur, Kerala",Thrissur,Ophthalmology,4.5,272,33,19,3,29,Medium,Yes,85,80059,87.9,84.2,400,145,63.7,4,10
+H0972,Kanhangad Specialty Hospital 0972,"Kanhangad, Kasaragod, Kerala",Kasaragod,Oncology,4.5,83,30,12,3,36,High,Yes,54,59445,63.9,75.0,590,114,80.7,4,6
+H0600,Shoranur Specialty Hospital 0600,"Shoranur, Palakkad, Kerala",Palakkad,Pulmonology,4.5,117,27,12,3,34,Medium,Yes,13,20249,76.9,75.0,565,131,76.8,3,14
+H0060,Kasaragod General Hospital 0060,"Kasaragod, Kasaragod, Kerala",Kasaragod,Gastroenterology,4.5,419,26,64,14,35,Low,Yes,26,68958,93.8,78.1,551,257,53.4,4,13
+H0474,Thodupuzha General Hospital 0474,"Thodupuzha, Idukki, Kerala",Idukki,Pulmonology,4.5,253,23,14,3,3,High,Yes,46,10929,90.9,78.6,597,168,71.9,2,10
+H0676,Kunnamkulam Taluk Hospital 0676,"Kunnamkulam, Thrissur, Kerala",Thrissur,Gynecology,4.5,274,21,36,14,14,Medium,Yes,68,62086,92.3,61.1,333,39,88.3,3,18
+H0273,Kottarakkara General Hospital 0273,"Kottarakkara, Kollam, Kerala",Kollam,ENT,4.5,165,17,15,5,24,Medium,No,75,80178,89.7,66.7,336,60,82.1,3,11
+H0283,Kunnamkulam Community Health Centre 0283,"Kunnamkulam, Thrissur, Kerala",Thrissur,Cardiology,4.5,113,14,10,0,25,High,Yes,41,79069,87.6,100.0,314,132,58.0,3,8
+H0654,Kumbla Specialty Hospital 0654,"Kumbla, Kasaragod, Kerala",Kasaragod,Oncology,4.5,57,14,4,0,14,High,Yes,21,55869,75.4,100.0,342,121,64.6,3,15
+H0213,Ponnani Specialty Hospital 0213,"Ponnani, Malappuram, Kerala",Malappuram,Cardiology,4.5,66,12,9,3,40,High,Yes,27,37917,81.8,66.7,579,213,63.2,4,19
+H0518,Kumbla District Hospital 0518,"Kumbla, Kasaragod, Kerala",Kasaragod,Gastroenterology,4.5,56,11,3,0,39,Low,Yes,53,21976,80.4,100.0,553,311,43.8,4,12
+H0902,Kanhangad Taluk Hospital 0902,"Kanhangad, Kasaragod, Kerala",Kasaragod,Orthopedics,4.5,52,8,3,0,42,Medium,Yes,79,64969,84.6,100.0,426,83,80.5,2,7
+H0372,Vadakara Taluk Hospital 0372,"Vadakara, Kozhikode, Kerala",Kozhikode,Cardiology,4.5,46,6,4,0,12,Medium,Yes,64,55210,87.0,100.0,451,70,84.5,4,8
+H0363,Neyyattinkara Specialty Hospital 0363,"Neyyattinkara, Thiruvananthapuram, Kerala",Thiruvananthapuram,Ophthalmology,4.5,21,3,2,0,39,Low,Yes,57,81264,85.7,100.0,328,117,64.3,2,11
+H0621,Varkala Taluk Hospital 0621,"Varkala, Thiruvananthapuram, Kerala",Thiruvananthapuram,General Medicine,4.4,832,299,119,2,19,High,Yes,21,78756,64.1,98.3,349,123,64.8,3,7
+H0144,Meppadi Multispecialty Hospital 0144,"Meppadi, Wayanad, Kerala",Wayanad,Dermatology,4.4,679,296,41,15,7,High,No,60,44487,56.4,63.4,568,207,63.6,4,21
+H0655,Kodungallur Specialty Hospital 0655,"Kodungallur, Thrissur, Kerala",Thrissur,Cardiology,4.4,694,282,61,19,18,Medium,No,38,73728,59.4,68.9,371,172,53.6,4,17
+H0279,Kasaragod Medical College 0279,"Kasaragod, Kasaragod, Kerala",Kasaragod,Pulmonology,4.4,1047,271,55,10,41,Low,Yes,84,60507,74.1,81.8,459,162,64.7,4,20
+H0247,Koyilandy General Hospital 0247,"Koyilandy, Kozhikode, Kerala",Kozhikode,Ophthalmology,4.4,863,245,63,15,24,High,Yes,38,50177,71.6,76.2,594,194,67.3,3,8
+H0459,Shoranur Specialty Hospital 0459,"Shoranur, Palakkad, Kerala",Palakkad,Pediatrics,4.4,622,245,76,12,39,Low,Yes,86,40244,60.6,84.2,490,223,54.5,3,7
+H0684,Kodungallur Multispecialty Hospital 0684,"Kodungallur, Thrissur, Kerala",Thrissur,Oncology,4.4,573,233,56,10,21,Medium,Yes,23,12496,59.3,82.1,371,68,81.7,4,15
+H0880,Kalpetta Taluk Hospital 0880,"Kalpetta, Wayanad, Kerala",Wayanad,Urology,4.4,892,223,138,27,34,Low,Yes,12,71971,75.0,80.4,459,113,75.4,2,12
+H0505,Vythiri Community Health Centre 0505,"Vythiri, Wayanad, Kerala",Wayanad,General Surgery,4.4,772,209,99,0,42,Medium,Yes,42,52419,72.9,100.0,355,148,58.3,3,12
+H0826,Adimali Specialty Hospital 0826,"Adimali, Idukki, Kerala",Idukki,Pediatrics,4.4,474,207,38,12,10,High,Yes,47,29281,56.3,68.4,516,177,65.7,2,7
+H0817,Nedumangad Multispecialty Hospital 0817,"Nedumangad, Thiruvananthapuram, Kerala",Thiruvananthapuram,Neurology,4.4,533,204,74,7,42,Low,Yes,54,75207,61.7,90.5,544,190,65.1,4,14
+H0002,Kozhikode Family Health Centre 0002,"Kozhikode, Kozhikode, Kerala",Kozhikode,General Surgery,4.4,783,199,46,11,33,Medium,Yes,75,42921,74.6,76.1,690,228,67.0,3,17
+H0661,Thiruvalla Community Health Centre 0661,"Thiruvalla, Pathanamthitta, Kerala",Pathanamthitta,Pediatrics,4.4,720,192,95,18,22,Low,Yes,24,49552,73.3,81.1,442,37,91.6,3,7
+H0583,Pala Specialty Hospital 0583,"Pala, Kottayam, Kerala",Kottayam,Gynecology,4.4,538,188,78,31,11,Low,Yes,21,74120,65.1,60.3,464,131,71.8,3,8
+H0257,Sulthan Bathery Taluk Hospital 0257,"Sulthan Bathery, Wayanad, Kerala",Wayanad,Orthopedics,4.4,460,156,49,7,28,Medium,Yes,78,42640,66.1,85.7,333,154,53.8,3,11
+H0146,Kodungallur District Hospital 0146,"Kodungallur, Thrissur, Kerala",Thrissur,Orthopedics,4.4,766,153,56,3,11,High,No,53,80091,80.0,94.6,532,109,79.5,4,21
+H0759,Chengannur Community Health Centre 0759,"Chengannur, Alappuzha, Kerala",Alappuzha,General Medicine,4.4,504,152,54,10,22,High,No,42,37554,69.8,81.5,585,232,60.3,4,8
+H0047,Adoor Specialty Hospital 0047,"Adoor, Pathanamthitta, Kerala",Pathanamthitta,Pediatrics,4.4,868,139,96,29,42,Low,Yes,55,57793,84.0,69.8,324,88,72.8,4,9
+H0030,Kollam Multispecialty Hospital 0030,"Kollam, Kollam, Kerala",Kollam,Neurology,4.4,475,134,67,20,4,Medium,Yes,61,24604,71.8,70.1,430,66,84.7,3,7
+H0109,Iritty Community Health Centre 0109,"Iritty, Kannur, Kerala",Kannur,Gastroenterology,4.4,355,134,22,5,21,Medium,No,50,56102,62.3,77.3,413,108,73.8,4,21
+H0367,Payyannur General Hospital 0367,"Payyannur, Kannur, Kerala",Kannur,Pediatrics,4.4,890,131,72,23,39,Medium,Yes,16,8975,85.3,68.1,417,87,79.1,3,8
+H0776,Pathanamthitta Community Health Centre 0776,"Pathanamthitta, Pathanamthitta, Kerala",Pathanamthitta,Cardiology,4.4,868,130,85,20,39,High,Yes,23,23021,85.0,76.5,431,135,68.7,3,9
+H0268,Kannur Taluk Hospital 0268,"Kannur, Kannur, Kerala",Kannur,General Surgery,4.4,435,124,35,14,3,Medium,No,41,83184,71.5,60.0,704,255,63.8,4,15
+H0125,Muvattupuzha Community Health Centre 0125,"Muvattupuzha, Ernakulam, Kerala",Ernakulam,Gastroenterology,4.4,503,122,76,3,38,High,Yes,48,84320,75.7,96.1,681,280,58.9,4,10
+H0967,Thrissur Family Health Centre 0967,"Thrissur, Thrissur, Kerala",Thrissur,Pediatrics,4.4,846,121,94,18,32,Low,Yes,33,54110,85.7,80.9,497,160,67.8,2,9
+H0095,Karunagappally District Hospital 0095,"Karunagappally, Kollam, Kerala",Kollam,Gastroenterology,4.4,389,120,28,10,15,Medium,No,56,16230,69.2,64.3,569,156,72.6,3,12
+H0298,Perinthalmanna Specialty Hospital 0298,"Perinthalmanna, Malappuram, Kerala",Malappuram,Ophthalmology,4.4,243,107,33,1,25,High,Yes,22,58052,56.0,97.0,474,60,87.3,3,9
+H0055,Aluva Family Health Centre 0055,"Aluva, Ernakulam, Kerala",Ernakulam,Oncology,4.4,471,105,64,7,39,Low,Yes,25,82407,77.7,89.1,446,208,53.4,3,14
+H0628,Thodupuzha Family Health Centre 0628,"Thodupuzha, Idukki, Kerala",Idukki,Neurology,4.4,234,100,25,7,10,Medium,Yes,10,8595,57.3,72.0,463,78,83.2,2,8
+H0058,Pandalam Specialty Hospital 0058,"Pandalam, Pathanamthitta, Kerala",Pathanamthitta,Nephrology,4.4,299,96,18,2,40,Medium,Yes,48,82378,67.9,88.9,389,154,60.4,2,5
+H0982,Vaikom Taluk Hospital 0982,"Vaikom, Kottayam, Kerala",Kottayam,Ophthalmology,4.4,351,94,26,10,27,Medium,Yes,84,50083,73.2,61.5,578,239,58.7,2,4
+H0741,Kochi Community Health Centre 0741,"Kochi, Ernakulam, Kerala",Ernakulam,ENT,4.4,430,91,62,22,16,Medium,Yes,33,38485,78.8,64.5,293,114,61.1,3,7
+H0981,Thodupuzha Family Health Centre 0981,"Thodupuzha, Idukki, Kerala",Idukki,Orthopedics,4.4,359,90,56,14,35,High,Yes,15,70649,74.9,75.0,655,252,61.5,2,12
+H0886,Guruvayur Multispecialty Hospital 0886,"Guruvayur, Thrissur, Kerala",Thrissur,Neurology,4.4,867,82,129,46,16,Low,Yes,81,54515,90.5,64.3,517,166,67.9,4,18
+H0200,Kannur Multispecialty Hospital 0200,"Kannur, Kannur, Kerala",Kannur,Oncology,4.4,707,78,100,4,26,Medium,No,43,58277,89.0,96.0,484,107,77.9,3,13
+H0021,Kottayam Multispecialty Hospital 0021,"Kottayam, Kottayam, Kerala",Kottayam,Cardiology,4.4,471,76,49,4,15,Medium,Yes,75,72458,83.9,91.8,645,320,50.4,3,12
+H0325,Kannur Community Health Centre 0325,"Kannur, Kannur, Kerala",Kannur,Dermatology,4.4,580,71,37,12,20,Low,Yes,26,45703,87.8,67.6,467,87,81.4,2,3
+H0043,Mavelikara Family Health Centre 0043,"Mavelikara, Alappuzha, Kerala",Alappuzha,Ophthalmology,4.4,171,67,23,9,41,Low,Yes,65,77169,60.8,60.9,453,135,70.2,3,13
+H0066,Manjeri Taluk Hospital 0066,"Manjeri, Malappuram, Kerala",Malappuram,Urology,4.4,848,67,51,4,14,Low,Yes,85,71939,92.1,92.2,544,106,80.5,3,3
+H0427,Kottarakkara Multispecialty Hospital 0427,"Kottarakkara, Kollam, Kerala",Kollam,Nephrology,4.4,426,65,48,12,36,High,Yes,61,76322,84.7,75.0,625,188,69.9,3,16
+H0381,Vadakara Specialty Hospital 0381,"Vadakara, Kozhikode, Kerala",Kozhikode,General Medicine,4.4,140,62,12,4,29,Low,No,28,43653,55.7,66.7,353,35,90.1,4,14
+H0861,Cherthala Multispecialty Hospital 0861,"Cherthala, Alappuzha, Kerala",Alappuzha,Oncology,4.4,163,61,19,6,43,Medium,Yes,72,80675,62.6,68.4,599,119,80.1,3,10
+H0756,Kasaragod Community Health Centre 0756,"Kasaragod, Kasaragod, Kerala",Kasaragod,Pulmonology,4.4,344,56,49,12,9,High,Yes,43,68980,83.7,75.5,530,234,55.8,3,12
+H0175,Muvattupuzha Taluk Hospital 0175,"Muvattupuzha, Ernakulam, Kerala",Ernakulam,Nephrology,4.4,174,54,17,2,24,High,Yes,17,18934,69.0,88.2,523,168,67.9,4,18
+H0161,Sulthan Bathery General Hospital 0161,"Sulthan Bathery, Wayanad, Kerala",Wayanad,Gastroenterology,4.4,143,48,17,5,36,Low,Yes,69,74349,66.4,70.6,440,222,49.5,3,8
+H0715,Thalassery District Hospital 0715,"Thalassery, Kannur, Kerala",Kannur,Cardiology,4.4,897,47,135,41,5,Low,Yes,31,33330,94.8,69.6,400,147,63.2,4,8
+H0933,Kayamkulam Multispecialty Hospital 0933,"Kayamkulam, Alappuzha, Kerala",Alappuzha,General Surgery,4.4,116,43,11,3,33,Low,Yes,40,59069,62.9,72.7,287,61,78.7,2,12
+H0786,Kodungallur Family Health Centre 0786,"Kodungallur, Thrissur, Kerala",Thrissur,Nephrology,4.4,729,42,86,14,24,High,Yes,72,78501,94.2,83.7,357,148,58.5,4,17
+H0839,Manjeri Multispecialty Hospital 0839,"Manjeri, Malappuram, Kerala",Malappuram,General Medicine,4.4,385,41,39,4,42,Medium,No,56,64812,89.4,89.7,432,194,55.1,2,6
+H0182,Kunnamkulam Specialty Hospital 0182,"Kunnamkulam, Thrissur, Kerala",Thrissur,Urology,4.4,105,33,9,3,6,High,Yes,81,50287,68.6,66.7,307,142,53.7,3,2
+H0090,Taliparamba General Hospital 0090,"Taliparamba, Kannur, Kerala",Kannur,General Surgery,4.4,172,32,17,1,41,Medium,No,69,46614,81.4,94.1,422,215,49.1,2,6
+H0685,Kalpetta Multispecialty Hospital 0685,"Kalpetta, Wayanad, Kerala",Wayanad,Dermatology,4.4,75,31,8,1,6,High,Yes,29,75675,58.7,87.5,481,44,90.9,4,19
+H0420,Kochi Taluk Hospital 0420,"Kochi, Ernakulam, Kerala",Ernakulam,Neurology,4.4,87,27,13,4,11,Medium,Yes,41,71424,69.0,69.2,519,140,73.0,4,12
+H0582,Payyannur Taluk Hospital 0582,"Payyannur, Kannur, Kerala",Kannur,ENT,4.4,334,21,22,1,38,Medium,No,61,48981,93.7,95.5,540,41,92.4,3,9
+H0314,Perumbavoor Multispecialty Hospital 0314,"Perumbavoor, Ernakulam, Kerala",Ernakulam,Neurology,4.4,141,17,21,8,18,Low,Yes,29,70513,87.9,61.9,599,289,51.8,4,13
+H0115,Feroke Taluk Hospital 0115,"Feroke, Kozhikode, Kerala",Kozhikode,Orthopedics,4.4,55,15,3,0,7,Medium,Yes,88,64137,72.7,100.0,544,195,64.2,2,6
+H0984,Iritty Taluk Hospital 0984,"Iritty, Kannur, Kerala",Kannur,Pediatrics,4.4,97,15,13,1,30,High,Yes,57,17423,84.5,92.3,578,313,45.8,3,8
+H0117,Kundara Community Health Centre 0117,"Kundara, Kollam, Kerala",Kollam,Nephrology,4.4,177,11,23,8,39,Medium,Yes,83,23591,93.8,65.2,367,145,60.5,4,16
+H0050,Kunnamkulam Specialty Hospital 0050,"Kunnamkulam, Thrissur, Kerala",Thrissur,ENT,4.4,59,10,4,0,36,Low,Yes,26,39253,83.1,100.0,452,243,46.2,2,4
+H0054,Adoor Multispecialty Hospital 0054,"Adoor, Pathanamthitta, Kerala",Pathanamthitta,Ophthalmology,4.4,23,6,2,0,12,Low,Yes,13,76714,73.9,100.0,582,191,67.2,2,4
+H0777,Tirur Family Health Centre 0777,"Tirur, Malappuram, Kerala",Malappuram,Urology,4.4,28,6,2,0,33,Low,Yes,11,32587,78.6,100.0,428,124,71.0,2,9
+H0471,Mananthavady Taluk Hospital 0471,"Mananthavady, Wayanad, Kerala",Wayanad,Pediatrics,4.4,63,5,7,1,39,Low,Yes,29,21495,92.1,85.7,571,295,48.3,3,13
+H0319,Adimali Taluk Hospital 0319,"Adimali, Idukki, Kerala",Idukki,Urology,4.3,893,378,138,30,11,Low,Yes,83,38491,57.7,78.3,505,71,85.9,3,12
+H0588,Shoranur Multispecialty Hospital 0588,"Shoranur, Palakkad, Kerala",Palakkad,Nephrology,4.3,767,328,77,24,42,High,Yes,40,68206,57.2,68.8,314,104,66.9,2,7
+H0891,Alappuzha General Hospital 0891,"Alappuzha, Alappuzha, Kerala",Alappuzha,Gynecology,4.3,869,304,91,2,30,Medium,Yes,37,11316,65.0,97.8,654,74,88.7,2,9
+H0963,Kunnamkulam Family Health Centre 0963,"Kunnamkulam, Thrissur, Kerala",Thrissur,Nephrology,4.3,862,281,104,3,27,Low,Yes,44,83455,67.4,97.1,417,207,50.4,4,24
+H0013,Iritty Multispecialty Hospital 0013,"Iritty, Kannur, Kerala",Kannur,Ophthalmology,4.3,625,268,84,0,40,Medium,No,88,64592,57.1,100.0,628,197,68.6,3,11
+H0610,Chengannur District Hospital 0610,"Chengannur, Alappuzha, Kerala",Alappuzha,Ophthalmology,4.3,583,247,53,18,31,Medium,No,75,36523,57.6,66.0,357,48,86.6,3,14
+H0491,Taliparamba Family Health Centre 0491,"Taliparamba, Kannur, Kerala",Kannur,Pulmonology,4.3,555,238,49,3,20,High,Yes,49,55360,57.1,93.9,573,152,73.5,4,12
+H0966,Kundara Taluk Hospital 0966,"Kundara, Kollam, Kerala",Kollam,Cardiology,4.3,845,237,53,3,10,Medium,Yes,22,45692,72.0,94.3,553,284,48.6,4,4
+H0007,Neyyattinkara Multispecialty Hospital 0007,"Neyyattinkara, Thiruvananthapuram, Kerala",Thiruvananthapuram,Ophthalmology,4.3,563,229,28,10,16,Medium,Yes,70,76092,59.3,64.3,450,62,86.2,3,11
+H0029,Munnar General Hospital 0029,"Munnar, Idukki, Kerala",Idukki,Urology,4.3,509,211,81,31,35,High,Yes,45,29885,58.5,61.7,488,108,77.9,2,1
+H0985,Thiruvananthapuram General Hospital 0985,"Thiruvananthapuram, Thiruvananthapuram, Kerala",Thiruvananthapuram,Dermatology,4.3,679,211,62,1,18,Low,Yes,16,66085,68.9,98.4,609,297,51.2,4,13
+H0939,Ottapalam Medical College 0939,"Ottapalam, Palakkad, Kerala",Palakkad,Gynecology,4.3,607,206,83,28,22,Low,No,65,80547,66.1,66.3,735,300,59.2,4,10
+H0248,Ponnani Family Health Centre 0248,"Ponnani, Malappuram, Kerala",Malappuram,Neurology,4.3,516,203,69,15,16,Medium,Yes,28,80198,60.7,78.3,476,106,77.7,4,14
+H0154,Kundara General Hospital 0154,"Kundara, Kollam, Kerala",Kollam,Cardiology,4.3,871,193,68,12,7,Low,Yes,69,43754,77.8,82.4,375,203,45.9,4,20
+H0068,Kattappana Community Health Centre 0068,"Kattappana, Idukki, Kerala",Idukki,Neurology,4.3,495,190,48,0,3,Low,Yes,87,30862,61.6,100.0,671,102,84.8,3,13
+H0946,Perumbavoor Family Health Centre 0946,"Perumbavoor, Ernakulam, Kerala",Ernakulam,Neurology,4.3,515,187,70,6,28,High,Yes,36,33963,63.7,91.4,620,170,72.6,4,12
+H0452,Meppadi Community Health Centre 0452,"Meppadi, Wayanad, Kerala",Wayanad,Pediatrics,4.3,587,167,30,9,30,Medium,Yes,87,67757,71.6,70.0,727,141,80.6,3,12
+H0304,Koyilandy General Hospital 0304,"Koyilandy, Kozhikode, Kerala",Kozhikode,Urology,4.3,446,166,30,2,42,High,Yes,80,32022,62.8,93.3,556,159,71.4,3,12
+H0956,Kochi Family Health Centre 0956,"Kochi, Ernakulam, Kerala",Ernakulam,Gynecology,4.3,779,166,85,13,15,Medium,Yes,15,49916,78.7,84.7,345,139,59.7,3,5
+H0863,Meppadi Multispecialty Hospital 0863,"Meppadi, Wayanad, Kerala",Wayanad,General Surgery,4.3,512,165,45,0,13,Medium,No,40,36699,67.8,100.0,333,159,52.3,2,13
+H0244,Muvattupuzha Multispecialty Hospital 0244,"Muvattupuzha, Ernakulam, Kerala",Ernakulam,Oncology,4.3,637,139,88,32,31,Medium,Yes,75,74410,78.2,63.6,470,187,60.2,4,7
+H0173,Mannarkkad Specialty Hospital 0173,"Mannarkkad, Palakkad, Kerala",Palakkad,Urology,4.3,316,138,30,7,19,Medium,Yes,46,17118,56.3,76.7,665,115,82.7,3,12
+H0834,Manjeri Medical College 0834,"Manjeri, Malappuram, Kerala",Malappuram,Oncology,4.3,887,126,76,4,7,Low,Yes,14,25326,85.8,94.7,429,123,71.3,3,8
+H0321,Thalassery Specialty Hospital 0321,"Thalassery, Kannur, Kerala",Kannur,Urology,4.3,332,117,51,1,16,Low,Yes,48,78522,64.8,98.0,359,130,63.8,4,7
+H0855,Kunnamkulam Medical College 0855,"Kunnamkulam, Thrissur, Kerala",Thrissur,Pediatrics,4.3,624,111,85,19,21,Low,Yes,19,47092,82.2,77.6,584,86,85.3,4,13
+H0848,Vadakara District Hospital 0848,"Vadakara, Kozhikode, Kerala",Kozhikode,Pulmonology,4.3,240,101,14,0,30,High,Yes,43,69861,57.9,100.0,519,89,82.9,4,14
+H0305,Koyilandy Community Health Centre 0305,"Koyilandy, Kozhikode, Kerala",Kozhikode,Pediatrics,4.3,232,98,27,10,6,Medium,Yes,87,27066,57.8,63.0,576,230,60.1,4,15
+H0493,Kannur Multispecialty Hospital 0493,"Kannur, Kannur, Kerala",Kannur,Oncology,4.3,280,98,42,5,40,Medium,Yes,90,62478,65.0,88.1,415,94,77.3,3,12
+H0560,Chalakudy Family Health Centre 0560,"Chalakudy, Thrissur, Kerala",Thrissur,Dermatology,4.3,438,97,22,7,10,Low,Yes,76,32439,77.9,68.2,685,74,89.2,2,8
+H0787,Cherthala Community Health Centre 0787,"Cherthala, Alappuzha, Kerala",Alappuzha,General Surgery,4.3,222,95,20,1,38,Low,Yes,85,44981,57.2,95.0,272,127,53.3,4,5
+H0084,Kumbla Family Health Centre 0084,"Kumbla, Kasaragod, Kerala",Kasaragod,Oncology,4.3,381,84,47,3,7,Low,Yes,77,36363,78.0,93.6,399,168,57.9,3,20
+H0802,Cherthala Community Health Centre 0802,"Cherthala, Alappuzha, Kerala",Alappuzha,Cardiology,4.3,496,84,69,0,17,High,No,25,49305,83.1,100.0,321,150,53.3,3,13
+H0819,Ramanattukara Community Health Centre 0819,"Ramanattukara, Kozhikode, Kerala",Kozhikode,General Medicine,4.3,225,73,12,1,39,Medium,Yes,22,68427,67.6,91.7,538,145,73.0,4,19
+H0945,Adimali General Hospital 0945,"Adimali, Idukki, Kerala",Idukki,Orthopedics,4.3,162,60,20,8,15,Medium,No,27,13535,63.0,60.0,396,174,56.1,3,9
+H0362,Aluva Taluk Hospital 0362,"Aluva, Ernakulam, Kerala",Ernakulam,Cardiology,4.3,206,58,31,11,24,Medium,Yes,80,55455,71.8,64.5,257,50,80.5,3,12
+H0238,Ettumanoor Specialty Hospital 0238,"Ettumanoor, Kottayam, Kerala",Kottayam,General Surgery,4.3,117,48,8,1,18,Low,No,36,62492,59.0,87.5,484,234,51.7,4,21
+H0784,Uppala Community Health Centre 0784,"Uppala, Kasaragod, Kerala",Kasaragod,Nephrology,4.3,266,46,27,1,40,Medium,Yes,15,71727,82.7,96.3,594,76,87.2,3,7
+H0323,Thiruvalla General Hospital 0323,"Thiruvalla, Pathanamthitta, Kerala",Pathanamthitta,Orthopedics,4.3,831,41,122,29,36,Medium,Yes,14,37393,95.1,76.2,650,277,57.4,3,15
+H0397,Adimali General Hospital 0397,"Adimali, Idukki, Kerala",Idukki,Gynecology,4.3,149,36,23,5,20,High,Yes,38,13462,75.8,78.3,564,131,76.8,2,10
+H0296,Kunnamkulam Multispecialty Hospital 0296,"Kunnamkulam, Thrissur, Kerala",Thrissur,Nephrology,4.3,194,33,17,2,24,High,Yes,55,80560,83.0,88.2,455,99,78.2,3,13
+H0538,Iritty Specialty Hospital 0538,"Iritty, Kannur, Kerala",Kannur,General Surgery,4.3,640,33,55,22,40,High,Yes,43,22480,94.8,60.0,581,151,74.0,4,15
+H0203,Ramanattukara Community Health Centre 0203,"Ramanattukara, Kozhikode, Kerala",Kozhikode,Pulmonology,4.3,146,27,15,4,22,Medium,No,44,57511,81.5,73.3,537,294,45.3,2,3
+H0540,Nedumangad Community Health Centre 0540,"Nedumangad, Thiruvananthapuram, Kerala",Thiruvananthapuram,Ophthalmology,4.3,369,23,40,5,42,Low,No,56,32439,93.8,87.5,391,210,46.3,3,13
+H0671,Koyilandy Family Health Centre 0671,"Koyilandy, Kozhikode, Kerala",Kozhikode,Gastroenterology,4.3,111,22,6,0,14,Medium,Yes,59,20865,80.2,100.0,516,150,70.9,4,12
+H0366,Kottarakkara Taluk Hospital 0366,"Kottarakkara, Kollam, Kerala",Kollam,Gynecology,4.3,59,19,7,0,28,Low,Yes,77,44182,67.8,100.0,339,94,72.3,3,13
+H0699,Payyannur Taluk Hospital 0699,"Payyannur, Kannur, Kerala",Kannur,Gynecology,4.3,82,17,5,1,8,Low,Yes,28,79477,79.3,80.0,396,43,89.1,4,24
+H0317,Chalakudy Community Health Centre 0317,"Chalakudy, Thrissur, Kerala",Thrissur,General Surgery,4.3,160,15,10,0,42,Medium,Yes,62,73119,90.6,100.0,257,99,61.5,2,6
+H0242,Thiruvananthapuram Multispecialty Hospital 0242,"Thiruvananthapuram, Thiruvananthapuram, Kerala",Thiruvananthapuram,Cardiology,4.3,59,7,8,0,23,Low,Yes,58,8604,88.1,100.0,436,62,85.8,4,20
+H0645,Vythiri Specialty Hospital 0645,"Vythiri, Wayanad, Kerala",Wayanad,General Medicine,4.3,107,5,13,3,38,High,Yes,85,33680,95.3,76.9,514,280,45.5,2,6
+H0937,Feroke General Hospital 0937,"Feroke, Kozhikode, Kerala",Kozhikode,Orthopedics,4.3,27,4,2,0,41,Low,Yes,34,36845,85.2,100.0,520,279,46.3,2,10
+H0039,Ramanattukara Family Health Centre 0039,"Ramanattukara, Kozhikode, Kerala",Kozhikode,General Medicine,4.3,30,2,2,0,18,Medium,Yes,52,76946,93.3,100.0,646,111,82.8,4,9
+H0230,Alappuzha General Hospital 0230,"Alappuzha, Alappuzha, Kerala",Alappuzha,Neurology,4.2,844,362,104,19,10,Low,Yes,34,17335,57.1,81.7,328,80,75.6,2,8
+H0377,Kunnamkulam Multispecialty Hospital 0377,"Kunnamkulam, Thrissur, Kerala",Thrissur,Oncology,4.2,803,347,57,21,23,Medium,Yes,44,63308,56.8,63.2,534,236,55.8,3,12
+H0833,Mananthavady Medical College 0833,"Mananthavady, Wayanad, Kerala",Wayanad,General Medicine,4.2,946,347,113,6,44,Low,Yes,88,65679,63.3,94.7,448,231,48.4,4,9
+H0923,Mavelikara Community Health Centre 0923,"Mavelikara, Alappuzha, Kerala",Alappuzha,Dermatology,4.2,807,294,69,11,20,Medium,Yes,76,73136,63.6,84.1,599,248,58.6,4,14
+H0992,Perumbavoor General Hospital 0992,"Perumbavoor, Ernakulam, Kerala",Ernakulam,Orthopedics,4.2,827,270,46,2,35,High,Yes,82,25303,67.4,95.7,598,170,71.6,3,12
+H0342,Changanassery Medical College 0342,"Changanassery, Kottayam, Kerala",Kottayam,Oncology,4.2,566,249,34,10,25,High,Yes,19,72709,56.0,70.6,580,318,45.2,4,16
+H0504,Uppala Community Health Centre 0504,"Uppala, Kasaragod, Kerala",Kasaragod,Gastroenterology,4.2,848,234,117,25,3,Medium,No,84,70675,72.4,78.6,578,88,84.8,2,5
+H0849,Kollam Medical College 0849,"Kollam, Kollam, Kerala",Kollam,General Medicine,4.2,595,222,75,17,8,High,No,22,41395,62.7,77.3,551,219,60.3,4,20
+H0647,Taliparamba Family Health Centre 0647,"Taliparamba, Kannur, Kerala",Kannur,Urology,4.2,746,221,39,11,44,Medium,Yes,45,42388,70.4,71.8,600,294,51.0,2,5
+H0852,Pala Taluk Hospital 0852,"Pala, Kottayam, Kerala",Kottayam,General Surgery,4.2,506,208,30,7,34,Low,Yes,22,14328,58.9,76.7,487,149,69.4,2,3
+H0748,Neyyattinkara Specialty Hospital 0748,"Neyyattinkara, Thiruvananthapuram, Kerala",Thiruvananthapuram,Orthopedics,4.2,512,203,76,26,20,High,Yes,27,34955,60.4,65.8,489,155,68.3,2,13
+H0498,Thodupuzha District Hospital 0498,"Thodupuzha, Idukki, Kerala",Idukki,ENT,4.2,559,187,63,6,20,High,Yes,73,62045,66.5,90.5,489,208,57.5,4,17
+H0883,Cherthala Family Health Centre 0883,"Cherthala, Alappuzha, Kerala",Alappuzha,Nephrology,4.2,416,185,28,10,16,Low,Yes,12,31888,55.5,64.3,245,106,56.7,2,1
+H0934,Kollam Medical College 0934,"Kollam, Kollam, Kerala",Kollam,Pediatrics,4.2,1058,177,135,22,9,Medium,Yes,69,80769,83.3,83.7,649,72,88.9,4,17
+H0025,Perinthalmanna Multispecialty Hospital 0025,"Perinthalmanna, Malappuram, Kerala",Malappuram,Cardiology,4.2,809,172,80,27,24,Low,No,77,37910,78.7,66.3,268,84,68.7,2,8
+H0462,Kozhikode Multispecialty Hospital 0462,"Kozhikode, Kozhikode, Kerala",Kozhikode,Cardiology,4.2,472,170,36,1,31,Medium,Yes,48,54526,64.0,97.2,419,170,59.4,2,5
+H0424,Kanhangad District Hospital 0424,"Kanhangad, Kasaragod, Kerala",Kasaragod,Pulmonology,4.2,768,159,81,29,4,Medium,No,83,51461,79.3,64.2,443,28,93.7,3,3
+H0686,Perinthalmanna Medical College 0686,"Perinthalmanna, Malappuram, Kerala",Malappuram,Oncology,4.2,594,159,55,18,39,Medium,Yes,75,20098,73.2,67.3,435,137,68.5,4,10
+H0517,Pathanamthitta Family Health Centre 0517,"Pathanamthitta, Pathanamthitta, Kerala",Pathanamthitta,Ophthalmology,4.2,725,157,51,16,12,Medium,Yes,25,24281,78.3,68.6,466,113,75.8,4,11
+H0613,Ramanattukara Taluk Hospital 0613,"Ramanattukara, Kozhikode, Kerala",Kozhikode,Dermatology,4.2,615,157,78,14,27,Medium,Yes,84,51055,74.5,82.1,626,84,86.6,4,14
+H0626,Neyyattinkara Multispecialty Hospital 0626,"Neyyattinkara, Thiruvananthapuram, Kerala",Thiruvananthapuram,Pulmonology,4.2,581,157,92,14,27,Medium,Yes,56,61521,73.0,84.8,627,285,54.5,2,14
+H0681,Ponnani Family Health Centre 0681,"Ponnani, Malappuram, Kerala",Malappuram,Ophthalmology,4.2,597,157,61,26,30,Low,No,39,24515,73.7,57.4,417,62,85.1,4,11
+H0020,Kannur Taluk Hospital 0020,"Kannur, Kannur, Kerala",Kannur,Pulmonology,4.2,445,149,56,18,25,Low,Yes,13,66032,66.5,67.9,360,108,70.0,3,14
+H0512,Iritty Specialty Hospital 0512,"Iritty, Kannur, Kerala",Kannur,Oncology,4.2,341,148,18,0,44,High,Yes,35,47692,56.6,100.0,573,274,52.2,2,11
+H0326,Kunnamkulam Multispecialty Hospital 0326,"Kunnamkulam, Thrissur, Kerala",Thrissur,Dermatology,4.2,613,143,64,5,39,High,Yes,14,66985,76.7,92.2,255,102,60.0,3,15
+H0662,Karunagappally Specialty Hospital 0662,"Karunagappally, Kollam, Kerala",Kollam,Oncology,4.2,403,143,33,6,2,Medium,Yes,37,11425,64.5,81.8,593,295,50.3,3,16
+H0401,Kodungallur General Hospital 0401,"Kodungallur, Thrissur, Kerala",Thrissur,Gastroenterology,4.2,569,127,58,7,24,Medium,Yes,33,9253,77.7,87.9,542,310,42.8,2,12
+H0809,Kanhangad Specialty Hospital 0809,"Kanhangad, Kasaragod, Kerala",Kasaragod,ENT,4.2,486,125,28,0,36,High,Yes,23,25810,74.3,100.0,429,46,89.3,2,8
+H0670,Thrissur Medical College 0670,"Thrissur, Thrissur, Kerala",Thrissur,Ophthalmology,4.2,1047,122,66,25,14,Medium,Yes,65,56021,88.3,62.1,589,61,89.6,3,10
+H0198,Meppadi General Hospital 0198,"Meppadi, Wayanad, Kerala",Wayanad,General Medicine,4.2,728,121,105,45,14,High,Yes,72,54200,83.4,57.1,640,172,73.1,3,16
+H0231,Mavelikara Multispecialty Hospital 0231,"Mavelikara, Alappuzha, Kerala",Alappuzha,Pulmonology,4.2,452,116,40,0,34,High,Yes,61,61204,74.3,100.0,446,150,66.4,4,21
+H0302,Vythiri Taluk Hospital 0302,"Vythiri, Wayanad, Kerala",Wayanad,General Surgery,4.2,707,111,94,16,8,Medium,Yes,44,18976,84.3,83.0,384,116,69.8,4,16
+H0638,Sulthan Bathery Multispecialty Hospital 0638,"Sulthan Bathery, Wayanad, Kerala",Wayanad,General Medicine,4.2,450,107,52,15,7,Low,No,25,60215,76.2,71.2,279,53,81.0,2,8
+H0267,Sulthan Bathery Multispecialty Hospital 0267,"Sulthan Bathery, Wayanad, Kerala",Wayanad,General Surgery,4.2,216,94,14,0,38,Low,No,79,41421,56.5,100.0,357,126,64.7,3,8
+H0400,Kochi Family Health Centre 0400,"Kochi, Ernakulam, Kerala",Ernakulam,Pulmonology,4.2,481,94,70,19,34,Medium,Yes,47,25815,80.5,72.9,346,158,54.3,4,11
+H0579,Taliparamba Specialty Hospital 0579,"Taliparamba, Kannur, Kerala",Kannur,Ophthalmology,4.2,418,90,59,9,33,Low,Yes,47,43279,78.5,84.7,394,101,74.4,2,0
+H0450,Perinthalmanna Family Health Centre 0450,"Perinthalmanna, Malappuram, Kerala",Malappuram,Pulmonology,4.2,270,88,16,1,28,Low,Yes,28,37450,67.4,93.8,617,186,69.9,2,5
+H0897,Ottapalam General Hospital 0897,"Ottapalam, Palakkad, Kerala",Palakkad,Nephrology,4.2,354,82,37,13,18,Low,Yes,83,49951,76.8,64.9,709,329,53.6,3,15
+H0731,Vadakara Medical College 0731,"Vadakara, Kozhikode, Kerala",Kozhikode,Ophthalmology,4.2,652,72,66,19,37,Medium,Yes,39,33983,89.0,71.2,653,340,47.9,2,5
+H0752,Kumbla Family Health Centre 0752,"Kumbla, Kasaragod, Kerala",Kasaragod,Pulmonology,4.2,849,72,96,13,3,Medium,Yes,42,29901,91.5,86.5,607,188,69.0,2,12
+H0509,Guruvayur Family Health Centre 0509,"Guruvayur, Thrissur, Kerala",Thrissur,Gastroenterology,4.2,198,68,10,0,42,Low,No,87,39489,65.7,100.0,400,227,43.3,2,9
+H0843,Ponnani Family Health Centre 0843,"Ponnani, Malappuram, Kerala",Malappuram,General Medicine,4.2,162,68,8,2,29,Medium,Yes,11,30071,58.0,75.0,469,207,55.9,3,15
+H0864,Palakkad Specialty Hospital 0864,"Palakkad, Palakkad, Kerala",Palakkad,Pulmonology,4.2,218,62,16,0,38,Medium,Yes,23,84446,71.6,100.0,453,97,78.6,2,1
+H0619,Kanhangad Taluk Hospital 0619,"Kanhangad, Kasaragod, Kerala",Kasaragod,General Medicine,4.2,148,61,22,2,2,Low,Yes,43,71864,58.8,90.9,613,369,39.8,3,9
+H0707,Iritty Multispecialty Hospital 0707,"Iritty, Kannur, Kerala",Kannur,ENT,4.2,493,61,30,9,6,Medium,Yes,84,23790,87.6,70.0,692,73,89.5,2,7
+H0783,Vadakara General Hospital 0783,"Vadakara, Kozhikode, Kerala",Kozhikode,Pulmonology,4.2,154,61,14,3,29,Medium,Yes,48,51438,60.4,78.6,315,79,74.9,3,10
+H0921,Pathanamthitta Taluk Hospital 0921,"Pathanamthitta, Pathanamthitta, Kerala",Pathanamthitta,Pediatrics,4.2,885,60,104,18,26,High,Yes,43,8531,93.2,82.7,249,83,66.7,2,7
+H0406,Thodupuzha Specialty Hospital 0406,"Thodupuzha, Idukki, Kerala",Idukki,Orthopedics,4.2,151,57,14,3,26,Medium,Yes,74,70210,62.3,78.6,461,112,75.7,3,9
+H0506,Changanassery Community Health Centre 0506,"Changanassery, Kottayam, Kerala",Kottayam,Pediatrics,4.2,180,56,14,3,34,Medium,Yes,10,66059,68.9,78.6,491,266,45.8,4,9
+H0229,Cherthala Specialty Hospital 0229,"Cherthala, Alappuzha, Kerala",Alappuzha,Dermatology,4.2,406,53,33,6,16,Low,Yes,46,66600,86.9,81.8,682,333,51.2,2,8
+H0703,Pandalam Community Health Centre 0703,"Pandalam, Pathanamthitta, Kerala",Pathanamthitta,Pediatrics,4.2,137,52,10,3,34,Low,Yes,59,79280,62.0,70.0,457,230,49.7,4,15
+H0318,Kothamangalam Taluk Hospital 0318,"Kothamangalam, Ernakulam, Kerala",Ernakulam,Orthopedics,4.2,511,51,45,6,18,Medium,Yes,54,64934,90.0,86.7,380,217,42.9,4,12
+H0556,Changanassery Multispecialty Hospital 0556,"Changanassery, Kottayam, Kerala",Kottayam,Dermatology,4.2,759,49,62,12,19,Medium,Yes,60,57694,93.5,80.6,306,109,64.4,2,9
+H0411,Malappuram District Hospital 0411,"Malappuram, Malappuram, Kerala",Malappuram,Gynecology,4.2,279,43,25,3,31,High,Yes,85,58811,84.6,88.0,597,321,46.2,2,5
+H0914,Taliparamba Multispecialty Hospital 0914,"Taliparamba, Kannur, Kerala",Kannur,General Surgery,4.2,405,43,29,9,40,Medium,Yes,53,40055,89.4,69.0,534,173,67.6,3,5
+H0632,Pandalam General Hospital 0632,"Pandalam, Pathanamthitta, Kerala",Pathanamthitta,Gastroenterology,4.2,436,35,40,0,36,High,Yes,19,44333,92.0,100.0,360,66,81.7,4,13
+H0255,Nileshwar Taluk Hospital 0255,"Nileshwar, Kasaragod, Kerala",Kasaragod,Cardiology,4.2,104,33,12,4,39,Medium,Yes,74,80864,68.3,66.7,457,109,76.1,2,10
+H0256,Pathanamthitta Family Health Centre 0256,"Pathanamthitta, Pathanamthitta, Kerala",Pathanamthitta,Dermatology,4.2,113,33,13,1,27,Low,Yes,38,14945,70.8,92.3,423,147,65.2,4,21
+H0758,Manjeri General Hospital 0758,"Manjeri, Malappuram, Kerala",Malappuram,Cardiology,4.2,612,32,39,14,38,Medium,No,52,13306,94.8,64.1,419,78,81.4,4,6
+H0941,Kunnamkulam Family Health Centre 0941,"Kunnamkulam, Thrissur, Kerala",Thrissur,Ophthalmology,4.2,245,32,35,11,7,Medium,Yes,54,10132,86.9,68.6,504,169,66.5,3,18
+H0749,Kalpetta Family Health Centre 0749,"Kalpetta, Wayanad, Kerala",Wayanad,Dermatology,4.2,242,25,19,4,43,High,Yes,26,19322,89.7,78.9,348,79,77.3,3,11
+H0308,Punalur Taluk Hospital 0308,"Punalur, Kollam, Kerala",Kollam,Pediatrics,4.2,104,17,10,2,2,Medium,Yes,25,59210,83.7,80.0,496,247,50.2,2,9
+H0250,Thiruvalla Family Health Centre 0250,"Thiruvalla, Pathanamthitta, Kerala",Pathanamthitta,Pulmonology,4.2,46,13,6,1,6,Medium,Yes,85,57424,71.7,83.3,588,280,52.4,3,9
+H0952,Meppadi General Hospital 0952,"Meppadi, Wayanad, Kerala",Wayanad,General Medicine,4.2,236,13,23,2,31,Medium,No,77,49888,94.5,91.3,359,98,72.7,2,12
+H0497,Nedumkandam Community Health Centre 0497,"Nedumkandam, Idukki, Kerala",Idukki,Cardiology,4.2,168,11,14,3,37,Medium,Yes,75,13258,93.5,78.6,428,29,93.2,4,15
+H0131,Ramanattukara Family Health Centre 0131,"Ramanattukara, Kozhikode, Kerala",Kozhikode,Pulmonology,4.2,23,9,3,0,33,Medium,Yes,65,43705,60.9,100.0,483,77,84.1,4,12
+H0163,Palakkad Specialty Hospital 0163,"Palakkad, Palakkad, Kerala",Palakkad,Pediatrics,4.2,27,7,3,0,11,Medium,Yes,84,43657,74.1,100.0,581,64,89.0,3,13
+H0796,Chittur Family Health Centre 0796,"Chittur, Palakkad, Kerala",Palakkad,Nephrology,4.2,109,7,10,1,37,Medium,Yes,32,64571,93.6,90.0,596,190,68.1,4,12
+H0771,Chengannur Community Health Centre 0771,"Chengannur, Alappuzha, Kerala",Alappuzha,Neurology,4.2,37,3,4,0,5,Medium,No,78,44822,91.9,100.0,642,73,88.6,3,13
+H0096,Pala Medical College 0096,"Pala, Kottayam, Kerala",Kottayam,Urology,4.1,1165,469,164,43,13,Low,Yes,58,12500,59.7,73.8,690,160,76.8,3,6
+H0102,Thiruvalla Medical College 0102,"Thiruvalla, Pathanamthitta, Kerala",Pathanamthitta,Gastroenterology,4.1,1144,403,64,2,20,High,Yes,44,54933,64.8,96.9,403,126,68.7,3,8
+H0986,Mannarkkad Specialty Hospital 0986,"Mannarkkad, Palakkad, Kerala",Palakkad,Neurology,4.1,863,296,92,3,35,Medium,No,38,39059,65.7,96.7,455,216,52.5,3,11
+H0234,Kanhangad Taluk Hospital 0234,"Kanhangad, Kasaragod, Kerala",Kasaragod,Orthopedics,4.1,724,262,69,27,13,Low,Yes,58,43342,63.8,60.9,302,88,70.9,2,12
+H0570,Thrissur General Hospital 0570,"Thrissur, Thrissur, Kerala",Thrissur,General Medicine,4.1,743,259,112,34,8,Medium,Yes,39,30800,65.1,69.6,447,137,69.4,4,21
+H0919,Ramanattukara Specialty Hospital 0919,"Ramanattukara, Kozhikode, Kerala",Kozhikode,Oncology,4.1,721,237,73,28,36,High,Yes,67,45419,67.1,61.6,689,292,57.6,3,13
+H0103,Chittur Community Health Centre 0103,"Chittur, Palakkad, Kerala",Palakkad,Ophthalmology,4.1,522,233,39,13,13,Low,Yes,59,54762,55.4,66.7,458,158,65.5,4,19
+H0723,Uppala Multispecialty Hospital 0723,"Uppala, Kasaragod, Kerala",Kasaragod,Cardiology,4.1,521,216,59,12,11,Low,Yes,69,33771,58.5,79.7,654,269,58.9,2,3
+H0973,Nedumangad General Hospital 0973,"Nedumangad, Thiruvananthapuram, Kerala",Thiruvananthapuram,ENT,4.1,610,215,95,0,24,Medium,Yes,41,8088,64.8,100.0,603,68,88.7,3,8
+H0309,Cherthala Medical College 0309,"Cherthala, Alappuzha, Kerala",Alappuzha,General Medicine,4.1,857,214,93,18,31,Medium,Yes,59,54556,75.0,80.6,439,167,62.0,4,15
+H0389,Vythiri Community Health Centre 0389,"Vythiri, Wayanad, Kerala",Wayanad,Oncology,4.1,742,212,99,27,11,Low,Yes,54,20266,71.4,72.7,500,54,89.2,2,14
+H0846,Ettumanoor Taluk Hospital 0846,"Ettumanoor, Kottayam, Kerala",Kottayam,Gastroenterology,4.1,695,203,64,20,10,Low,No,65,57791,70.8,68.8,464,194,58.2,2,9
+H0646,Nedumangad General Hospital 0646,"Nedumangad, Thiruvananthapuram, Kerala",Thiruvananthapuram,Pediatrics,4.1,781,184,112,39,28,Low,No,35,39153,76.4,65.2,405,29,92.8,4,16
+H0573,Muvattupuzha Family Health Centre 0573,"Muvattupuzha, Ernakulam, Kerala",Ernakulam,Neurology,4.1,687,172,105,39,24,Low,No,76,10034,75.0,62.9,324,95,70.7,2,11
+H0929,Kodungallur Multispecialty Hospital 0929,"Kodungallur, Thrissur, Kerala",Thrissur,Gynecology,4.1,617,171,42,17,27,Medium,Yes,78,56438,72.3,59.5,338,161,52.4,3,7
+H0719,Vaikom District Hospital 0719,"Vaikom, Kottayam, Kerala",Kottayam,Nephrology,4.1,845,165,61,7,15,Medium,Yes,84,31640,80.5,88.5,424,137,67.7,4,7
+H0455,Perumbavoor Specialty Hospital 0455,"Perumbavoor, Ernakulam, Kerala",Ernakulam,Oncology,4.1,607,164,35,13,18,Medium,Yes,67,34578,73.0,62.9,357,165,53.8,2,3
+H0199,Cherthala Medical College 0199,"Cherthala, Alappuzha, Kerala",Alappuzha,ENT,4.1,775,163,89,35,3,High,Yes,13,35556,79.0,60.7,592,278,53.0,2,0
+H0330,Kozhikode Multispecialty Hospital 0330,"Kozhikode, Kozhikode, Kerala",Kozhikode,Gastroenterology,4.1,741,162,57,23,5,Low,Yes,78,68778,78.1,59.6,508,157,69.1,3,10
+H0249,Kodungallur General Hospital 0249,"Kodungallur, Thrissur, Kerala",Thrissur,Oncology,4.1,519,156,63,25,3,Low,Yes,55,36223,69.9,60.3,206,49,76.2,4,10
+H0649,Vadakara Taluk Hospital 0649,"Vadakara, Kozhikode, Kerala",Kozhikode,Gynecology,4.1,470,154,28,10,41,Medium,Yes,55,60724,67.2,64.3,584,70,88.0,2,6
+H0009,Malappuram Taluk Hospital 0009,"Malappuram, Malappuram, Kerala",Malappuram,Dermatology,4.1,342,150,18,3,15,Low,Yes,21,26058,56.1,83.3,372,197,47.0,2,6
+H0261,Adoor District Hospital 0261,"Adoor, Pathanamthitta, Kerala",Pathanamthitta,Cardiology,4.1,615,150,72,26,21,Medium,Yes,45,10327,75.6,63.9,695,279,59.9,2,7
+H0271,Koyilandy Taluk Hospital 0271,"Koyilandy, Kozhikode, Kerala",Kozhikode,Gastroenterology,4.1,362,147,53,10,36,Medium,Yes,27,34796,59.4,81.1,196,50,74.5,3,9
+H0331,Ettumanoor Family Health Centre 0331,"Ettumanoor, Kottayam, Kerala",Kottayam,ENT,4.1,355,146,48,17,40,High,Yes,90,28921,58.9,64.6,489,52,89.4,3,12
+H0036,Nedumangad Multispecialty Hospital 0036,"Nedumangad, Thiruvananthapuram, Kerala",Thiruvananthapuram,General Surgery,4.1,612,139,96,14,6,Medium,No,62,56920,77.3,85.4,377,133,64.7,4,8
+H0682,Kollam Family Health Centre 0682,"Kollam, Kollam, Kerala",Kollam,Pulmonology,4.1,877,133,58,20,24,Low,Yes,51,10815,84.8,65.5,435,194,55.4,3,12
+H0549,Kothamangalam Family Health Centre 0549,"Kothamangalam, Ernakulam, Kerala",Ernakulam,Orthopedics,4.1,896,126,95,29,35,High,Yes,68,62966,85.9,69.5,568,187,67.1,3,15
+H0690,Pandalam Family Health Centre 0690,"Pandalam, Pathanamthitta, Kerala",Pathanamthitta,Pediatrics,4.1,331,123,22,4,10,Medium,Yes,11,34932,62.8,81.8,594,192,67.7,3,18
+H0501,Mavelikara Taluk Hospital 0501,"Mavelikara, Alappuzha, Kerala",Alappuzha,Gastroenterology,4.1,610,120,57,15,17,Medium,Yes,44,25813,80.3,73.7,515,139,73.0,2,5
+H0594,Pala Family Health Centre 0594,"Pala, Kottayam, Kerala",Kottayam,ENT,4.1,371,119,57,15,2,Medium,Yes,27,31003,67.9,73.7,279,71,74.6,2,11
+H0458,Kasaragod Specialty Hospital 0458,"Kasaragod, Kasaragod, Kerala",Kasaragod,Gynecology,4.1,383,117,23,7,22,Low,No,72,36948,69.5,69.6,280,144,48.6,4,16
+H0138,Kalpetta General Hospital 0138,"Kalpetta, Wayanad, Kerala",Wayanad,Dermatology,4.1,527,115,61,18,3,Medium,Yes,62,33828,78.2,70.5,356,83,76.7,3,5
+H0179,Nedumangad Taluk Hospital 0179,"Nedumangad, Thiruvananthapuram, Kerala",Thiruvananthapuram,Dermatology,4.1,580,107,29,10,21,Medium,Yes,17,56363,81.6,65.5,567,165,70.9,4,18
+H0174,Chittur Family Health Centre 0174,"Chittur, Palakkad, Kerala",Palakkad,Cardiology,4.1,526,82,44,17,24,Medium,Yes,25,41761,84.4,61.4,579,317,45.3,3,4
+H0616,Taliparamba Community Health Centre 0616,"Taliparamba, Kannur, Kerala",Kannur,Oncology,4.1,794,74,51,6,16,Low,Yes,83,34590,90.7,88.2,405,75,81.5,4,16
+H0716,Taliparamba Taluk Hospital 0716,"Taliparamba, Kannur, Kerala",Kannur,Orthopedics,4.1,240,73,35,1,33,Medium,Yes,56,15715,69.6,97.1,331,46,86.1,4,12
+H0871,Thrissur District Hospital 0871,"Thrissur, Thrissur, Kerala",Thrissur,Oncology,4.1,188,72,25,4,8,High,Yes,12,28241,61.7,84.0,278,51,81.7,4,14
+H0334,Kanhangad Specialty Hospital 0334,"Kanhangad, Kasaragod, Kerala",Kasaragod,ENT,4.1,593,70,80,1,36,Low,Yes,64,18411,88.2,98.8,374,174,53.5,3,12
+H0005,Kothamangalam Family Health Centre 0005,"Kothamangalam, Ernakulam, Kerala",Ernakulam,Neurology,4.1,360,61,42,17,8,Medium,Yes,68,19987,83.1,59.5,261,42,83.9,4,14
+H0180,Karunagappally Taluk Hospital 0180,"Karunagappally, Kollam, Kerala",Kollam,Urology,4.1,143,54,19,2,34,Low,Yes,20,44977,62.2,89.5,305,144,52.8,4,11
+H0037,Changanassery Medical College 0037,"Changanassery, Kottayam, Kerala",Kottayam,ENT,4.1,551,45,37,6,3,Medium,No,19,31445,91.8,83.8,412,75,81.8,3,9
+H1000,Kalpetta General Hospital 1000,"Kalpetta, Wayanad, Kerala",Wayanad,Gastroenterology,4.1,729,45,56,22,35,Medium,No,13,51313,93.8,60.7,457,160,65.0,2,8
+H0788,Varkala Taluk Hospital 0788,"Varkala, Thiruvananthapuram, Kerala",Thiruvananthapuram,General Surgery,4.1,307,44,36,15,15,Medium,Yes,75,41260,85.7,58.3,452,109,75.9,2,6
+H0801,Thodupuzha Family Health Centre 0801,"Thodupuzha, Idukki, Kerala",Idukki,General Surgery,4.1,164,38,23,2,3,High,No,82,83450,76.8,91.3,539,81,85.0,2,5
+H0998,Mavelikara Community Health Centre 0998,"Mavelikara, Alappuzha, Kerala",Alappuzha,ENT,4.1,548,38,50,5,20,Medium,Yes,11,69505,93.1,90.0,510,145,71.6,4,12
+H0286,Kannur Taluk Hospital 0286,"Kannur, Kannur, Kerala",Kannur,General Surgery,4.1,169,37,24,4,13,Medium,No,27,81728,78.1,83.3,652,234,64.1,4,14
+H0016,Chalakudy District Hospital 0016,"Chalakudy, Thrissur, Kerala",Thrissur,Dermatology,4.1,460,36,33,11,3,Medium,Yes,14,47555,92.2,66.7,557,81,85.5,4,13
+H0383,Vythiri Multispecialty Hospital 0383,"Vythiri, Wayanad, Kerala",Wayanad,Cardiology,4.1,362,30,28,1,28,Medium,No,87,76156,91.7,96.4,614,294,52.1,2,4
+H0516,Kothamangalam District Hospital 0516,"Kothamangalam, Ernakulam, Kerala",Ernakulam,Dermatology,4.1,175,29,22,7,11,Low,Yes,83,17611,83.4,68.2,359,181,49.6,3,11
+H0206,Changanassery District Hospital 0206,"Changanassery, Kottayam, Kerala",Kottayam,Pulmonology,4.1,295,28,26,5,17,Medium,Yes,56,60807,90.5,80.8,328,129,60.7,3,16
+H0895,Alappuzha General Hospital 0895,"Alappuzha, Alappuzha, Kerala",Alappuzha,Gynecology,4.1,456,24,52,18,21,Medium,Yes,77,67742,94.7,65.4,582,64,89.0,3,11
+H0046,Chittur Taluk Hospital 0046,"Chittur, Palakkad, Kerala",Palakkad,Urology,4.1,98,22,11,0,23,Medium,Yes,28,35537,77.6,100.0,618,158,74.4,4,11
+H0122,Adoor Specialty Hospital 0122,"Adoor, Pathanamthitta, Kerala",Pathanamthitta,Gynecology,4.1,139,20,18,5,39,Medium,Yes,78,65598,85.6,72.2,286,98,65.7,3,7
+H0815,Thodupuzha Community Health Centre 0815,"Thodupuzha, Idukki, Kerala",Idukki,Orthopedics,4.1,70,17,4,0,31,Low,Yes,62,66220,75.7,100.0,410,167,59.3,4,23
+H0507,Kozhikode Community Health Centre 0507,"Kozhikode, Kozhikode, Kerala",Kozhikode,Gynecology,4.1,170,15,21,8,30,Low,Yes,65,13991,91.2,61.9,317,120,62.1,4,19
+H0140,Chengannur Community Health Centre 0140,"Chengannur, Alappuzha, Kerala",Alappuzha,Urology,4.1,130,11,7,0,11,Medium,Yes,37,35968,91.5,100.0,535,252,52.9,3,15
+H0599,Chittur General Hospital 0599,"Chittur, Palakkad, Kerala",Palakkad,Dermatology,4.1,35,11,2,0,3,Medium,Yes,81,37043,68.6,100.0,331,122,63.1,2,9
+H0063,Palakkad Community Health Centre 0063,"Palakkad, Palakkad, Kerala",Palakkad,Neurology,4.1,35,10,3,0,37,Medium,Yes,87,72589,71.4,100.0,631,328,48.0,3,15
+H0167,Chengannur Family Health Centre 0167,"Chengannur, Alappuzha, Kerala",Alappuzha,ENT,4.1,161,8,25,8,15,Medium,Yes,11,28328,95.0,68.0,551,131,76.2,4,13
+H0872,Payyannur Multispecialty Hospital 0872,"Payyannur, Kannur, Kerala",Kannur,Orthopedics,4.1,26,7,3,0,10,High,Yes,44,74649,73.1,100.0,581,116,80.0,2,4
+H0732,Cherthala General Hospital 0732,"Cherthala, Alappuzha, Kerala",Alappuzha,Pulmonology,4.1,92,6,5,1,26,Medium,Yes,45,43093,93.5,80.0,379,106,72.0,3,4
+H0926,Ettumanoor Family Health Centre 0926,"Ettumanoor, Kottayam, Kerala",Kottayam,General Medicine,4.1,31,2,4,0,29,Low,Yes,84,58856,93.5,100.0,376,124,67.0,4,17
+H0329,Kottarakkara Multispecialty Hospital 0329,"Kottarakkara, Kollam, Kerala",Kollam,Gynecology,4.0,627,279,37,10,19,Low,Yes,60,83246,55.5,73.0,332,100,69.9,2,10
+H0080,Kalpetta General Hospital 0080,"Kalpetta, Wayanad, Kerala",Wayanad,Ophthalmology,4.0,833,278,77,13,2,Medium,No,27,49540,66.6,83.1,286,97,66.1,4,13
+H0008,Kodungallur Multispecialty Hospital 0008,"Kodungallur, Thrissur, Kerala",Thrissur,Gastroenterology,4.0,816,261,78,27,16,Low,Yes,56,75446,68.0,65.4,313,39,87.5,3,9
+H0736,Nedumangad Family Health Centre 0736,"Nedumangad, Thiruvananthapuram, Kerala",Thiruvananthapuram,Pediatrics,4.0,727,232,57,7,29,High,Yes,31,75745,68.1,87.7,647,139,78.5,3,13
+H0553,Adoor Multispecialty Hospital 0553,"Adoor, Pathanamthitta, Kerala",Pathanamthitta,Urology,4.0,872,216,117,1,44,Medium,Yes,58,43345,75.2,99.1,543,79,85.5,2,1
+H0421,Payyannur Specialty Hospital 0421,"Payyannur, Kannur, Kerala",Kannur,Pediatrics,4.0,578,207,55,6,12,High,Yes,74,40994,64.2,89.1,522,154,70.5,4,11
+H0892,Ettumanoor Taluk Hospital 0892,"Ettumanoor, Kottayam, Kerala",Kottayam,Orthopedics,4.0,461,200,24,9,2,Low,Yes,72,29028,56.6,62.5,413,180,56.4,4,5
+H0440,Nedumangad Community Health Centre 0440,"Nedumangad, Thiruvananthapuram, Kerala",Thiruvananthapuram,Neurology,4.0,626,185,68,23,20,Medium,No,85,17354,70.4,66.2,382,138,63.9,3,9
+H0124,Kannur Multispecialty Hospital 0124,"Kannur, Kannur, Kerala",Kannur,Gastroenterology,4.0,481,166,75,17,12,Low,Yes,60,52552,65.5,77.3,294,68,76.9,2,3
+H0544,Nedumkandam Taluk Hospital 0544,"Nedumkandam, Idukki, Kerala",Idukki,Pulmonology,4.0,702,154,94,25,24,High,Yes,70,84729,78.1,73.4,344,164,52.3,4,21
+H0059,Pala Taluk Hospital 0059,"Pala, Kottayam, Kerala",Kottayam,Pediatrics,4.0,656,151,55,13,6,Low,No,16,56390,77.0,76.4,366,186,49.2,4,22
+H0578,Mannarkkad Specialty Hospital 0578,"Mannarkkad, Palakkad, Kerala",Palakkad,Urology,4.0,402,150,31,11,19,High,Yes,36,10669,62.7,64.5,324,96,70.4,4,10
+H0675,Feroke District Hospital 0675,"Feroke, Kozhikode, Kerala",Kozhikode,Gastroenterology,4.0,385,148,23,4,37,Medium,Yes,53,70739,61.6,82.6,398,121,69.6,3,8
+H0301,Chengannur Community Health Centre 0301,"Chengannur, Alappuzha, Kerala",Alappuzha,Nephrology,4.0,651,143,90,19,25,Medium,Yes,66,53558,78.0,78.9,465,185,60.2,4,22
+H0387,Nedumkandam Specialty Hospital 0387,"Nedumkandam, Idukki, Kerala",Idukki,Orthopedics,4.0,846,135,50,17,29,High,Yes,49,42190,84.0,66.0,656,188,71.3,4,14
+H0500,Muvattupuzha Specialty Hospital 0500,"Muvattupuzha, Ernakulam, Kerala",Ernakulam,Oncology,4.0,566,131,39,6,21,Medium,Yes,38,76189,76.9,84.6,479,138,71.2,2,5
+H0595,Kodungallur Taluk Hospital 0595,"Kodungallur, Thrissur, Kerala",Thrissur,Neurology,4.0,313,124,49,0,18,Medium,No,57,34761,60.4,100.0,491,44,91.0,3,12
+H0513,Punalur Multispecialty Hospital 0513,"Punalur, Kollam, Kerala",Kollam,General Medicine,4.0,507,123,56,21,6,High,Yes,60,27356,75.7,62.5,564,264,53.2,4,18
+H0987,Neyyattinkara General Hospital 0987,"Neyyattinkara, Thiruvananthapuram, Kerala",Thiruvananthapuram,Pediatrics,4.0,573,114,62,26,42,Medium,Yes,81,35113,80.1,58.1,521,138,73.5,2,6
+H0293,Thrissur Taluk Hospital 0293,"Thrissur, Thrissur, Kerala",Thrissur,Cardiology,4.0,281,109,38,9,42,Low,Yes,50,8162,61.2,76.3,560,220,60.7,4,7
+H0857,Thiruvananthapuram Family Health Centre 0857,"Thiruvananthapuram, Thiruvananthapuram, Kerala",Thiruvananthapuram,Ophthalmology,4.0,366,105,21,4,5,Low,Yes,55,51804,71.3,81.0,612,142,76.8,2,4
+H0228,Thiruvananthapuram Family Health Centre 0228,"Thiruvananthapuram, Thiruvananthapuram, Kerala",Thiruvananthapuram,Oncology,4.0,590,102,87,25,33,High,Yes,23,37511,82.7,71.3,265,64,75.8,2,13
+H0045,Malappuram Family Health Centre 0045,"Malappuram, Malappuram, Kerala",Malappuram,Ophthalmology,4.0,364,100,18,6,6,Medium,Yes,27,59363,72.5,66.7,392,219,44.1,2,7
+H0364,Manjeri Taluk Hospital 0364,"Manjeri, Malappuram, Kerala",Malappuram,General Surgery,4.0,731,94,79,2,43,Low,Yes,69,40444,87.1,97.5,348,111,68.1,4,20
+H0539,Mananthavady Family Health Centre 0539,"Mananthavady, Wayanad, Kerala",Wayanad,Gastroenterology,4.0,580,93,88,14,31,Low,Yes,80,52413,84.0,84.1,383,176,54.0,4,7
+H0574,Aluva Community Health Centre 0574,"Aluva, Ernakulam, Kerala",Ernakulam,Pulmonology,4.0,571,87,57,12,11,Low,Yes,20,37201,84.8,78.9,280,73,73.9,2,10
+H0938,Chittur Multispecialty Hospital 0938,"Chittur, Palakkad, Kerala",Palakkad,Orthopedics,4.0,608,84,88,38,38,Medium,Yes,63,52800,86.2,56.8,524,172,67.2,3,13
+H0241,Kozhikode Taluk Hospital 0241,"Kozhikode, Kozhikode, Kerala",Kozhikode,Urology,4.0,314,82,37,4,9,Low,Yes,56,49760,73.9,89.2,511,79,84.5,3,16
+H0550,Thodupuzha Taluk Hospital 0550,"Thodupuzha, Idukki, Kerala",Idukki,Pediatrics,4.0,451,75,30,12,32,Medium,Yes,64,41714,83.4,60.0,472,75,84.1,4,12
+H0460,Munnar Multispecialty Hospital 0460,"Munnar, Idukki, Kerala",Idukki,Oncology,4.0,364,73,50,18,30,Low,Yes,12,21786,79.9,64.0,563,215,61.8,3,9
+H0193,Ottapalam Medical College 0193,"Ottapalam, Palakkad, Kerala",Palakkad,Ophthalmology,4.0,795,71,73,24,44,Low,Yes,25,27346,91.1,67.1,609,144,76.4,4,15
+H0438,Mananthavady Specialty Hospital 0438,"Mananthavady, Wayanad, Kerala",Wayanad,Neurology,4.0,293,70,36,1,21,Medium,No,13,15414,76.1,97.2,625,286,54.2,4,8
+H0139,Taliparamba General Hospital 0139,"Taliparamba, Kannur, Kerala",Kannur,Cardiology,4.0,823,67,114,33,2,Medium,Yes,33,61148,91.9,71.1,576,189,67.2,3,7
+H0208,Kundara Taluk Hospital 0208,"Kundara, Kollam, Kerala",Kollam,ENT,4.0,408,67,29,11,4,High,Yes,54,40086,83.6,62.1,507,252,50.3,2,13
+H0844,Kottayam Taluk Hospital 0844,"Kottayam, Kottayam, Kerala",Kottayam,General Medicine,4.0,564,63,77,20,6,Low,Yes,51,40801,88.8,74.0,376,95,74.7,3,7
+H0490,Adimali General Hospital 0490,"Adimali, Idukki, Kerala",Idukki,Orthopedics,4.0,232,60,28,11,38,High,Yes,31,55575,74.1,60.7,499,197,60.5,3,11
+H0324,Sulthan Bathery General Hospital 0324,"Sulthan Bathery, Wayanad, Kerala",Wayanad,General Surgery,4.0,332,58,30,3,25,Low,Yes,20,44390,82.5,90.0,556,219,60.6,4,14
+H0587,Thalassery General Hospital 0587,"Thalassery, Kannur, Kerala",Kannur,Pediatrics,4.0,588,58,81,30,4,Medium,Yes,20,11783,90.1,63.0,565,271,52.0,4,19
+H0888,Sulthan Bathery Community Health Centre 0888,"Sulthan Bathery, Wayanad, Kerala",Wayanad,Cardiology,4.0,141,58,19,4,40,Low,Yes,41,16732,58.9,78.9,480,182,62.1,4,13
+H0524,Perumbavoor Family Health Centre 0524,"Perumbavoor, Ernakulam, Kerala",Ernakulam,Gastroenterology,4.0,502,57,35,7,4,High,Yes,89,73065,88.6,80.0,527,171,67.6,3,9
+H0667,Palakkad Taluk Hospital 0667,"Palakkad, Palakkad, Kerala",Palakkad,ENT,4.0,109,46,11,1,2,Low,Yes,71,73132,57.8,90.9,547,121,77.9,3,11
+H0303,Karunagappally Taluk Hospital 0303,"Karunagappally, Kollam, Kerala",Kollam,Nephrology,4.0,181,45,14,3,15,Low,Yes,65,58347,75.1,78.6,361,155,57.1,3,6
+H0128,Thalassery Multispecialty Hospital 0128,"Thalassery, Kannur, Kerala",Kannur,ENT,4.0,587,44,62,14,23,Medium,Yes,52,33316,92.5,77.4,308,66,78.6,4,12
+H0744,Ramanattukara Multispecialty Hospital 0744,"Ramanattukara, Kozhikode, Kerala",Kozhikode,Urology,4.0,117,43,9,3,22,High,Yes,17,82802,63.2,66.7,419,157,62.5,2,6
+H0559,Nedumkandam Specialty Hospital 0559,"Nedumkandam, Idukki, Kerala",Idukki,Pediatrics,4.0,222,41,29,9,14,Medium,Yes,73,30885,81.5,69.0,528,193,63.4,3,3
+H0813,Malappuram Specialty Hospital 0813,"Malappuram, Malappuram, Kerala",Malappuram,Nephrology,4.0,679,35,43,2,29,Medium,No,36,23491,94.8,95.3,467,172,63.2,2,13
+H0418,Kunnamkulam Community Health Centre 0418,"Kunnamkulam, Thrissur, Kerala",Thrissur,Oncology,4.0,317,32,19,1,13,Medium,Yes,63,26374,89.9,94.7,465,170,63.4,3,18
+H0510,Nileshwar Medical College 0510,"Nileshwar, Kasaragod, Kerala",Kasaragod,Nephrology,4.0,541,29,80,14,33,Medium,No,75,11150,94.6,82.5,397,81,79.6,4,16
+H0265,Alappuzha Specialty Hospital 0265,"Alappuzha, Alappuzha, Kerala",Alappuzha,Pulmonology,4.0,260,28,17,2,14,Medium,Yes,69,50838,89.2,88.2,426,121,71.6,3,16
+H0795,Kochi Specialty Hospital 0795,"Kochi, Ernakulam, Kerala",Ernakulam,Gynecology,4.0,69,27,7,1,40,High,Yes,36,37788,60.9,85.7,731,247,66.2,4,15
+H0183,Uppala Multispecialty Hospital 0183,"Uppala, Kasaragod, Kerala",Kasaragod,Neurology,4.0,96,22,12,1,13,Low,Yes,30,83296,77.1,91.7,211,55,73.9,3,10
+H0340,Thiruvananthapuram Community Health Centre 0340,"Thiruvananthapuram, Thiruvananthapuram, Kerala",Thiruvananthapuram,ENT,4.0,114,22,17,1,10,Low,Yes,71,81674,80.7,94.1,400,207,48.3,3,6
+H0636,Kottarakkara Specialty Hospital 0636,"Kottarakkara, Kollam, Kerala",Kollam,Ophthalmology,4.0,218,22,11,3,17,Low,Yes,86,48053,89.9,72.7,702,256,63.5,2,12
+H0678,Cherthala Family Health Centre 0678,"Cherthala, Alappuzha, Kerala",Alappuzha,Pediatrics,3.9,827,370,89,17,10,Medium,Yes,69,56213,55.3,80.9,581,167,71.3,3,6
+H0651,Kollam District Hospital 0651,"Kollam, Kollam, Kerala",Kollam,Orthopedics,3.9,858,337,84,33,22,Low,No,74,67428,60.7,60.7,474,143,69.8,4,24
+H0135,Kottayam Family Health Centre 0135,"Kottayam, Kottayam, Kerala",Kottayam,Ophthalmology,3.9,750,334,53,17,38,Low,Yes,15,9201,55.5,67.9,501,118,76.4,3,7
+H0812,Muvattupuzha Multispecialty Hospital 0812,"Muvattupuzha, Ernakulam, Kerala",Ernakulam,ENT,3.9,743,330,80,5,11,Medium,Yes,56,76762,55.6,93.8,485,166,65.8,3,5
+H0202,Iritty Taluk Hospital 0202,"Iritty, Kannur, Kerala",Kannur,Neurology,3.9,784,303,61,3,23,Medium,No,47,83452,61.4,95.1,558,219,60.8,3,17
+H0378,Vaikom Community Health Centre 0378,"Vaikom, Kottayam, Kerala",Kottayam,Orthopedics,3.9,734,295,116,22,33,Medium,Yes,17,16504,59.8,81.0,288,115,60.1,4,18
+H0951,Shoranur Family Health Centre 0951,"Shoranur, Palakkad, Kerala",Palakkad,Cardiology,3.9,812,283,114,32,13,Medium,Yes,42,34750,65.1,71.9,555,218,60.7,2,7
+H0877,Nileshwar Multispecialty Hospital 0877,"Nileshwar, Kasaragod, Kerala",Kasaragod,Ophthalmology,3.9,739,277,45,3,40,Medium,Yes,64,74734,62.5,93.3,580,100,82.8,3,18
+H0092,Palakkad Multispecialty Hospital 0092,"Palakkad, Palakkad, Kerala",Palakkad,Urology,3.9,805,275,99,14,35,Low,Yes,56,16773,65.8,85.9,481,44,90.9,3,9
+H0192,Kozhikode District Hospital 0192,"Kozhikode, Kozhikode, Kerala",Kozhikode,Nephrology,3.9,899,271,112,15,29,Medium,Yes,47,15286,69.9,86.6,566,274,51.6,4,23
+H0896,Kattappana Medical College 0896,"Kattappana, Idukki, Kerala",Idukki,Urology,3.9,681,262,86,26,33,Medium,Yes,87,45754,61.5,69.8,484,115,76.2,2,10
+H0658,Chalakudy Taluk Hospital 0658,"Chalakudy, Thrissur, Kerala",Thrissur,Gynecology,3.9,812,242,121,38,6,Medium,Yes,56,54818,70.2,68.6,349,88,74.8,3,11
+H0354,Manjeri Family Health Centre 0354,"Manjeri, Malappuram, Kerala",Malappuram,Pulmonology,3.9,600,224,55,21,37,Low,Yes,57,72776,62.7,61.8,644,249,61.3,3,11
+H0569,Kothamangalam District Hospital 0569,"Kothamangalam, Ernakulam, Kerala",Ernakulam,Gastroenterology,3.9,653,224,51,7,39,Low,Yes,77,11474,65.7,86.3,322,179,44.4,2,7
+H0281,Iritty Family Health Centre 0281,"Iritty, Kannur, Kerala",Kannur,Gastroenterology,3.9,900,219,126,9,23,Low,Yes,25,10496,75.7,92.9,425,192,54.8,3,10
+H0172,Pandalam Taluk Hospital 0172,"Pandalam, Pathanamthitta, Kerala",Pathanamthitta,Gastroenterology,3.9,502,211,27,3,9,Medium,Yes,60,12361,58.0,88.9,405,187,53.8,3,9
+H0821,Uppala General Hospital 0821,"Uppala, Kasaragod, Kerala",Kasaragod,Neurology,3.9,472,199,49,21,28,High,Yes,23,74774,57.8,57.1,454,198,56.4,3,16
+H0038,Cherthala Multispecialty Hospital 0038,"Cherthala, Alappuzha, Kerala",Alappuzha,Nephrology,3.9,723,194,99,30,42,Medium,Yes,42,12818,73.2,69.7,593,52,91.2,4,10
+H0112,Mannarkkad Taluk Hospital 0112,"Mannarkkad, Palakkad, Kerala",Palakkad,ENT,3.9,498,193,78,11,39,Medium,Yes,49,15135,61.2,85.9,441,158,64.2,4,10
+H0548,Kalpetta Taluk Hospital 0548,"Kalpetta, Wayanad, Kerala",Wayanad,Oncology,3.9,590,189,87,38,23,Medium,Yes,72,15238,68.0,56.3,631,154,75.6,2,7
+H0630,Malappuram Multispecialty Hospital 0630,"Malappuram, Malappuram, Kerala",Malappuram,Gastroenterology,3.9,662,187,100,44,11,Medium,Yes,46,19086,71.8,56.0,624,148,76.3,3,16
+H0780,Kottayam Family Health Centre 0780,"Kottayam, Kottayam, Kerala",Kottayam,Pediatrics,3.9,864,174,64,17,3,Medium,Yes,28,82533,79.9,73.4,581,228,60.8,4,16
+H0571,Chittur Family Health Centre 0571,"Chittur, Palakkad, Kerala",Palakkad,General Surgery,3.9,585,164,64,14,8,Low,Yes,15,83871,72.0,78.1,629,344,45.3,2,7
+H0779,Adoor District Hospital 0779,"Adoor, Pathanamthitta, Kerala",Pathanamthitta,Dermatology,3.9,392,160,30,10,23,Medium,Yes,16,56823,59.2,66.7,442,112,74.7,3,11
+H0666,Nileshwar Family Health Centre 0666,"Nileshwar, Kasaragod, Kerala",Kasaragod,Nephrology,3.9,522,159,58,3,28,High,Yes,42,19859,69.5,94.8,305,147,51.8,3,9
+H0650,Feroke Family Health Centre 0650,"Feroke, Kozhikode, Kerala",Kozhikode,Gynecology,3.9,878,155,45,6,3,Medium,Yes,34,36355,82.3,86.7,726,190,73.8,3,4
+H0706,Punalur Multispecialty Hospital 0706,"Punalur, Kollam, Kerala",Kollam,General Medicine,3.9,413,149,48,8,28,Low,No,18,14198,63.9,83.3,663,319,51.9,3,15
+H0907,Thiruvalla Specialty Hospital 0907,"Thiruvalla, Pathanamthitta, Kerala",Pathanamthitta,Pulmonology,3.9,756,132,71,5,24,Low,Yes,83,53699,82.5,93.0,648,148,77.2,3,6
+H0838,Ettumanoor Multispecialty Hospital 0838,"Ettumanoor, Kottayam, Kerala",Kottayam,Ophthalmology,3.9,591,126,55,18,8,Medium,Yes,81,29912,78.7,67.3,622,302,51.4,3,8
+H0617,Tirur Specialty Hospital 0617,"Tirur, Malappuram, Kerala",Malappuram,Ophthalmology,3.9,264,112,15,1,13,Low,Yes,79,24546,57.6,93.3,372,158,57.5,4,20
+H0073,Kochi Community Health Centre 0073,"Kochi, Ernakulam, Kerala",Ernakulam,Gastroenterology,3.9,507,102,60,3,7,High,Yes,31,79556,79.9,95.0,246,98,60.2,4,14
+H0445,Muvattupuzha Multispecialty Hospital 0445,"Muvattupuzha, Ernakulam, Kerala",Ernakulam,Oncology,3.9,255,102,33,11,25,Low,Yes,80,68924,60.0,66.7,297,129,56.6,4,16
+H0835,Mananthavady Family Health Centre 0835,"Mananthavady, Wayanad, Kerala",Wayanad,Ophthalmology,3.9,891,99,55,1,15,Medium,Yes,32,17729,88.9,98.2,618,175,71.7,2,12
+H0211,Thrissur Taluk Hospital 0211,"Thrissur, Thrissur, Kerala",Thrissur,Pulmonology,3.9,235,97,30,1,30,Low,Yes,81,59312,58.7,96.7,447,156,65.1,2,8
+H0740,Attingal Multispecialty Hospital 0740,"Attingal, Thiruvananthapuram, Kerala",Thiruvananthapuram,Orthopedics,3.9,359,90,32,6,13,Low,No,80,8103,74.9,81.3,401,61,84.8,3,9
+H0166,Karunagappally Multispecialty Hospital 0166,"Karunagappally, Kollam, Kerala",Kollam,General Surgery,3.9,644,79,55,7,44,Medium,Yes,81,48951,87.7,87.3,421,70,83.4,4,12
+H0669,Thalassery Multispecialty Hospital 0669,"Thalassery, Kannur, Kerala",Kannur,ENT,3.9,619,79,56,10,14,Medium,Yes,20,27184,87.2,82.1,312,107,65.7,2,10
+H0918,Nileshwar District Hospital 0918,"Nileshwar, Kasaragod, Kerala",Kasaragod,General Surgery,3.9,265,78,39,15,28,Medium,Yes,39,47480,70.6,61.5,605,222,63.3,2,8
+H0107,Punalur Community Health Centre 0107,"Punalur, Kollam, Kerala",Kollam,Urology,3.9,226,77,27,6,12,High,Yes,59,72826,65.9,77.8,568,269,52.6,2,7
+H0280,Guruvayur General Hospital 0280,"Guruvayur, Thrissur, Kerala",Thrissur,Oncology,3.9,699,77,83,26,18,Medium,Yes,73,34612,89.0,68.7,645,177,72.6,4,12
+H0274,Mannarkkad Community Health Centre 0274,"Mannarkkad, Palakkad, Kerala",Palakkad,Pediatrics,3.9,650,73,40,15,14,Medium,No,24,35591,88.8,62.5,421,198,53.0,2,3
+H0288,Kothamangalam Multispecialty Hospital 0288,"Kothamangalam, Ernakulam, Kerala",Ernakulam,Nephrology,3.9,384,72,48,9,31,Low,Yes,53,46922,81.3,81.3,505,151,70.1,2,2
+H0105,Perumbavoor Family Health Centre 0105,"Perumbavoor, Ernakulam, Kerala",Ernakulam,General Surgery,3.9,292,71,24,7,15,Low,Yes,49,63608,75.7,70.8,636,43,93.2,3,13
+H0492,Chittur General Hospital 0492,"Chittur, Palakkad, Kerala",Palakkad,General Medicine,3.9,191,70,15,1,37,Medium,Yes,39,79437,63.4,93.3,265,63,76.2,2,10
+H0836,Taliparamba Specialty Hospital 0836,"Taliparamba, Kannur, Kerala",Kannur,Neurology,3.9,245,69,28,7,10,Low,Yes,40,62974,71.8,75.0,361,140,61.2,4,17
+H0361,Kattappana Family Health Centre 0361,"Kattappana, Idukki, Kerala",Idukki,Pediatrics,3.9,349,61,21,3,7,Medium,Yes,29,36549,82.5,85.7,363,194,46.6,3,12
+H0797,Chengannur Taluk Hospital 0797,"Chengannur, Alappuzha, Kerala",Alappuzha,Orthopedics,3.9,617,54,56,11,27,Medium,Yes,47,31701,91.2,80.4,521,97,81.4,4,15
+H0207,Thiruvalla Family Health Centre 0207,"Thiruvalla, Pathanamthitta, Kerala",Pathanamthitta,General Medicine,3.9,722,53,94,37,44,Medium,No,44,75321,92.7,60.6,553,136,75.4,2,7
+H0311,Vythiri Medical College 0311,"Vythiri, Wayanad, Kerala",Wayanad,Orthopedics,3.9,807,52,88,22,24,High,Yes,72,57403,93.6,75.0,326,85,73.9,4,13
+H0088,Palakkad Specialty Hospital 0088,"Palakkad, Palakkad, Kerala",Palakkad,General Medicine,3.9,166,51,19,6,19,Medium,Yes,58,68818,69.3,68.4,326,56,82.8,2,4
+H0190,Mananthavady Family Health Centre 0190,"Mananthavady, Wayanad, Kerala",Wayanad,Oncology,3.9,567,50,52,21,12,Low,No,24,57601,91.2,59.6,508,71,86.0,2,5
+H0563,Guruvayur Community Health Centre 0563,"Guruvayur, Thrissur, Kerala",Thrissur,Pulmonology,3.9,160,48,14,2,30,Low,Yes,81,69931,70.0,85.7,498,252,49.4,3,9
+H0739,Thodupuzha Multispecialty Hospital 0739,"Thodupuzha, Idukki, Kerala",Idukki,ENT,3.9,126,45,10,1,4,Low,Yes,61,63525,64.3,90.0,469,67,85.7,2,5
+H0701,Kanhangad Family Health Centre 0701,"Kanhangad, Kasaragod, Kerala",Kasaragod,Gastroenterology,3.9,767,44,122,18,22,High,Yes,66,69425,94.3,85.2,455,229,49.7,3,19
+H0714,Punalur Multispecialty Hospital 0714,"Punalur, Kollam, Kerala",Kollam,Dermatology,3.9,407,44,22,3,30,High,Yes,31,43346,89.2,86.4,322,135,58.1,3,14
+H0441,Pandalam District Hospital 0441,"Pandalam, Pathanamthitta, Kerala",Pathanamthitta,Cardiology,3.9,479,42,59,21,38,High,Yes,37,82822,91.2,64.4,385,130,66.2,2,11
+H0847,Tirur Specialty Hospital 0847,"Tirur, Malappuram, Kerala",Malappuram,Pulmonology,3.9,383,37,29,2,13,Low,Yes,90,77479,90.3,93.1,396,179,54.8,3,8
+H0479,Aluva Multispecialty Hospital 0479,"Aluva, Ernakulam, Kerala",Ernakulam,Gastroenterology,3.9,117,36,16,4,17,Medium,No,56,74481,69.2,75.0,338,127,62.4,2,9
+H0955,Perumbavoor Multispecialty Hospital 0955,"Perumbavoor, Ernakulam, Kerala",Ernakulam,Ophthalmology,3.9,216,36,32,4,21,Low,No,16,23832,83.3,87.5,702,198,71.8,4,20
+H0884,Koyilandy Family Health Centre 0884,"Koyilandy, Kozhikode, Kerala",Kozhikode,Neurology,3.9,597,31,43,0,14,Medium,Yes,68,68139,94.8,100.0,508,173,65.9,4,13
+H0156,Mannarkkad Community Health Centre 0156,"Mannarkkad, Palakkad, Kerala",Palakkad,Cardiology,3.9,291,30,21,3,36,High,Yes,75,43923,89.7,85.7,578,210,63.7,3,12
+H0674,Chalakudy Multispecialty Hospital 0674,"Chalakudy, Thrissur, Kerala",Thrissur,Cardiology,3.9,265,26,39,15,15,Medium,Yes,58,65796,90.2,61.5,561,248,55.8,4,15
+H0694,Adimali Taluk Hospital 0694,"Adimali, Idukki, Kerala",Idukki,Cardiology,3.9,464,26,43,18,15,Medium,Yes,60,11647,94.4,58.1,278,51,81.7,4,9
+H0106,Koyilandy District Hospital 0106,"Koyilandy, Kozhikode, Kerala",Kozhikode,Gynecology,3.9,72,25,9,2,38,Medium,Yes,52,39216,65.3,77.8,615,195,68.3,3,11
+H0850,Kanhangad Family Health Centre 0850,"Kanhangad, Kasaragod, Kerala",Kasaragod,Nephrology,3.9,69,22,9,2,18,Low,Yes,72,19715,68.1,77.8,395,125,68.4,2,5
+H0958,Kalpetta Specialty Hospital 0958,"Kalpetta, Wayanad, Kerala",Wayanad,Oncology,3.9,48,18,6,1,25,Medium,Yes,12,15626,62.5,83.3,519,293,43.5,3,10
+H0931,Mavelikara Specialty Hospital 0931,"Mavelikara, Alappuzha, Kerala",Alappuzha,Pulmonology,3.9,42,11,4,0,41,Low,Yes,27,28331,73.8,100.0,418,145,65.3,3,9
+H0596,Kumbla General Hospital 0596,"Kumbla, Kasaragod, Kerala",Kasaragod,Neurology,3.9,72,9,5,0,9,Medium,No,13,66859,87.5,100.0,215,29,86.5,3,11
+H0186,Adimali Medical College 0186,"Adimali, Idukki, Kerala",Idukki,Ophthalmology,3.8,950,310,58,16,21,Medium,No,48,48878,67.4,72.4,482,63,86.9,4,21
+H0766,Perinthalmanna Multispecialty Hospital 0766,"Perinthalmanna, Malappuram, Kerala",Malappuram,Oncology,3.8,795,307,126,5,17,Medium,Yes,49,62395,61.4,96.0,248,75,69.8,4,11
+H0091,Chengannur Medical College 0091,"Chengannur, Alappuzha, Kerala",Alappuzha,Cardiology,3.8,737,302,105,41,6,Medium,Yes,35,36436,59.0,61.0,426,129,69.7,2,3
+H0742,Ettumanoor Specialty Hospital 0742,"Ettumanoor, Kottayam, Kerala",Kottayam,Dermatology,3.8,879,291,114,21,28,Medium,Yes,46,29751,66.9,81.6,512,242,52.7,4,12
+H0629,Punalur Multispecialty Hospital 0629,"Punalur, Kollam, Kerala",Kollam,Dermatology,3.8,881,267,81,5,34,Medium,Yes,67,19301,69.7,93.8,645,301,53.3,2,4
+H0393,Perumbavoor District Hospital 0393,"Perumbavoor, Ernakulam, Kerala",Ernakulam,Nephrology,3.8,710,266,109,39,15,Medium,No,83,46447,62.5,64.2,452,148,67.3,3,11
+H0592,Punalur Medical College 0592,"Punalur, Kollam, Kerala",Kollam,Dermatology,3.8,1193,262,165,52,4,Medium,Yes,88,14683,78.0,68.5,582,185,68.2,2,12
+H0422,Chittur Family Health Centre 0422,"Chittur, Palakkad, Kerala",Palakkad,Neurology,3.8,652,254,80,29,21,Medium,No,62,66985,61.0,63.7,366,177,51.6,2,2
+H0705,Palakkad General Hospital 0705,"Palakkad, Palakkad, Kerala",Palakkad,Gynecology,3.8,663,244,89,12,19,Medium,Yes,65,50514,63.2,86.5,505,242,52.1,3,11
+H0499,Kunnamkulam Specialty Hospital 0499,"Kunnamkulam, Thrissur, Kerala",Thrissur,Neurology,3.8,638,238,89,25,22,Low,Yes,68,31609,62.7,71.9,416,96,76.9,3,6
+H0320,Kollam Multispecialty Hospital 0320,"Kollam, Kollam, Kerala",Kollam,Cardiology,3.8,563,222,37,10,4,Low,Yes,71,66079,60.6,73.0,672,55,91.8,2,1
+H0194,Varkala Community Health Centre 0194,"Varkala, Thiruvananthapuram, Kerala",Thiruvananthapuram,Gastroenterology,3.8,551,216,69,27,29,High,Yes,85,56993,60.8,60.9,384,163,57.6,3,9
+H0668,Vythiri Taluk Hospital 0668,"Vythiri, Wayanad, Kerala",Wayanad,Neurology,3.8,771,213,102,34,2,Low,Yes,40,49962,72.4,66.7,312,90,71.2,4,11
+H0903,Chalakudy Taluk Hospital 0903,"Chalakudy, Thrissur, Kerala",Thrissur,General Medicine,3.8,496,211,57,8,7,Low,Yes,11,43824,57.5,86.0,741,263,64.5,2,3
+H0995,Thrissur Multispecialty Hospital 0995,"Thrissur, Thrissur, Kerala",Thrissur,General Surgery,3.8,685,202,103,0,17,Low,Yes,17,41756,70.5,100.0,418,238,43.1,3,12
+H0149,Kothamangalam Taluk Hospital 0149,"Kothamangalam, Ernakulam, Kerala",Ernakulam,Ophthalmology,3.8,833,195,102,24,43,Medium,Yes,62,52457,76.6,76.5,366,77,79.0,2,9
+H0999,Kasaragod Multispecialty Hospital 0999,"Kasaragod, Kasaragod, Kerala",Kasaragod,Ophthalmology,3.8,650,195,53,11,23,Low,Yes,17,55914,70.0,79.2,451,259,42.6,3,17
+H0448,Mannarkkad Multispecialty Hospital 0448,"Mannarkkad, Palakkad, Kerala",Palakkad,Pediatrics,3.8,517,194,40,14,24,Medium,Yes,28,56170,62.5,65.0,437,214,51.0,3,11
+H0851,Ramanattukara Family Health Centre 0851,"Ramanattukara, Kozhikode, Kerala",Kozhikode,Pediatrics,3.8,530,187,80,6,2,Medium,Yes,65,36966,64.7,92.5,696,155,77.7,2,3
+H0712,Kottayam Multispecialty Hospital 0712,"Kottayam, Kottayam, Kerala",Kottayam,Pulmonology,3.8,535,183,31,7,24,High,Yes,35,12462,65.8,77.4,678,236,65.2,3,8
+H0866,Kayamkulam Specialty Hospital 0866,"Kayamkulam, Alappuzha, Kerala",Alappuzha,Gynecology,3.8,788,179,43,8,29,Low,No,53,71278,77.3,81.4,584,303,48.1,3,10
+H0143,Changanassery General Hospital 0143,"Changanassery, Kottayam, Kerala",Kottayam,Gastroenterology,3.8,388,162,44,11,16,Low,Yes,62,60314,58.2,75.0,506,230,54.5,4,10
+H0925,Kumbla Multispecialty Hospital 0925,"Kumbla, Kasaragod, Kerala",Kasaragod,Nephrology,3.8,353,157,56,20,34,Medium,Yes,49,68686,55.5,64.3,673,241,64.2,4,18
+H0216,Ranni District Hospital 0216,"Ranni, Pathanamthitta, Kerala",Pathanamthitta,Gynecology,3.8,459,156,62,2,40,Medium,No,24,60094,66.0,96.8,416,109,73.8,4,5
+H0905,Shoranur Medical College 0905,"Shoranur, Palakkad, Kerala",Palakkad,Nephrology,3.8,886,135,67,23,3,High,Yes,47,40304,84.8,65.7,411,178,56.7,2,7
+H0899,Kundara Multispecialty Hospital 0899,"Kundara, Kollam, Kerala",Kollam,Dermatology,3.8,593,132,30,3,40,Medium,No,84,31829,77.7,90.0,277,61,78.0,3,12
+H0451,Kundara Multispecialty Hospital 0451,"Kundara, Kollam, Kerala",Kollam,Ophthalmology,3.8,758,124,64,9,44,Medium,No,34,67992,83.6,85.9,497,181,63.6,4,16
+H0113,Malappuram Multispecialty Hospital 0113,"Malappuram, Malappuram, Kerala",Malappuram,General Medicine,3.8,377,122,27,5,24,Low,Yes,79,20882,67.6,81.5,430,111,74.2,2,6
+H0353,Sulthan Bathery Community Health Centre 0353,"Sulthan Bathery, Wayanad, Kerala",Wayanad,Neurology,3.8,288,120,42,15,18,Medium,Yes,36,70012,58.3,64.3,423,99,76.6,4,17
+H0217,Vythiri Multispecialty Hospital 0217,"Vythiri, Wayanad, Kerala",Wayanad,ENT,3.8,347,116,31,5,34,Medium,Yes,82,80274,66.6,83.9,234,56,76.1,4,7
+H0348,Kothamangalam Multispecialty Hospital 0348,"Kothamangalam, Ernakulam, Kerala",Ernakulam,Nephrology,3.8,683,111,103,39,19,Medium,Yes,15,82240,83.7,62.1,473,97,79.5,3,13
+H0380,Chengannur District Hospital 0380,"Chengannur, Alappuzha, Kerala",Alappuzha,Nephrology,3.8,840,111,119,21,19,Medium,Yes,26,24464,86.8,82.4,595,197,66.9,4,8
+H0936,Meppadi District Hospital 0936,"Meppadi, Wayanad, Kerala",Wayanad,Urology,3.8,685,111,71,20,15,Low,No,54,25022,83.8,71.8,437,84,80.8,3,10
+H0532,Uppala Multispecialty Hospital 0532,"Uppala, Kasaragod, Kerala",Kasaragod,General Medicine,3.8,357,108,19,6,27,Low,No,37,79951,69.7,68.4,322,129,59.9,3,16
+H0496,Pandalam Specialty Hospital 0496,"Pandalam, Pathanamthitta, Kerala",Pathanamthitta,Gynecology,3.8,484,100,54,11,22,Medium,Yes,28,19435,79.3,79.6,296,70,76.4,2,3
+H0635,Adoor Taluk Hospital 0635,"Adoor, Pathanamthitta, Kerala",Pathanamthitta,General Medicine,3.8,526,100,53,6,6,Medium,Yes,48,33048,81.0,88.7,512,116,77.3,3,9
+H0734,Pala Community Health Centre 0734,"Pala, Kottayam, Kerala",Kottayam,Nephrology,3.8,285,100,24,2,18,Medium,No,12,16993,64.9,91.7,656,304,53.7,3,13
+H0152,Vythiri District Hospital 0152,"Vythiri, Wayanad, Kerala",Wayanad,Neurology,3.8,293,90,25,2,25,Medium,Yes,88,34582,69.3,92.0,358,120,66.5,3,13
+H0181,Payyannur Family Health Centre 0181,"Payyannur, Kannur, Kerala",Kannur,Pulmonology,3.8,343,88,28,4,11,Low,Yes,31,41983,74.3,85.7,671,74,89.0,4,14
+H0289,Mannarkkad Medical College 0289,"Mannarkkad, Palakkad, Kerala",Palakkad,Oncology,3.8,1167,86,156,30,9,Medium,No,56,49598,92.6,80.8,622,271,56.4,4,6
+H0423,Chittur Medical College 0423,"Chittur, Palakkad, Kerala",Palakkad,Orthopedics,3.8,1191,86,124,35,39,Medium,Yes,85,48940,92.8,71.8,321,124,61.4,4,12
+H0035,Mananthavady Specialty Hospital 0035,"Mananthavady, Wayanad, Kerala",Wayanad,ENT,3.8,324,85,18,3,44,Medium,Yes,27,51082,73.8,83.3,305,93,69.5,3,10
+H0472,Kozhikode Specialty Hospital 0472,"Kozhikode, Kozhikode, Kerala",Kozhikode,Gastroenterology,3.8,333,84,37,4,13,Medium,Yes,60,65587,74.8,89.2,460,43,90.7,4,16
+H0624,Kayamkulam Multispecialty Hospital 0624,"Kayamkulam, Alappuzha, Kerala",Alappuzha,Orthopedics,3.8,417,82,32,8,16,Low,Yes,49,48052,80.3,75.0,356,166,53.4,2,11
+H0477,Pandalam Family Health Centre 0477,"Pandalam, Pathanamthitta, Kerala",Pathanamthitta,ENT,3.8,185,80,14,0,30,Medium,No,22,42375,56.8,100.0,455,208,54.3,4,17
+H0343,Muvattupuzha Community Health Centre 0343,"Muvattupuzha, Ernakulam, Kerala",Ernakulam,Dermatology,3.8,333,74,25,5,13,Medium,Yes,77,76902,77.8,80.0,438,35,92.0,3,13
+H0171,Perumbavoor Multispecialty Hospital 0171,"Perumbavoor, Ernakulam, Kerala",Ernakulam,Neurology,3.8,326,65,26,4,38,Low,Yes,31,45424,80.1,84.6,564,99,82.4,3,7
+H0382,Kannur Taluk Hospital 0382,"Kannur, Kannur, Kerala",Kannur,Cardiology,3.8,735,63,53,17,9,Medium,Yes,36,34719,91.4,67.9,638,109,82.9,3,13
+H0033,Chalakudy Multispecialty Hospital 0033,"Chalakudy, Thrissur, Kerala",Thrissur,Gastroenterology,3.8,323,62,17,2,2,High,Yes,57,70538,80.8,88.2,299,33,89.0,2,6
+H0722,Chittur Multispecialty Hospital 0722,"Chittur, Palakkad, Kerala",Palakkad,General Surgery,3.8,534,61,77,6,40,High,Yes,31,28168,88.6,92.2,497,208,58.1,2,10
+H0977,Ramanattukara Family Health Centre 0977,"Ramanattukara, Kozhikode, Kerala",Kozhikode,Pulmonology,3.8,760,61,62,5,22,Low,Yes,41,38761,92.0,91.9,360,108,70.0,2,7
+H0483,Ranni Taluk Hospital 0483,"Ranni, Pathanamthitta, Kerala",Pathanamthitta,Nephrology,3.8,250,60,36,0,25,Medium,Yes,50,37153,76.0,100.0,500,195,61.0,3,15
+H0696,Thalassery Multispecialty Hospital 0696,"Thalassery, Kannur, Kerala",Kannur,Nephrology,3.8,310,51,16,4,8,Medium,Yes,82,71827,83.5,75.0,549,64,88.3,2,3
+H0893,Shoranur Multispecialty Hospital 0893,"Shoranur, Palakkad, Kerala",Palakkad,Dermatology,3.8,820,47,114,3,40,Medium,No,58,81021,94.3,97.4,640,320,50.0,2,13
+H0101,Vythiri Family Health Centre 0101,"Vythiri, Wayanad, Kerala",Wayanad,Urology,3.8,143,46,15,4,7,High,Yes,43,80282,67.8,73.3,660,121,81.7,2,6
+H0910,Cherthala General Hospital 0910,"Cherthala, Alappuzha, Kerala",Alappuzha,General Surgery,3.8,143,44,11,3,10,Medium,No,36,18540,69.2,72.7,367,25,93.2,4,12
+H0061,Ramanattukara Community Health Centre 0061,"Ramanattukara, Kozhikode, Kerala",Kozhikode,Oncology,3.8,383,40,47,11,13,Low,Yes,21,40142,89.6,76.6,614,175,71.5,4,22
+H0804,Kunnamkulam Community Health Centre 0804,"Kunnamkulam, Thrissur, Kerala",Thrissur,Gynecology,3.8,166,39,18,0,33,Medium,Yes,33,60334,76.5,100.0,409,158,61.4,4,19
+H0275,Neyyattinkara Community Health Centre 0275,"Neyyattinkara, Thiruvananthapuram, Kerala",Thiruvananthapuram,Pediatrics,3.8,407,38,64,7,5,High,No,75,52635,90.7,89.1,618,213,65.5,3,10
+H0542,Kunnamkulam Specialty Hospital 0542,"Kunnamkulam, Thrissur, Kerala",Thrissur,Orthopedics,3.8,268,38,35,6,26,High,No,55,27459,85.8,82.9,380,52,86.3,4,16
+H0870,Nileshwar Taluk Hospital 0870,"Nileshwar, Kasaragod, Kerala",Kasaragod,Pulmonology,3.8,530,38,69,28,10,High,Yes,24,18795,92.8,59.4,513,170,66.9,4,6
+H0347,Feroke Taluk Hospital 0347,"Feroke, Kozhikode, Kerala",Kozhikode,Gastroenterology,3.8,120,29,11,0,3,Medium,Yes,15,45673,75.8,100.0,711,328,53.9,2,4
+H0856,Kodungallur Taluk Hospital 0856,"Kodungallur, Thrissur, Kerala",Thrissur,Neurology,3.8,101,24,11,0,43,High,Yes,30,14070,76.2,100.0,662,268,59.5,3,4
+H0947,Palakkad General Hospital 0947,"Palakkad, Palakkad, Kerala",Palakkad,ENT,3.8,102,24,7,1,19,Medium,Yes,81,80460,76.5,85.7,265,64,75.8,4,10
+H0561,Meppadi Specialty Hospital 0561,"Meppadi, Wayanad, Kerala",Wayanad,ENT,3.8,191,17,18,5,2,Medium,Yes,70,49195,91.1,72.2,453,53,88.3,2,6
+H0698,Thiruvalla General Hospital 0698,"Thiruvalla, Pathanamthitta, Kerala",Pathanamthitta,Ophthalmology,3.8,134,16,17,2,23,Low,Yes,20,39261,88.1,88.2,286,75,73.8,2,9
+H0376,Nileshwar Community Health Centre 0376,"Nileshwar, Kasaragod, Kerala",Kasaragod,General Surgery,3.8,34,13,2,0,43,Medium,Yes,15,18810,61.8,100.0,250,87,65.2,3,10
+H0159,Karunagappally Community Health Centre 0159,"Karunagappally, Kollam, Kerala",Kollam,Oncology,3.8,27,11,2,0,38,Low,No,38,11673,59.3,100.0,555,260,53.2,4,13
+H0659,Kayamkulam Specialty Hospital 0659,"Kayamkulam, Alappuzha, Kerala",Alappuzha,Ophthalmology,3.8,21,8,2,0,5,High,Yes,81,10086,61.9,100.0,557,86,84.6,3,6
+H0975,Perinthalmanna Medical College 0975,"Perinthalmanna, Malappuram, Kerala",Malappuram,Pediatrics,3.7,978,400,54,11,31,High,Yes,11,38675,59.1,79.6,529,83,84.3,3,16
+H0932,Kozhikode Medical College 0932,"Kozhikode, Kozhikode, Kerala",Kozhikode,Pediatrics,3.7,1006,399,55,17,6,Low,Yes,31,63477,60.3,69.1,391,151,61.4,4,23
+H0344,Pandalam Community Health Centre 0344,"Pandalam, Pathanamthitta, Kerala",Pathanamthitta,Gastroenterology,3.7,727,319,105,32,19,Low,Yes,73,59493,56.1,69.5,366,197,46.2,4,25
+H0869,Payyannur Multispecialty Hospital 0869,"Payyannur, Kannur, Kerala",Kannur,Pulmonology,3.7,740,305,77,7,19,Medium,Yes,15,73774,58.8,90.9,249,93,62.7,2,7
+H0062,Mananthavady Multispecialty Hospital 0062,"Mananthavady, Wayanad, Kerala",Wayanad,General Medicine,3.7,825,293,127,23,8,High,Yes,40,17035,64.5,81.9,264,57,78.4,3,3
+H0747,Nileshwar Family Health Centre 0747,"Nileshwar, Kasaragod, Kerala",Kasaragod,Cardiology,3.7,670,279,96,39,27,Medium,Yes,54,12535,58.4,59.4,346,121,65.0,2,3
+H0618,Vythiri Specialty Hospital 0618,"Vythiri, Wayanad, Kerala",Wayanad,Urology,3.7,696,249,41,2,19,High,Yes,40,50359,64.2,95.1,229,85,62.9,4,10
+H0291,Adoor Community Health Centre 0291,"Adoor, Pathanamthitta, Kerala",Pathanamthitta,ENT,3.7,549,218,64,8,34,Medium,Yes,47,36669,60.3,87.5,392,66,83.2,2,2
+H0316,Kochi Multispecialty Hospital 0316,"Kochi, Ernakulam, Kerala",Ernakulam,General Surgery,3.7,796,212,74,9,24,Low,No,24,43402,73.4,87.8,537,213,60.3,4,6
+H0079,Thiruvananthapuram Specialty Hospital 0079,"Thiruvananthapuram, Thiruvananthapuram, Kerala",Thiruvananthapuram,Orthopedics,3.7,545,205,48,17,12,Medium,No,24,30667,62.4,64.6,567,200,64.7,4,15
+H0781,Kunnamkulam Taluk Hospital 0781,"Kunnamkulam, Thrissur, Kerala",Thrissur,Gynecology,3.7,542,197,34,1,27,High,Yes,51,32035,63.7,97.1,450,98,78.2,3,10
+H0598,Vythiri Specialty Hospital 0598,"Vythiri, Wayanad, Kerala",Wayanad,Gastroenterology,3.7,560,193,76,9,28,Medium,Yes,65,31887,65.5,88.2,468,110,76.5,2,1
+H0209,Koyilandy Taluk Hospital 0209,"Koyilandy, Kozhikode, Kerala",Kozhikode,Cardiology,3.7,791,192,58,8,38,Low,Yes,18,70970,75.7,86.2,575,179,68.9,3,14
+H0223,Kasaragod Specialty Hospital 0223,"Kasaragod, Kasaragod, Kerala",Kasaragod,General Medicine,3.7,823,191,86,31,31,High,Yes,23,15885,76.8,64.0,518,153,70.5,2,10
+H0603,Iritty General Hospital 0603,"Iritty, Kannur, Kerala",Kannur,Gynecology,3.7,689,175,107,45,28,High,Yes,29,33216,74.6,57.9,433,182,58.0,3,11
+H0520,Mannarkkad Specialty Hospital 0520,"Mannarkkad, Palakkad, Kerala",Palakkad,Oncology,3.7,511,172,34,4,6,Medium,Yes,70,64162,66.3,88.2,494,136,72.5,4,12
+H0709,Shoranur Family Health Centre 0709,"Shoranur, Palakkad, Kerala",Palakkad,Ophthalmology,3.7,805,163,50,7,11,Low,Yes,15,19285,79.8,86.0,629,158,74.9,3,4
+H0641,Kottayam Medical College 0641,"Kottayam, Kottayam, Kerala",Kottayam,Gynecology,3.7,568,161,84,19,11,High,Yes,84,79735,71.7,77.4,351,160,54.4,3,17
+H0120,Kottarakkara Family Health Centre 0120,"Kottarakkara, Kollam, Kerala",Kollam,Urology,3.7,794,158,63,10,11,Medium,No,47,12278,80.1,84.1,605,164,72.9,2,7
+H0413,Kothamangalam Specialty Hospital 0413,"Kothamangalam, Ernakulam, Kerala",Ernakulam,Gynecology,3.7,535,154,36,11,34,Medium,No,32,16570,71.2,69.4,596,57,90.4,3,13
+H0232,Changanassery Community Health Centre 0232,"Changanassery, Kottayam, Kerala",Kottayam,Pulmonology,3.7,745,153,81,28,6,Medium,No,58,62121,79.5,65.4,528,51,90.3,2,4
+H0126,Nileshwar Community Health Centre 0126,"Nileshwar, Kasaragod, Kerala",Kasaragod,General Medicine,3.7,536,149,46,1,37,Low,Yes,73,34661,72.2,97.8,331,42,87.3,2,13
+H0543,Ottapalam Multispecialty Hospital 0543,"Ottapalam, Palakkad, Kerala",Palakkad,Gynecology,3.7,464,149,28,5,11,Medium,Yes,56,13798,67.9,82.1,393,95,75.8,2,12
+H0201,Nileshwar Taluk Hospital 0201,"Nileshwar, Kasaragod, Kerala",Kasaragod,Pediatrics,3.7,682,147,103,36,17,High,Yes,26,38071,78.4,65.0,444,44,90.1,4,19
+H0023,Munnar General Hospital 0023,"Munnar, Idukki, Kerala",Idukki,Cardiology,3.7,699,145,65,16,39,Low,Yes,22,10245,79.3,75.4,665,235,64.7,3,14
+H0042,Kasaragod Multispecialty Hospital 0042,"Kasaragod, Kasaragod, Kerala",Kasaragod,Dermatology,3.7,733,145,108,28,31,High,Yes,57,48119,80.2,74.1,472,44,90.7,4,21
+H0862,Neyyattinkara Community Health Centre 0862,"Neyyattinkara, Thiruvananthapuram, Kerala",Thiruvananthapuram,Urology,3.7,438,145,42,1,26,High,No,62,23358,66.9,97.6,528,64,87.9,2,7
+H0081,Cherthala Community Health Centre 0081,"Cherthala, Alappuzha, Kerala",Alappuzha,Pulmonology,3.7,510,144,78,1,17,Low,Yes,84,65973,71.8,98.7,730,106,85.5,3,2
+H0735,Ottapalam District Hospital 0735,"Ottapalam, Palakkad, Kerala",Palakkad,Gastroenterology,3.7,411,139,54,1,29,Medium,Yes,54,71444,66.2,98.1,592,258,56.4,3,5
+H0606,Payyannur Family Health Centre 0606,"Payyannur, Kannur, Kerala",Kannur,Oncology,3.7,326,136,51,6,33,Low,Yes,26,74872,58.3,88.2,271,67,75.3,3,14
+H0794,Kottayam Medical College 0794,"Kottayam, Kottayam, Kerala",Kottayam,General Medicine,3.7,930,135,130,56,44,High,Yes,15,9748,85.5,56.9,277,107,61.4,3,11
+H0368,Adoor District Hospital 0368,"Adoor, Pathanamthitta, Kerala",Pathanamthitta,Gynecology,3.7,512,134,67,2,14,Medium,Yes,26,23056,73.8,97.0,557,63,88.7,3,13
+H0764,Thodupuzha Community Health Centre 0764,"Thodupuzha, Idukki, Kerala",Idukki,Cardiology,3.7,378,134,26,3,15,Medium,Yes,49,74302,64.6,88.5,545,97,82.2,4,14
+H0233,Chalakudy General Hospital 0233,"Chalakudy, Thrissur, Kerala",Thrissur,General Medicine,3.7,629,132,49,15,8,Medium,Yes,16,49565,79.0,69.4,532,97,81.8,4,12
+H0689,Guruvayur Taluk Hospital 0689,"Guruvayur, Thrissur, Kerala",Thrissur,Neurology,3.7,866,125,83,13,42,Medium,Yes,22,57795,85.6,84.3,569,326,42.7,4,9
+H0306,Chittur District Hospital 0306,"Chittur, Palakkad, Kerala",Palakkad,Ophthalmology,3.7,893,124,130,50,2,Medium,Yes,17,62937,86.1,61.5,369,128,65.3,2,6
+H0449,Alappuzha Family Health Centre 0449,"Alappuzha, Alappuzha, Kerala",Alappuzha,Cardiology,3.7,540,118,63,10,11,Low,No,66,46920,78.1,84.1,750,332,55.7,3,11
+H0053,Kothamangalam Taluk Hospital 0053,"Kothamangalam, Ernakulam, Kerala",Ernakulam,Pulmonology,3.7,601,117,72,22,24,High,Yes,52,11574,80.5,69.4,340,103,69.7,2,12
+H0800,Changanassery Taluk Hospital 0800,"Changanassery, Kottayam, Kerala",Kottayam,Cardiology,3.7,441,114,46,17,21,Low,Yes,56,23136,74.1,63.0,624,182,70.8,3,8
+H0010,Ettumanoor Community Health Centre 0010,"Ettumanoor, Kottayam, Kerala",Kottayam,Ophthalmology,3.7,680,113,35,11,36,Medium,Yes,14,61447,83.4,68.6,573,138,75.9,3,8
+H0287,Adoor Specialty Hospital 0287,"Adoor, Pathanamthitta, Kerala",Pathanamthitta,Dermatology,3.7,266,111,16,2,24,Low,Yes,80,61705,58.3,87.5,291,132,54.6,4,15
+H0360,Thrissur Multispecialty Hospital 0360,"Thrissur, Thrissur, Kerala",Thrissur,Orthopedics,3.7,708,107,40,12,11,Medium,No,52,41772,84.9,70.0,664,187,71.8,4,23
+H0057,Varkala Taluk Hospital 0057,"Varkala, Thiruvananthapuram, Kerala",Thiruvananthapuram,Orthopedics,3.7,555,105,79,5,7,Low,Yes,46,64784,81.1,93.7,533,209,60.8,2,9
+H0590,Vaikom General Hospital 0590,"Vaikom, Kottayam, Kerala",Kottayam,Urology,3.7,437,102,54,10,12,Low,Yes,56,82087,76.7,81.5,466,126,73.0,3,5
+H0762,Ponnani Taluk Hospital 0762,"Ponnani, Malappuram, Kerala",Malappuram,Ophthalmology,3.7,308,102,47,14,31,High,Yes,41,49685,66.9,70.2,385,183,52.5,4,19
+H0514,Feroke Family Health Centre 0514,"Feroke, Kozhikode, Kerala",Kozhikode,General Surgery,3.7,755,90,111,12,20,Low,No,65,82180,88.1,89.2,564,239,57.6,4,11
+H0695,Kottarakkara Multispecialty Hospital 0695,"Kottarakkara, Kollam, Kerala",Kollam,ENT,3.7,368,86,42,11,39,Low,Yes,73,17995,76.6,73.8,303,163,46.2,3,12
+H0327,Shoranur Community Health Centre 0327,"Shoranur, Palakkad, Kerala",Palakkad,Cardiology,3.7,826,84,61,6,35,Medium,Yes,66,67208,89.8,90.2,559,299,46.5,4,6
+H0810,Shoranur Multispecialty Hospital 0810,"Shoranur, Palakkad, Kerala",Palakkad,Dermatology,3.7,346,84,25,10,9,Medium,Yes,52,80484,75.7,60.0,237,73,69.2,3,5
+H0887,Alappuzha Taluk Hospital 0887,"Alappuzha, Alappuzha, Kerala",Alappuzha,Dermatology,3.7,483,75,57,3,31,Medium,Yes,80,13961,84.5,94.7,329,74,77.5,2,5
+H0024,Muvattupuzha Community Health Centre 0024,"Muvattupuzha, Ernakulam, Kerala",Ernakulam,ENT,3.7,792,69,93,21,41,Low,Yes,15,83712,91.3,77.4,620,159,74.4,2,4
+H0077,Nedumkandam Community Health Centre 0077,"Nedumkandam, Idukki, Kerala",Idukki,Nephrology,3.7,184,65,11,1,40,Medium,Yes,43,23754,64.7,90.9,562,180,68.0,4,16
+H0189,Changanassery Specialty Hospital 0189,"Changanassery, Kottayam, Kerala",Kottayam,Gynecology,3.7,152,63,18,1,13,Low,No,81,25672,58.6,94.4,461,135,70.7,4,13
+H0011,Kochi Community Health Centre 0011,"Kochi, Ernakulam, Kerala",Ernakulam,Gastroenterology,3.7,452,62,28,8,28,Medium,Yes,49,44263,86.3,71.4,322,158,50.9,3,11
+H0527,Kottarakkara Specialty Hospital 0527,"Kottarakkara, Kollam, Kerala",Kollam,ENT,3.7,630,62,75,12,26,Medium,Yes,46,18714,90.2,84.0,455,38,91.6,3,2
+H0210,Changanassery Community Health Centre 0210,"Changanassery, Kottayam, Kerala",Kottayam,Ophthalmology,3.7,298,54,24,2,19,High,Yes,54,42988,81.9,91.7,428,88,79.4,2,14
+H0697,Kollam Community Health Centre 0697,"Kollam, Kollam, Kerala",Kollam,General Medicine,3.7,133,53,10,1,7,Medium,Yes,60,31878,60.2,90.0,380,157,58.7,4,19
+H0196,Punalur Multispecialty Hospital 0196,"Punalur, Kollam, Kerala",Kollam,General Medicine,3.7,266,52,14,3,7,High,Yes,20,27746,80.5,78.6,626,112,82.1,4,14
+H0345,Chengannur Multispecialty Hospital 0345,"Chengannur, Alappuzha, Kerala",Alappuzha,Ophthalmology,3.7,153,51,8,1,39,Low,Yes,57,27958,66.7,87.5,394,112,71.6,3,14
+H0983,Chalakudy Specialty Hospital 0983,"Chalakudy, Thrissur, Kerala",Thrissur,Pediatrics,3.7,172,51,9,2,12,High,Yes,18,38465,70.3,77.8,191,49,74.3,4,17
+H0085,Kumbla Multispecialty Hospital 0085,"Kumbla, Kasaragod, Kerala",Kasaragod,General Medicine,3.7,326,50,22,2,14,Medium,Yes,33,55496,84.7,90.9,243,46,81.1,2,1
+H0879,Kanhangad Family Health Centre 0879,"Kanhangad, Kasaragod, Kerala",Kasaragod,Neurology,3.7,783,48,44,13,7,Low,Yes,21,19000,93.9,70.5,554,168,69.7,2,10
+H0912,Karunagappally Specialty Hospital 0912,"Karunagappally, Kollam, Kerala",Kollam,Dermatology,3.7,166,48,21,0,10,High,Yes,60,53849,71.1,100.0,363,134,63.1,3,20
+H0993,Neyyattinkara Family Health Centre 0993,"Neyyattinkara, Thiruvananthapuram, Kerala",Thiruvananthapuram,Pediatrics,3.7,146,45,9,0,40,Low,Yes,27,36040,69.2,100.0,581,70,88.0,2,13
+H0065,Palakkad Family Health Centre 0065,"Palakkad, Palakkad, Kerala",Palakkad,General Surgery,3.7,797,39,43,11,14,Medium,Yes,66,14592,95.1,74.4,638,193,69.7,4,18
+H0019,Kayamkulam District Hospital 0019,"Kayamkulam, Alappuzha, Kerala",Alappuzha,Oncology,3.7,262,37,40,14,6,Medium,Yes,57,29262,85.9,65.0,513,215,58.1,2,9
+H0840,Kasaragod Family Health Centre 0840,"Kasaragod, Kasaragod, Kerala",Kasaragod,Cardiology,3.7,157,37,21,2,10,Medium,Yes,18,45193,76.4,90.5,565,333,41.1,2,13
+H0608,Kumbla Specialty Hospital 0608,"Kumbla, Kasaragod, Kerala",Kasaragod,Ophthalmology,3.7,89,33,7,1,32,High,No,70,47224,62.9,85.7,223,75,66.4,2,9
+H0640,Sulthan Bathery Multispecialty Hospital 0640,"Sulthan Bathery, Wayanad, Kerala",Wayanad,Gynecology,3.7,202,32,28,8,31,Medium,Yes,57,31226,84.2,71.4,700,20,97.1,2,6
+H0772,Adoor Specialty Hospital 0772,"Adoor, Pathanamthitta, Kerala",Pathanamthitta,ENT,3.7,455,29,24,4,30,High,Yes,23,50934,93.6,83.3,422,116,72.5,4,15
+H0456,Karunagappally Community Health Centre 0456,"Karunagappally, Kollam, Kerala",Kollam,General Surgery,3.7,162,26,10,1,44,Low,Yes,48,79012,84.0,90.0,513,252,50.9,3,10
+H0168,Chengannur Multispecialty Hospital 0168,"Chengannur, Alappuzha, Kerala",Alappuzha,General Surgery,3.7,141,22,8,1,28,Low,No,13,31639,84.4,87.5,295,89,69.8,4,6
+H0745,Kattappana Taluk Hospital 0745,"Kattappana, Idukki, Kerala",Idukki,ENT,3.7,164,21,21,1,15,Medium,Yes,13,9032,87.2,95.2,263,99,62.4,3,9
+H0429,Kodungallur Multispecialty Hospital 0429,"Kodungallur, Thrissur, Kerala",Thrissur,Pediatrics,3.7,52,20,5,1,34,Low,Yes,16,53578,61.5,80.0,180,93,48.3,3,12
+H0444,Karunagappally Family Health Centre 0444,"Karunagappally, Kollam, Kerala",Kollam,ENT,3.7,45,12,3,0,26,Medium,Yes,41,36277,73.3,100.0,291,124,57.4,4,14
+H0270,Ramanattukara Taluk Hospital 0270,"Ramanattukara, Kozhikode, Kerala",Kozhikode,Nephrology,3.7,192,11,20,2,9,High,Yes,46,63664,94.3,90.0,318,108,66.0,4,12
+H0508,Payyannur Taluk Hospital 0508,"Payyannur, Kannur, Kerala",Kannur,ENT,3.7,86,10,13,1,16,High,Yes,21,35308,88.4,92.3,520,289,44.4,4,19
+H0565,Kattappana Family Health Centre 0565,"Kattappana, Idukki, Kerala",Idukki,Nephrology,3.7,60,9,9,3,9,Low,Yes,41,30674,85.0,66.7,636,209,67.1,4,16
+H0119,Manjeri Community Health Centre 0119,"Manjeri, Malappuram, Kerala",Malappuram,Pediatrics,3.7,163,8,10,2,3,High,Yes,44,20901,95.1,80.0,444,119,73.2,2,3
+H0214,Payyannur General Hospital 0214,"Payyannur, Kannur, Kerala",Kannur,Pulmonology,3.7,141,8,15,4,34,Medium,Yes,39,12772,94.3,73.3,618,49,92.1,2,9
+H0407,Mavelikara General Hospital 0407,"Mavelikara, Alappuzha, Kerala",Alappuzha,General Medicine,3.7,35,8,4,0,22,Medium,Yes,84,69478,77.1,100.0,477,184,61.4,2,8
+H0823,Kundara Specialty Hospital 0823,"Kundara, Kollam, Kerala",Kollam,Oncology,3.7,48,8,4,0,40,Medium,Yes,75,31265,83.3,100.0,283,88,68.9,2,10
+H0365,Pandalam Community Health Centre 0365,"Pandalam, Pathanamthitta, Kerala",Pathanamthitta,General Surgery,3.7,41,4,5,1,35,Medium,Yes,36,56264,90.2,80.0,382,86,77.5,4,15
+H0673,Pala Multispecialty Hospital 0673,"Pala, Kottayam, Kerala",Kottayam,Pediatrics,3.7,37,3,2,0,23,Low,Yes,17,12268,91.9,100.0,688,276,59.9,4,20
+H0580,Nedumangad Family Health Centre 0580,"Nedumangad, Thiruvananthapuram, Kerala",Thiruvananthapuram,Pulmonology,3.6,872,343,76,5,33,Medium,No,78,28533,60.7,93.4,495,53,89.3,3,7
+H0728,Kasaragod Multispecialty Hospital 0728,"Kasaragod, Kasaragod, Kerala",Kasaragod,General Surgery,3.6,639,277,60,15,32,Medium,Yes,67,48907,56.7,75.0,661,214,67.6,3,14
+H0184,Taliparamba District Hospital 0184,"Taliparamba, Kannur, Kerala",Kannur,General Surgery,3.6,703,271,92,37,11,Medium,Yes,16,27188,61.5,59.8,311,76,75.6,4,16
+H0746,Manjeri Family Health Centre 0746,"Manjeri, Malappuram, Kerala",Malappuram,Gastroenterology,3.6,800,265,84,19,28,Medium,Yes,65,19546,66.9,77.4,539,177,67.2,2,10
+H0076,Malappuram Multispecialty Hospital 0076,"Malappuram, Malappuram, Kerala",Malappuram,Urology,3.6,815,260,114,10,22,Medium,Yes,58,61225,68.1,91.2,537,175,67.4,2,4
+H0299,Kozhikode Specialty Hospital 0299,"Kozhikode, Kozhikode, Kerala",Kozhikode,Ophthalmology,3.6,732,260,94,11,17,High,Yes,39,75212,64.5,88.3,243,50,79.4,3,8
+H0222,Kannur Multispecialty Hospital 0222,"Kannur, Kannur, Kerala",Kannur,Dermatology,3.6,713,256,38,15,3,Low,No,57,66082,64.1,60.5,343,165,51.9,3,15
+H0437,Ettumanoor Community Health Centre 0437,"Ettumanoor, Kottayam, Kerala",Kottayam,General Medicine,3.6,655,226,76,9,43,Medium,Yes,22,25407,65.5,88.2,445,70,84.3,4,15
+H0111,Kodungallur District Hospital 0111,"Kodungallur, Thrissur, Kerala",Thrissur,ENT,3.6,836,221,77,32,22,Low,Yes,38,15828,73.6,58.4,288,80,72.2,2,12
+H0315,Muvattupuzha Community Health Centre 0315,"Muvattupuzha, Ernakulam, Kerala",Ernakulam,Pediatrics,3.6,586,220,61,6,14,High,No,47,79889,62.5,90.2,400,155,61.3,3,9
+H0612,Malappuram Medical College 0612,"Malappuram, Malappuram, Kerala",Malappuram,Pediatrics,3.6,1080,216,85,6,39,Medium,Yes,80,59978,80.0,92.9,583,200,65.7,2,9
+H0415,Chalakudy Multispecialty Hospital 0415,"Chalakudy, Thrissur, Kerala",Thrissur,ENT,3.6,775,213,104,30,19,Medium,No,37,46937,72.5,71.2,566,34,94.0,2,5
+H0558,Mananthavady Multispecialty Hospital 0558,"Mananthavady, Wayanad, Kerala",Wayanad,ENT,3.6,484,208,46,14,14,Low,Yes,17,36968,57.0,69.6,289,69,76.1,4,13
+H0346,Changanassery General Hospital 0346,"Changanassery, Kottayam, Kerala",Kottayam,Dermatology,3.6,669,205,92,0,21,Low,Yes,84,19009,69.4,100.0,502,146,70.9,2,1
+H0729,Adimali Family Health Centre 0729,"Adimali, Idukki, Kerala",Idukki,General Surgery,3.6,503,200,69,9,27,Low,Yes,10,8097,60.2,87.0,220,97,55.9,4,13
+H0031,Ettumanoor Multispecialty Hospital 0031,"Ettumanoor, Kottayam, Kerala",Kottayam,Orthopedics,3.6,583,197,31,6,29,Low,Yes,30,72709,66.2,80.6,308,92,70.1,3,14
+H0034,Ottapalam Multispecialty Hospital 0034,"Ottapalam, Palakkad, Kerala",Palakkad,Gastroenterology,3.6,477,197,27,8,32,Low,No,61,24352,58.7,70.4,398,173,56.5,4,21
+H0177,Kayamkulam General Hospital 0177,"Kayamkulam, Alappuzha, Kerala",Alappuzha,Neurology,3.6,457,194,47,11,12,Medium,No,20,78488,57.5,76.6,660,120,81.8,3,9
+H0770,Perinthalmanna Taluk Hospital 0770,"Perinthalmanna, Malappuram, Kerala",Malappuram,Cardiology,3.6,644,193,54,18,32,Medium,Yes,41,17003,70.0,66.7,489,235,51.9,3,10
+H0868,Punalur Specialty Hospital 0868,"Punalur, Kollam, Kerala",Kollam,Neurology,3.6,595,192,34,7,15,High,Yes,79,68581,67.7,79.4,388,105,72.9,3,2
+H0576,Thrissur Multispecialty Hospital 0576,"Thrissur, Thrissur, Kerala",Thrissur,Pulmonology,3.6,418,171,63,10,20,Low,Yes,59,66725,59.1,84.1,610,288,52.8,4,10
+H0028,Varkala Medical College 0028,"Varkala, Thiruvananthapuram, Kerala",Thiruvananthapuram,Dermatology,3.6,579,165,51,9,43,High,Yes,39,55498,71.5,82.4,379,162,57.3,3,5
+H0711,Munnar General Hospital 0711,"Munnar, Idukki, Kerala",Idukki,Gynecology,3.6,895,165,136,58,13,Low,Yes,17,75159,81.6,57.4,524,207,60.5,3,1
+H0097,Meppadi Taluk Hospital 0097,"Meppadi, Wayanad, Kerala",Wayanad,ENT,3.6,662,160,37,2,27,Medium,Yes,86,84260,75.8,94.6,245,107,56.3,3,5
+H0750,Iritty Multispecialty Hospital 0750,"Iritty, Kannur, Kerala",Kannur,Neurology,3.6,572,152,67,10,44,High,Yes,27,75193,73.4,85.1,642,261,59.3,2,10
+H0410,Varkala Specialty Hospital 0410,"Varkala, Thiruvananthapuram, Kerala",Thiruvananthapuram,Orthopedics,3.6,786,150,115,13,19,Medium,Yes,80,65516,80.9,88.7,495,98,80.2,2,3
+H0133,Sulthan Bathery Community Health Centre 0133,"Sulthan Bathery, Wayanad, Kerala",Wayanad,General Surgery,3.6,535,149,41,12,17,Low,Yes,12,28003,72.1,70.7,372,39,89.5,3,6
+H0398,Vythiri Medical College 0398,"Vythiri, Wayanad, Kerala",Wayanad,Nephrology,3.6,531,145,26,8,40,High,No,25,15358,72.7,69.2,326,160,50.9,2,8
+H0575,Varkala General Hospital 0575,"Varkala, Thiruvananthapuram, Kerala",Thiruvananthapuram,ENT,3.6,366,144,47,18,16,Medium,Yes,53,17652,60.7,61.7,326,100,69.3,4,6
+H0375,Kundara Family Health Centre 0375,"Kundara, Kollam, Kerala",Kollam,Neurology,3.6,505,125,52,20,11,High,Yes,67,43499,75.2,61.5,448,243,45.8,4,9
+H0760,Mananthavady Medical College 0760,"Mananthavady, Wayanad, Kerala",Wayanad,Pulmonology,3.6,647,125,39,11,3,High,Yes,90,56259,80.7,71.8,427,207,51.5,3,11
+H0865,Nileshwar Specialty Hospital 0865,"Nileshwar, Kasaragod, Kerala",Kasaragod,ENT,3.6,497,124,59,0,38,Low,Yes,69,40294,75.1,100.0,559,112,80.0,2,8
+H0841,Uppala Specialty Hospital 0841,"Uppala, Kasaragod, Kerala",Kasaragod,Neurology,3.6,670,116,81,15,10,Medium,Yes,30,59442,82.7,81.5,546,159,70.9,3,16
+H0969,Kundara Taluk Hospital 0969,"Kundara, Kollam, Kerala",Kollam,Neurology,3.6,848,111,79,21,8,Low,Yes,52,9855,86.9,73.4,366,145,60.4,3,10
+H0164,Manjeri Multispecialty Hospital 0164,"Manjeri, Malappuram, Kerala",Malappuram,Pediatrics,3.6,268,101,29,10,18,Medium,Yes,12,69162,62.3,65.5,406,64,84.2,2,10
+H0765,Munnar Medical College 0765,"Munnar, Idukki, Kerala",Idukki,Gastroenterology,3.6,1055,98,91,6,35,Medium,Yes,48,49134,90.7,93.4,294,123,58.2,3,11
+H0116,Cherthala Family Health Centre 0116,"Cherthala, Alappuzha, Kerala",Alappuzha,Gynecology,3.6,385,89,35,6,41,Medium,No,86,10571,76.9,82.9,392,115,70.7,2,3
+H0312,Kasaragod Multispecialty Hospital 0312,"Kasaragod, Kasaragod, Kerala",Kasaragod,General Medicine,3.6,503,87,72,17,38,High,Yes,22,30098,82.7,76.4,459,235,48.8,3,7
+H0352,Nedumangad Family Health Centre 0352,"Nedumangad, Thiruvananthapuram, Kerala",Thiruvananthapuram,Gynecology,3.6,567,83,32,5,25,Low,Yes,73,81962,85.4,84.4,474,220,53.6,4,14
+H0679,Perinthalmanna Community Health Centre 0679,"Perinthalmanna, Malappuram, Kerala",Malappuram,General Medicine,3.6,481,82,25,5,34,High,Yes,24,72671,83.0,80.0,562,334,40.6,2,12
+H0898,Perumbavoor Community Health Centre 0898,"Perumbavoor, Ernakulam, Kerala",Ernakulam,Dermatology,3.6,188,81,16,0,19,High,Yes,68,8067,56.9,100.0,476,194,59.2,2,13
+H0224,Taliparamba Specialty Hospital 0224,"Taliparamba, Kannur, Kerala",Kannur,ENT,3.6,204,80,15,4,42,Low,Yes,77,73312,60.8,73.3,582,280,51.9,2,8
+H0253,Adimali Multispecialty Hospital 0253,"Adimali, Idukki, Kerala",Idukki,ENT,3.6,347,79,27,3,32,Low,Yes,53,60477,77.2,88.9,675,199,70.5,4,9
+H0773,Taliparamba Multispecialty Hospital 0773,"Taliparamba, Kannur, Kerala",Kannur,Oncology,3.6,675,78,50,21,28,High,No,41,76220,88.4,58.0,325,166,48.9,3,9
+H0390,Kattappana General Hospital 0390,"Kattappana, Idukki, Kerala",Idukki,General Surgery,3.6,680,75,48,17,7,Low,Yes,38,65490,89.0,64.6,452,143,68.4,3,11
+H0468,Pathanamthitta General Hospital 0468,"Pathanamthitta, Pathanamthitta, Kerala",Pathanamthitta,General Surgery,3.6,449,73,55,23,15,Medium,Yes,70,15307,83.7,58.2,425,83,80.5,2,7
+H0942,Shoranur Multispecialty Hospital 0942,"Shoranur, Palakkad, Kerala",Palakkad,Oncology,3.6,285,69,17,6,37,Low,Yes,38,31667,75.8,64.7,566,136,76.0,3,11
+H0976,Kasaragod Medical College 0976,"Kasaragod, Kasaragod, Kerala",Kasaragod,ENT,3.6,1098,69,65,25,44,Medium,No,79,51712,93.7,61.5,303,24,92.1,3,6
+H0297,Ramanattukara Community Health Centre 0297,"Ramanattukara, Kozhikode, Kerala",Kozhikode,Oncology,3.6,485,67,66,19,36,Low,Yes,27,53071,86.2,71.2,566,184,67.5,2,4
+H0805,Meppadi Community Health Centre 0805,"Meppadi, Wayanad, Kerala",Wayanad,Dermatology,3.6,285,65,40,15,29,Medium,Yes,50,21016,77.2,62.5,455,149,67.3,4,14
+H0484,Pathanamthitta District Hospital 0484,"Pathanamthitta, Pathanamthitta, Kerala",Pathanamthitta,Pediatrics,3.6,402,62,35,7,27,Low,Yes,90,65564,84.6,80.0,577,170,70.5,4,9
+H0251,Feroke Specialty Hospital 0251,"Feroke, Kozhikode, Kerala",Kozhikode,Cardiology,3.6,204,60,31,8,16,Medium,No,50,26309,70.6,74.2,386,212,45.1,2,3
+H0521,Kalpetta Family Health Centre 0521,"Kalpetta, Wayanad, Kerala",Wayanad,Pulmonology,3.6,628,59,74,16,42,Medium,Yes,14,41892,90.6,78.4,607,56,90.8,3,6
+H0692,Payyannur Family Health Centre 0692,"Payyannur, Kannur, Kerala",Kannur,Pediatrics,3.6,196,57,26,7,40,Low,Yes,83,70107,70.9,73.1,360,87,75.8,3,13
+H0827,Nedumangad Multispecialty Hospital 0827,"Nedumangad, Thiruvananthapuram, Kerala",Thiruvananthapuram,Cardiology,3.6,810,54,79,5,13,High,Yes,46,74688,93.3,93.7,522,271,48.1,3,11
+H0906,Thiruvananthapuram Taluk Hospital 0906,"Thiruvananthapuram, Thiruvananthapuram, Kerala",Thiruvananthapuram,ENT,3.6,240,54,35,6,26,High,Yes,15,14644,77.5,82.9,548,123,77.6,2,8
+H0285,Ramanattukara Family Health Centre 0285,"Ramanattukara, Kozhikode, Kerala",Kozhikode,Gastroenterology,3.6,892,53,103,15,16,High,Yes,36,68374,94.1,85.4,357,33,90.8,4,4
+H0436,Kothamangalam Community Health Centre 0436,"Kothamangalam, Ernakulam, Kerala",Ernakulam,Ophthalmology,3.6,213,51,32,1,31,Low,No,39,15138,76.1,96.9,612,159,74.0,2,9
+H0917,Mannarkkad Community Health Centre 0917,"Mannarkkad, Palakkad, Kerala",Palakkad,Dermatology,3.6,389,49,22,4,41,Medium,Yes,62,83391,87.4,81.8,622,287,53.9,4,13
+H0968,Kottarakkara Medical College 0968,"Kottarakkara, Kollam, Kerala",Kollam,Urology,3.6,885,47,134,24,13,Low,Yes,39,50679,94.7,82.1,630,85,86.5,3,11
+H0820,Palakkad Specialty Hospital 0820,"Palakkad, Palakkad, Kerala",Palakkad,Pulmonology,3.6,251,44,14,1,24,Medium,Yes,40,11628,82.5,92.9,263,94,64.3,3,11
+H0733,Kozhikode Multispecialty Hospital 0733,"Kozhikode, Kozhikode, Kerala",Kozhikode,Orthopedics,3.6,134,43,15,1,3,High,Yes,16,71064,67.9,93.3,557,41,92.6,4,21
+H0129,Kottarakkara Multispecialty Hospital 0129,"Kottarakkara, Kollam, Kerala",Kollam,ENT,3.6,304,40,18,7,14,High,No,77,77419,86.8,61.1,374,91,75.7,2,8
+H0814,Palakkad Taluk Hospital 0814,"Palakkad, Palakkad, Kerala",Palakkad,Cardiology,3.6,536,40,82,4,25,Medium,Yes,80,70337,92.5,95.1,499,289,42.1,4,16
+H0409,Malappuram District Hospital 0409,"Malappuram, Malappuram, Kerala",Malappuram,Gynecology,3.6,147,35,13,3,28,High,No,10,77870,76.2,76.9,519,230,55.7,3,13
+H0915,Kasaragod Taluk Hospital 0915,"Kasaragod, Kasaragod, Kerala",Kasaragod,Orthopedics,3.6,317,34,46,4,33,Medium,Yes,30,59603,89.3,91.3,492,123,75.0,3,12
+H0961,Attingal Family Health Centre 0961,"Attingal, Thiruvananthapuram, Kerala",Thiruvananthapuram,Gynecology,3.6,244,33,32,8,20,Low,Yes,36,70685,86.5,75.0,575,211,63.3,2,13
+H0086,Mannarkkad Specialty Hospital 0086,"Mannarkkad, Palakkad, Kerala",Palakkad,Urology,3.6,183,27,25,6,19,Medium,Yes,73,30665,85.2,76.0,575,136,76.3,4,14
+H0384,Munnar Community Health Centre 0384,"Munnar, Idukki, Kerala",Idukki,ENT,3.6,310,27,39,14,42,Medium,Yes,29,65188,91.3,64.1,324,139,57.1,3,17
+H0726,Muvattupuzha District Hospital 0726,"Muvattupuzha, Ernakulam, Kerala",Ernakulam,Urology,3.6,53,20,4,0,9,Medium,Yes,48,12598,62.3,100.0,585,80,86.3,3,7
+H0082,Kollam Family Health Centre 0082,"Kollam, Kollam, Kerala",Kollam,Nephrology,3.6,358,17,37,8,40,Low,Yes,47,61940,95.3,78.4,246,23,90.7,2,11
+H0142,Muvattupuzha Specialty Hospital 0142,"Muvattupuzha, Ernakulam, Kerala",Ernakulam,Pediatrics,3.6,39,12,4,0,19,Low,No,84,28993,69.2,100.0,410,176,57.1,2,12
+H0620,Kottarakkara Family Health Centre 0620,"Kottarakkara, Kollam, Kerala",Kollam,Dermatology,3.6,27,11,3,0,44,Medium,No,89,31074,59.3,100.0,415,150,63.9,2,9
+H0593,Ettumanoor Specialty Hospital 0593,"Ettumanoor, Kottayam, Kerala",Kottayam,Cardiology,3.6,62,10,4,0,3,Low,Yes,50,82919,83.9,100.0,666,283,57.5,3,10
+H0191,Nileshwar Specialty Hospital 0191,"Nileshwar, Kasaragod, Kerala",Kasaragod,Oncology,3.6,50,8,7,1,30,High,Yes,81,67909,84.0,85.7,504,157,68.8,2,4
+H0953,Kasaragod Multispecialty Hospital 0953,"Kasaragod, Kasaragod, Kerala",Kasaragod,Dermatology,3.6,57,5,3,0,20,Low,Yes,57,49941,91.2,100.0,544,245,55.0,3,3
+H0920,Kunnamkulam Medical College 0920,"Kunnamkulam, Thrissur, Kerala",Thrissur,Dermatology,3.5,983,435,82,13,21,High,Yes,47,77951,55.7,84.1,389,64,83.5,2,6
+H0049,Manjeri General Hospital 0049,"Manjeri, Malappuram, Kerala",Malappuram,Pediatrics,3.5,873,389,116,30,38,Medium,Yes,47,45778,55.4,74.1,545,253,53.6,4,9
+H0386,Karunagappally Multispecialty Hospital 0386,"Karunagappally, Kollam, Kerala",Kollam,Nephrology,3.5,849,322,54,6,39,Low,Yes,41,34379,62.1,88.9,409,120,70.7,3,15
+H0464,Ettumanoor Multispecialty Hospital 0464,"Ettumanoor, Kottayam, Kerala",Kottayam,Cardiology,3.5,741,297,46,8,37,Low,Yes,53,23091,59.9,82.6,207,16,92.3,2,9
+H0537,Uppala Specialty Hospital 0537,"Uppala, Kasaragod, Kerala",Kasaragod,Gynecology,3.5,836,276,44,8,38,Medium,Yes,36,29767,67.0,81.8,502,100,80.1,3,7
+H0959,Feroke Multispecialty Hospital 0959,"Feroke, Kozhikode, Kerala",Kozhikode,Dermatology,3.5,690,269,88,30,9,Medium,Yes,18,42555,61.0,65.9,234,112,52.1,2,9
+H0522,Chalakudy Taluk Hospital 0522,"Chalakudy, Thrissur, Kerala",Thrissur,General Surgery,3.5,888,268,54,19,22,Medium,Yes,55,64673,69.8,64.8,495,209,57.8,2,8
+H0757,Aluva Multispecialty Hospital 0757,"Aluva, Ernakulam, Kerala",Ernakulam,Ophthalmology,3.5,570,248,30,3,25,High,No,43,82881,56.5,90.0,255,105,58.8,4,15
+H0853,Thrissur Medical College 0853,"Thrissur, Thrissur, Kerala",Thrissur,ENT,3.5,557,236,70,26,6,Low,Yes,57,35385,57.6,62.9,388,149,61.6,4,14
+H0909,Changanassery General Hospital 0909,"Changanassery, Kottayam, Kerala",Kottayam,Oncology,3.5,872,235,88,10,37,High,Yes,10,60293,73.1,88.6,294,147,50.0,4,10
+H0688,Guruvayur Specialty Hospital 0688,"Guruvayur, Thrissur, Kerala",Thrissur,Cardiology,3.5,711,228,101,27,20,High,Yes,56,61580,67.9,73.3,277,68,75.5,2,6
+H0044,Manjeri Medical College 0044,"Manjeri, Malappuram, Kerala",Malappuram,Oncology,3.5,1189,225,75,3,14,High,Yes,35,81089,81.1,96.0,520,132,74.6,2,12
+H0067,Chittur Specialty Hospital 0067,"Chittur, Palakkad, Kerala",Palakkad,Urology,3.5,824,219,74,18,16,Medium,Yes,49,83572,73.4,75.7,219,112,48.9,2,7
+H0824,Vadakara District Hospital 0824,"Vadakara, Kozhikode, Kerala",Kozhikode,Pediatrics,3.5,489,210,45,8,16,Low,No,24,62013,57.1,82.2,367,204,44.4,3,14
+H0165,Thrissur Family Health Centre 0165,"Thrissur, Thrissur, Kerala",Thrissur,Pediatrics,3.5,832,209,119,14,7,Medium,Yes,25,71476,74.9,88.2,642,98,84.7,3,5
+H0071,Kanhangad Medical College 0071,"Kanhangad, Kasaragod, Kerala",Kasaragod,Neurology,3.5,811,208,90,19,39,Medium,Yes,38,79942,74.4,78.9,373,111,70.2,4,5
+H0572,Kannur Taluk Hospital 0572,"Kannur, Kannur, Kerala",Kannur,Oncology,3.5,463,202,29,6,20,Medium,Yes,68,35783,56.4,79.3,384,82,78.6,4,11
+H0930,Kottayam Community Health Centre 0930,"Kottayam, Kottayam, Kerala",Kottayam,Neurology,3.5,496,202,76,14,17,Low,Yes,37,33848,59.3,81.6,548,102,81.4,2,6
+H0927,Thiruvananthapuram Community Health Centre 0927,"Thiruvananthapuram, Thiruvananthapuram, Kerala",Thiruvananthapuram,General Medicine,3.5,550,194,64,19,18,Low,Yes,36,14804,64.7,70.3,524,72,86.3,2,6
+H0631,Mavelikara Multispecialty Hospital 0631,"Mavelikara, Alappuzha, Kerala",Alappuzha,Oncology,3.5,567,191,70,10,10,Low,Yes,35,72296,66.3,85.7,590,200,66.1,4,8
+H0753,Kasaragod Multispecialty Hospital 0753,"Kasaragod, Kasaragod, Kerala",Kasaragod,Dermatology,3.5,792,191,120,11,12,Low,Yes,84,77160,75.9,90.8,688,196,71.5,3,15
+H0790,Pala Multispecialty Hospital 0790,"Pala, Kottayam, Kerala",Kottayam,Gynecology,3.5,882,185,113,40,8,Medium,No,45,77459,79.0,64.6,600,355,40.8,4,16
+H0601,Kumbla Multispecialty Hospital 0601,"Kumbla, Kasaragod, Kerala",Kasaragod,Neurology,3.5,611,179,46,18,43,High,Yes,32,67495,70.7,60.9,647,208,67.9,3,13
+H0718,Punalur Specialty Hospital 0718,"Punalur, Kollam, Kerala",Kollam,Orthopedics,3.5,393,159,40,6,42,High,No,10,55969,59.5,85.0,508,193,62.0,4,9
+H0859,Nedumkandam Community Health Centre 0859,"Nedumkandam, Idukki, Kerala",Idukki,Nephrology,3.5,632,152,89,38,29,Medium,Yes,60,45368,75.9,57.3,430,74,82.8,3,13
+H0220,Aluva District Hospital 0220,"Aluva, Ernakulam, Kerala",Ernakulam,Orthopedics,3.5,368,125,44,18,16,Medium,Yes,79,56801,66.0,59.1,505,130,74.3,3,11
+H0704,Feroke District Hospital 0704,"Feroke, Kozhikode, Kerala",Kozhikode,Pulmonology,3.5,570,124,37,13,43,Low,Yes,70,81429,78.2,64.9,462,90,80.5,4,10
+H0454,Tirur General Hospital 0454,"Tirur, Malappuram, Kerala",Malappuram,General Surgery,3.5,876,117,131,9,9,High,No,22,75723,86.6,93.1,432,132,69.4,4,14
+H0235,Payyannur Medical College 0235,"Payyannur, Kannur, Kerala",Kannur,Gynecology,3.5,803,115,96,38,23,Medium,Yes,36,45263,85.7,60.4,461,208,54.9,4,16
+H0751,Kottayam Multispecialty Hospital 0751,"Kottayam, Kottayam, Kerala",Kottayam,Ophthalmology,3.5,713,112,55,14,39,Medium,Yes,66,45973,84.3,74.5,472,35,92.6,3,11
+H0710,Kottarakkara General Hospital 0710,"Kottarakkara, Kollam, Kerala",Kollam,General Surgery,3.5,345,106,44,0,21,Medium,Yes,79,22386,69.3,100.0,379,56,85.2,3,8
+H0245,Kattappana Family Health Centre 0245,"Kattappana, Idukki, Kerala",Idukki,Dermatology,3.5,300,101,42,11,41,Medium,Yes,71,58777,66.3,73.8,545,127,76.7,4,19
+H0611,Pathanamthitta Family Health Centre 0611,"Pathanamthitta, Pathanamthitta, Kerala",Pathanamthitta,Ophthalmology,3.5,390,100,30,11,20,High,Yes,69,83879,74.4,63.3,467,91,80.5,2,8
+H0075,Cherthala Family Health Centre 0075,"Cherthala, Alappuzha, Kerala",Alappuzha,Pediatrics,3.5,261,97,21,6,33,High,Yes,88,64264,62.8,71.4,516,143,72.3,3,4
+H0807,Vadakara Taluk Hospital 0807,"Vadakara, Kozhikode, Kerala",Kozhikode,Oncology,3.5,442,90,65,10,11,High,No,74,40501,79.6,84.6,501,123,75.4,3,9
+H0277,Kumbla Taluk Hospital 0277,"Kumbla, Kasaragod, Kerala",Kasaragod,ENT,3.5,512,86,36,11,32,Low,Yes,49,38615,83.2,69.4,380,149,60.8,3,13
+H0404,Taliparamba Taluk Hospital 0404,"Taliparamba, Kannur, Kerala",Kannur,General Surgery,3.5,552,81,87,19,34,Medium,Yes,31,56930,85.3,78.2,393,66,83.2,2,13
+H0954,Shoranur Multispecialty Hospital 0954,"Shoranur, Palakkad, Kerala",Palakkad,Neurology,3.5,294,81,30,9,32,High,Yes,12,11219,72.4,70.0,696,102,85.3,3,4
+H0832,Varkala Family Health Centre 0832,"Varkala, Thiruvananthapuram, Kerala",Thiruvananthapuram,Nephrology,3.5,750,78,78,31,38,Medium,Yes,50,80762,89.6,60.3,540,232,57.0,2,7
+H0188,Manjeri Multispecialty Hospital 0188,"Manjeri, Malappuram, Kerala",Malappuram,Dermatology,3.5,325,75,35,9,44,Medium,Yes,43,44196,76.9,74.3,613,252,58.9,3,7
+H0691,Thrissur Multispecialty Hospital 0691,"Thrissur, Thrissur, Kerala",Thrissur,General Medicine,3.5,688,69,46,16,37,Low,Yes,58,10511,90.0,65.2,429,93,78.3,3,11
+H0108,Aluva Taluk Hospital 0108,"Aluva, Ernakulam, Kerala",Ernakulam,Gynecology,3.5,464,68,47,16,37,Low,Yes,50,23208,85.3,66.0,252,90,64.3,2,3
+H0282,Pala Medical College 0282,"Pala, Kottayam, Kerala",Kottayam,Gynecology,3.5,706,68,82,6,28,Medium,Yes,82,27247,90.4,92.7,328,104,68.3,2,10
+H0396,Vythiri Specialty Hospital 0396,"Vythiri, Wayanad, Kerala",Wayanad,Dermatology,3.5,721,67,97,6,5,Medium,Yes,28,50720,90.7,93.8,555,121,78.2,2,0
+H0615,Kundara General Hospital 0615,"Kundara, Kollam, Kerala",Kollam,Neurology,3.5,349,54,22,6,24,Medium,Yes,67,75520,84.5,72.7,594,120,79.8,3,6
+H0546,Cherthala Multispecialty Hospital 0546,"Cherthala, Alappuzha, Kerala",Alappuzha,General Medicine,3.5,845,53,78,15,18,High,No,53,9011,93.7,80.8,273,126,53.8,4,13
+H0442,Punalur Multispecialty Hospital 0442,"Punalur, Kollam, Kerala",Kollam,Ophthalmology,3.5,428,52,60,15,18,High,Yes,43,45042,87.9,75.0,406,99,75.6,2,12
+H0785,Kalpetta Taluk Hospital 0785,"Kalpetta, Wayanad, Kerala",Wayanad,Orthopedics,3.5,166,51,23,1,14,High,Yes,32,66870,69.3,95.7,644,92,85.7,3,11
+H0944,Kalpetta Multispecialty Hospital 0944,"Kalpetta, Wayanad, Kerala",Wayanad,Ophthalmology,3.5,223,50,16,5,11,Low,Yes,38,60151,77.6,68.8,366,162,55.7,3,8
+H0123,Changanassery General Hospital 0123,"Changanassery, Kottayam, Kerala",Kottayam,Ophthalmology,3.5,427,47,58,19,41,Low,Yes,17,35370,89.0,67.2,576,181,68.6,2,9
+H0979,Mannarkkad Specialty Hospital 0979,"Mannarkkad, Palakkad, Kerala",Palakkad,Orthopedics,3.5,154,41,9,2,23,Medium,Yes,83,42523,73.4,77.8,369,147,60.2,3,2
+H0405,Sulthan Bathery General Hospital 0405,"Sulthan Bathery, Wayanad, Kerala",Wayanad,Ophthalmology,3.5,193,39,26,5,20,Medium,Yes,50,22026,79.8,80.8,505,229,54.7,4,14
+H0591,Thiruvalla Multispecialty Hospital 0591,"Thiruvalla, Pathanamthitta, Kerala",Pathanamthitta,Gynecology,3.5,512,36,77,30,16,Medium,Yes,31,83373,93.0,61.0,423,96,77.3,3,18
+H0349,Nileshwar Family Health Centre 0349,"Nileshwar, Kasaragod, Kerala",Kasaragod,Urology,3.5,130,34,16,5,9,Medium,Yes,65,65147,73.8,68.8,311,47,84.9,2,10
+H0858,Ottapalam District Hospital 0858,"Ottapalam, Palakkad, Kerala",Palakkad,Orthopedics,3.5,91,30,8,2,5,Low,No,82,13482,67.0,75.0,579,176,69.6,4,15
+H0614,Thiruvananthapuram General Hospital 0614,"Thiruvananthapuram, Thiruvananthapuram, Kerala",Thiruvananthapuram,Cardiology,3.5,77,29,6,1,17,Medium,Yes,54,46157,62.3,83.3,360,117,67.5,3,15
+H0162,Ettumanoor Specialty Hospital 0162,"Ettumanoor, Kottayam, Kerala",Kottayam,Pulmonology,3.5,427,28,37,7,39,Low,Yes,82,69718,93.4,81.1,621,226,63.6,2,9
+H0239,Koyilandy Multispecialty Hospital 0239,"Koyilandy, Kozhikode, Kerala",Kozhikode,Pulmonology,3.5,551,27,56,4,7,High,No,72,58593,95.1,92.9,421,107,74.6,2,4
+H0351,Kasaragod Family Health Centre 0351,"Kasaragod, Kasaragod, Kerala",Kasaragod,Gastroenterology,3.5,132,27,11,1,25,Low,Yes,61,48455,79.5,90.9,688,88,87.2,2,2
+H0070,Malappuram Community Health Centre 0070,"Malappuram, Malappuram, Kerala",Malappuram,Nephrology,3.5,148,26,20,7,14,Low,Yes,62,57841,82.4,65.0,556,88,84.2,4,10
+H0828,Manjeri General Hospital 0828,"Manjeri, Malappuram, Kerala",Malappuram,General Medicine,3.5,463,24,51,13,36,Low,Yes,53,83633,94.8,74.5,462,91,80.3,4,15
+H0882,Iritty Multispecialty Hospital 0882,"Iritty, Kannur, Kerala",Kannur,Gynecology,3.5,207,22,14,1,41,Medium,Yes,23,14210,89.4,92.9,619,116,81.3,3,17
+H0402,Guruvayur General Hospital 0402,"Guruvayur, Thrissur, Kerala",Thrissur,Ophthalmology,3.5,109,21,7,2,38,Medium,Yes,67,73574,80.7,71.4,593,78,86.8,3,19
+H0720,Vythiri Multispecialty Hospital 0720,"Vythiri, Wayanad, Kerala",Wayanad,Nephrology,3.5,63,21,7,0,35,Medium,Yes,54,38059,66.7,100.0,611,102,83.3,2,9
+H0586,Kasaragod Taluk Hospital 0586,"Kasaragod, Kasaragod, Kerala",Kasaragod,ENT,3.5,179,18,14,2,22,Low,Yes,11,45115,89.9,85.7,488,187,61.7,4,13
+H0816,Chalakudy Multispecialty Hospital 0816,"Chalakudy, Thrissur, Kerala",Thrissur,Pediatrics,3.5,50,15,5,0,27,Medium,Yes,73,77848,70.0,100.0,493,84,83.0,4,8
+H0204,Thrissur Family Health Centre 0204,"Thrissur, Thrissur, Kerala",Thrissur,Pediatrics,3.5,113,10,16,5,23,Low,Yes,83,80352,91.2,68.8,515,206,60.0,3,9
+H0237,Malappuram Specialty Hospital 0237,"Malappuram, Malappuram, Kerala",Malappuram,Neurology,3.5,152,8,10,1,40,High,Yes,46,52159,94.7,90.0,299,71,76.3,3,5
+H0018,Guruvayur Community Health Centre 0018,"Guruvayur, Thrissur, Kerala",Thrissur,Orthopedics,3.5,73,5,8,2,14,Medium,Yes,50,29848,93.2,75.0,517,147,71.6,2,7
+H0218,Iritty Family Health Centre 0218,"Iritty, Kannur, Kerala",Kannur,Oncology,3.5,23,1,2,0,33,Low,Yes,66,63083,95.7,100.0,458,186,59.4,4,8
+H0357,Chalakudy Multispecialty Hospital 0357,"Chalakudy, Thrissur, Kerala",Thrissur,Urology,3.4,642,259,92,21,31,Low,No,27,45967,59.7,77.2,312,95,69.6,2,12
+H0495,Kozhikode Specialty Hospital 0495,"Kozhikode, Kozhikode, Kerala",Kozhikode,Orthopedics,3.4,446,192,40,4,18,Low,Yes,74,81606,57.0,90.0,412,201,51.2,4,13
+H0145,Muvattupuzha Multispecialty Hospital 0145,"Muvattupuzha, Ernakulam, Kerala",Ernakulam,Pulmonology,3.4,645,191,41,17,18,Medium,Yes,11,45318,70.4,58.5,566,321,43.3,4,22
+H0246,Thalassery Taluk Hospital 0246,"Thalassery, Kannur, Kerala",Kannur,General Medicine,3.4,601,188,42,2,39,Medium,Yes,26,76686,68.7,95.2,518,168,67.6,3,9
+H0243,Adoor Taluk Hospital 0243,"Adoor, Pathanamthitta, Kerala",Pathanamthitta,ENT,3.4,434,187,28,10,5,Medium,Yes,77,68260,56.9,64.3,545,222,59.3,2,9
+H0051,Adimali Community Health Centre 0051,"Adimali, Idukki, Kerala",Idukki,Gynecology,3.4,539,186,40,16,35,Low,Yes,72,58469,65.5,60.0,499,34,93.2,3,18
+H0475,Kottarakkara Community Health Centre 0475,"Kottarakkara, Kollam, Kerala",Kollam,Ophthalmology,3.4,555,168,66,11,8,Medium,Yes,13,33144,69.7,83.3,389,103,73.5,3,17
+H0300,Punalur Medical College 0300,"Punalur, Kollam, Kerala",Kollam,Orthopedics,3.4,899,153,98,0,41,Low,Yes,36,34520,83.0,100.0,617,97,84.3,3,12
+H0648,Kayamkulam General Hospital 0648,"Kayamkulam, Alappuzha, Kerala",Alappuzha,Gastroenterology,3.4,725,110,46,11,9,Low,No,80,12189,84.8,76.1,568,75,86.8,3,4
+H0957,Kumbla Medical College 0957,"Kumbla, Kasaragod, Kerala",Kasaragod,ENT,3.4,668,98,74,26,7,High,Yes,25,70288,85.3,64.9,542,202,62.7,2,9
+H0064,Payyannur Taluk Hospital 0064,"Payyannur, Kannur, Kerala",Kannur,Orthopedics,3.4,843,88,53,0,41,Medium,Yes,62,19242,89.6,100.0,348,85,75.6,4,14
+H0240,Karunagappally Community Health Centre 0240,"Karunagappally, Kollam, Kerala",Kollam,Pulmonology,3.4,539,88,53,13,28,Low,Yes,75,31176,83.7,75.5,590,185,68.6,3,11
+H0006,Kundara Family Health Centre 0006,"Kundara, Kollam, Kerala",Kollam,Gastroenterology,3.4,442,69,57,5,12,Medium,Yes,40,78102,84.4,91.2,219,30,86.3,2,11
+H0412,Kozhikode General Hospital 0412,"Kozhikode, Kozhikode, Kerala",Kozhikode,Pulmonology,3.4,851,65,135,11,33,Medium,Yes,14,51661,92.4,91.9,287,44,84.7,3,15
+H0627,Kothamangalam Taluk Hospital 0627,"Kothamangalam, Ernakulam, Kerala",Ernakulam,Gastroenterology,3.4,306,56,35,8,14,Low,Yes,23,16503,81.7,77.1,460,172,62.6,2,8
+H0259,Feroke Medical College 0259,"Feroke, Kozhikode, Kerala",Kozhikode,Cardiology,3.4,550,54,58,14,41,Medium,Yes,38,44600,90.2,75.9,696,306,56.0,2,9
+H0774,Thiruvalla Multispecialty Hospital 0774,"Thiruvalla, Pathanamthitta, Kerala",Pathanamthitta,Gastroenterology,3.4,557,44,77,9,29,Low,Yes,41,52192,92.1,88.3,428,132,69.2,4,13
+H0829,Changanassery Multispecialty Hospital 0829,"Changanassery, Kottayam, Kerala",Kottayam,Gynecology,3.4,426,40,53,11,25,Low,Yes,87,68157,90.6,79.2,560,171,69.5,2,5
+H0602,Manjeri Family Health Centre 0602,"Manjeri, Malappuram, Kerala",Malappuram,Cardiology,3.4,103,39,8,0,15,Medium,Yes,42,54975,62.1,100.0,488,126,74.2,3,4
+H0778,Varkala Multispecialty Hospital 0778,"Varkala, Thiruvananthapuram, Kerala",Thiruvananthapuram,ENT,3.4,342,24,23,9,22,Low,Yes,75,34023,93.0,60.9,333,156,53.2,2,7
+H0525,Kollam Taluk Hospital 0525,"Kollam, Kollam, Kerala",Kollam,Ophthalmology,3.4,357,22,32,0,36,Low,Yes,25,13132,93.8,100.0,307,92,70.0,4,14
+H0127,Chengannur Family Health Centre 0127,"Chengannur, Alappuzha, Kerala",Alappuzha,ENT,3.4,44,10,2,0,34,High,No,72,15094,77.3,100.0,289,120,58.5,2,12
+H0555,Muvattupuzha General Hospital 0555,"Muvattupuzha, Ernakulam, Kerala",Ernakulam,Orthopedics,3.4,130,8,7,0,17,Medium,Yes,11,25032,93.8,100.0,547,162,70.4,4,18
+H0913,Tirur Community Health Centre 0913,"Tirur, Malappuram, Kerala",Malappuram,Pediatrics,3.4,42,2,5,0,5,Medium,Yes,45,59096,95.2,100.0,499,105,79.0,3,10

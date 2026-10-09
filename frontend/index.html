@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MediPulse | Real-Time Hospital Resource & Surgery Recommendation System</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Top Academic Disclaimer Banner -->
+  <div class="academic-disclaimer-banner text-center">
+    <i class="bi bi-info-circle-fill me-1"></i>
+    <strong>ACADEMIC PROJECT DEMONSTRATOR:</strong>
+    Information shown by this academic system is for demonstration and informational purposes only. Availability and healthcare decisions should be confirmed directly with the healthcare provider.
+  </div>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom sticky-top py-2 shadow-sm">
+    <div class="container-fluid px-lg-5">
+      <a class="navbar-brand navbar-brand-custom" href="index.html">
+        <div class="brand-icon-box"><i class="bi bi-hospital"></i></div>
+        <div>
+          <span>MediPulse</span>
+          <div style="font-size: 0.65rem; color: #64748b; font-weight: 500; letter-spacing: 0.5px;">HEALTHCARE RESOURCE INTELLIGENCE</div>
+        </div>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4 gap-1">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html"><i class="bi bi-house-door me-1"></i>Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/hospitals.html"><i class="bi bi-building me-1"></i>Hospitals</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/surgery.html"><i class="bi bi-scissors me-1"></i>Surgeries</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/blood.html"><i class="bi bi-droplet-fill text-danger me-1"></i>Blood Bank</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/resources.html"><i class="bi bi-activity me-1"></i>Resources</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/waiting-time.html"><i class="bi bi-clock-history me-1"></i>Wait Times</a>
+          </li>
+        </ul>
+
+        <div class="d-flex align-items-center gap-2">
+          <span class="demo-mode-badge d-none d-sm-inline-flex">
+            <span class="demo-pulse-dot"></span> Phase 1 Demo Engine
+          </span>
+          <a href="pages/admin.html" class="btn btn-outline-primary btn-sm px-3 fw-semibold">
+            <i class="bi bi-shield-lock me-1"></i>Admin Portal
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container px-lg-5">
+      <div class="row align-items-center">
+        <div class="col-lg-8">
+          <span class="hero-badge-pill">
+            <i class="bi bi-cpu-fill me-1"></i> Final-Year B.Tech Data Science Project Architecture
+          </span>
+          <h1 class="hero-title">Find the Right Healthcare Resources Faster</h1>
+          <p class="hero-subtitle">
+            An intelligent academic recommendation platform that evaluates multi-criteria healthcare constraints: medical specialty, distance proximity, ICU availability, real-time emergency load, and transparent waiting times.
+          </p>
+
+          <div class="hero-actions d-flex flex-wrap gap-2 mt-4">
+            <a href="pages/hospitals.html" class="btn btn-light text-primary">
+              <i class="bi bi-search me-1"></i>Find Hospital
+            </a>
+            <a href="pages/surgery.html" class="btn btn-outline-light">
+              <i class="bi bi-heart-pulse me-1"></i>Find Surgery
+            </a>
+            <a href="pages/blood.html" class="btn btn-danger">
+              <i class="bi bi-droplet-half me-1"></i>Find Blood
+            </a>
+            <a href="pages/resources.html" class="btn btn-outline-light">
+              <i class="bi bi-clipboard2-pulse me-1"></i>Check Resources
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 d-none d-lg-block">
+          <div class="card border-0 shadow-lg text-dark p-3 rounded-4" style="background: rgba(255,255,255,0.95); backdrop-filter: blur(10px);">
+            <div class="d-flex align-items-center justify-content-between mb-3 border-bottom pb-2">
+              <h6 class="fw-bold mb-0 text-primary"><i class="bi bi-lightning-charge-fill me-1 text-warning"></i>Quick Resource Finder</h6>
+              <span class="badge bg-primary-subtle text-primary">Live Filter</span>
+            </div>
+            <form action="pages/hospitals.html" method="GET">
+              <div class="mb-2">
+                <label class="form-label small fw-semibold text-muted mb-1">Medical Specialty</label>
+                <select name="specialty" class="form-select form-select-sm">
+                  <option value="All">All Specialties</option>
+                  <option value="Cardiology">Cardiology</option>
+                  <option value="Neurology">Neurology</option>
+                  <option value="Orthopedics">Orthopedics</option>
+                  <option value="Oncology">Oncology</option>
+                  <option value="General Medicine">General Medicine</option>
+                  <option value="Pediatrics">Pediatrics</option>
+                  <option value="Gynecology">Gynecology</option>
+                </select>
+              </div>
+              <div class="mb-2">
+                <label class="form-label small fw-semibold text-muted mb-1">District</label>
+                <select name="district" id="heroDistrict" class="form-select form-select-sm">
+                  <option value="All" selected>All Districts</option>
+                  <option value="Alappuzha">Alappuzha</option>
+                  <option value="Ernakulam">Ernakulam</option>
+                  <option value="Idukki">Idukki</option>
+                  <option value="Kannur">Kannur</option>
+                  <option value="Kasaragod">Kasaragod</option>
+                  <option value="Kollam">Kollam</option>
+                  <option value="Kottayam">Kottayam</option>
+                  <option value="Kozhikode">Kozhikode</option>
+                  <option value="Malappuram">Malappuram</option>
+                  <option value="Palakkad">Palakkad</option>
+                  <option value="Pathanamthitta">Pathanamthitta</option>
+                  <option value="Thiruvananthapuram">Thiruvananthapuram</option>
+                  <option value="Thrissur">Thrissur</option>
+                  <option value="Wayanad">Wayanad</option>
+                </select>
+              </div>
+              <div class="form-check form-switch mb-3 mt-2">
+                <input class="form-check-input" type="checkbox" name="emergency" value="true" id="heroEmergency">
+                <label class="form-check-label small fw-semibold" for="heroEmergency">Emergency Care Required</label>
+              </div>
+              <button type="submit" class="btn btn-primary btn-sm w-100 fw-semibold py-2">
+                <i class="bi bi-funnel-fill me-1"></i>Search & Rank Hospitals
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Key Statistics Banner -->
+  <section class="py-4 border-bottom bg-white">
+    <div class="container px-lg-5">
+      <div class="row g-3" id="statsRow">
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="stat-card">
+            <div class="stat-icon blue"><i class="bi bi-hospital"></i></div>
+            <div>
+              <div class="stat-value" id="statHospitals">1,000</div>
+              <div class="stat-label">Hospitals</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="stat-card">
+            <div class="stat-icon green"><i class="bi bi-check2-circle"></i></div>
+            <div>
+              <div class="stat-value" id="statAvailBeds">1,080</div>
+              <div class="stat-label">Free Beds</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="stat-card">
+            <div class="stat-icon purple"><i class="bi bi-heart-pulse"></i></div>
+            <div>
+              <div class="stat-value" id="statAvailIcu">178</div>
+              <div class="stat-label">Free ICUs</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="stat-card">
+            <div class="stat-icon red"><i class="bi bi-droplet-half"></i></div>
+            <div>
+              <div class="stat-value" id="statBloodUnits">820</div>
+              <div class="stat-label">Blood Units</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="stat-card">
+            <div class="stat-icon amber"><i class="bi bi-shield-exclamation"></i></div>
+            <div>
+              <div class="stat-value" id="statAvgWait">33m</div>
+              <div class="stat-label">Avg Wait Time</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="stat-card">
+            <div class="stat-icon blue"><i class="bi bi-graph-up-arrow"></i></div>
+            <div>
+              <div class="stat-value text-success" id="statSystemHealth">98.4%</div>
+              <div class="stat-label">Data Sync</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Recommended Hospitals Preview Section -->
+  <section class="py-5">
+    <div class="container px-lg-5">
+      <div class="d-flex flex-wrap justify-content-between align-items-end mb-4">
+        <div>
+          <span class="badge bg-primary-subtle text-primary px-3 py-1 mb-1 fw-bold">MULTI-FACTORIAL RANKING</span>
+          <h2 class="section-title mb-0">Recommended Hospitals (Real-Time Overview)</h2>
+          <p class="section-subtitle mb-0">Hospitals currently ranked highest using the explainable multi-variable recommendation model.</p>
+        </div>
+        <a href="pages/hospitals.html" class="btn btn-outline-primary btn-sm fw-semibold mt-2 mt-sm-0">
+          Explore All Hospitals <i class="bi bi-arrow-right ms-1"></i>
+        </a>
+      </div>
+
+      <!-- Preview Cards Container -->
+      <div class="row g-4" id="homeRecommendedGrid">
+        <!-- Injected via JavaScript from SAMPLE_DATA -->
+      </div>
+    </div>
+  </section>
+
+  <!-- How Recommendation Algorithm Works (Academic Viva Section) -->
+  <section class="py-5 bg-white border-top border-bottom">
+    <div class="container px-lg-5">
+      <div class="text-center max-w-700 mx-auto mb-5">
+        <span class="badge bg-secondary-subtle text-secondary px-3 py-1 fw-bold">ACADEMIC ALGORITHM TRANSPARENCY</span>
+        <h2 class="fw-bold text-dark mt-2">Explainable Recommendation Methodology</h2>
+        <p class="text-muted">
+          Unlike black-box models, this system calculates recommendation scores through normalized multi-criteria linear weighting, ensuring 100% verifiable outputs during viva evaluation.
+        </p>
+      </div>
+
+      <div class="row g-4 text-center">
+        <div class="col-md-4 col-lg-2">
+          <div class="p-3 border rounded-3 bg-light h-100">
+            <div class="display-6 fw-bold text-primary mb-1">30%</div>
+            <h6 class="fw-bold text-dark">Specialty Match</h6>
+            <p class="small text-muted mb-0">Validates exact medical specialization compatibility.</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="p-3 border rounded-3 bg-light h-100">
+            <div class="display-6 fw-bold text-info mb-1">20%</div>
+            <h6 class="fw-bold text-dark">Distance Proximity</h6>
+            <p class="small text-muted mb-0">Inverted Euclidean / zone route proximity score.</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="p-3 border rounded-3 bg-light h-100">
+            <div class="display-6 fw-bold text-success mb-1">20%</div>
+            <h6 class="fw-bold text-dark">Beds & ICUs</h6>
+            <p class="small text-muted mb-0">Real-time bed availability ratio and critical care reserve.</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="p-3 border rounded-3 bg-light h-100">
+            <div class="display-6 fw-bold text-warning mb-1">15%</div>
+            <h6 class="fw-bold text-dark">Waiting Time</h6>
+            <p class="small text-muted mb-0">Queue length and queue throughput calculation.</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="p-3 border rounded-3 bg-light h-100">
+            <div class="display-6 fw-bold text-secondary mb-1">10%</div>
+            <h6 class="fw-bold text-dark">Affordability</h6>
+            <p class="small text-muted mb-0">Normalized procedure and standard admission pricing.</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="p-3 border rounded-3 bg-light h-100">
+            <div class="display-6 fw-bold text-danger mb-1">5%</div>
+            <h6 class="fw-bold text-dark">Emergency Load</h6>
+            <p class="small text-muted mb-0">Current hospital trauma unit pressure penalty factor.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-4 p-3 bg-primary-subtle text-primary-emphasis rounded-3 border border-primary-subtle d-flex align-items-center justify-content-between flex-wrap gap-2">
+        <div>
+          <i class="bi bi-calculator me-2 fs-5"></i>
+          <strong>Mathematical Formula:</strong>
+          <code>Score = (S &times; 0.30) + (D &times; 0.20) + (A &times; 0.20) + (W &times; 0.15) + (C &times; 0.10) + (E &times; 0.05)</code>
+        </div>
+        <a href="pages/waiting-time.html" class="btn btn-sm btn-primary">
+          <i class="bi bi-graph-up me-1"></i>Explore Waiting Time Formula
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Emergency & Quick Callout Banner -->
+  <section class="py-4 bg-danger bg-opacity-10 border-top border-danger border-opacity-25">
+    <div class="container px-lg-5">
+      <div class="row align-items-center">
+        <div class="col-md-8">
+          <h5 class="fw-bold text-danger mb-1"><i class="bi bi-telephone-plus-fill me-2"></i>Critical Medical Emergency?</h5>
+          <p class="mb-0 text-danger-emphasis small">
+            Filter instantly for accredited trauma centers with available ICU units and active emergency room clearance.
+          </p>
+        </div>
+        <div class="col-md-4 text-md-end mt-3 mt-md-0">
+          <a href="pages/hospitals.html?emergency=true" class="btn btn-danger fw-semibold">
+            <i class="bi bi-shield-fill-exclamation me-1"></i>Filter Emergency Hospitals Now
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Factor Score Modal Component -->
+  <div class="modal fade" id="explainModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content rounded-4 border-0 shadow">
+        <div class="modal-header border-bottom">
+          <h5 class="modal-title fw-bold" id="explainModalTitle">Recommendation Score Analysis</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-4" id="explainModalBody">
+          <!-- Filled dynamically by App.showExplainableModal -->
+        </div>
+        <div class="modal-footer border-top bg-light">
+          <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container px-lg-5">
+      <div class="row g-4">
+        <div class="col-lg-4">
+          <div class="navbar-brand-custom text-white mb-2">
+            <div class="brand-icon-box bg-primary"><i class="bi bi-hospital"></i></div>
+            <span class="text-white">MediPulse</span>
+          </div>
+          <p class="small text-secondary mb-3">
+            Real-Time Hospital Resource, Surgery and Blood Donation Recommendation System. Developed as a final-year B.Tech Computer Science (Data Science) project.
+          </p>
+          <div class="small text-secondary">
+            <strong>Architecture:</strong> Bootstrap 5 &bull; Flask &bull; PySpark &bull; Hadoop HDFS
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-2">
+          <h6 class="text-white fw-bold mb-3">Core Modules</h6>
+          <ul class="list-unstyled small d-grid gap-2">
+            <li><a href="pages/hospitals.html">Hospital Search</a></li>
+            <li><a href="pages/surgery.html">Surgery Estimator</a></li>
+            <li><a href="pages/blood.html">Blood Availability</a></li>
+            <li><a href="pages/resources.html">Resource Inventory</a></li>
+            <li><a href="pages/waiting-time.html">Waiting Analytics</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-6 col-lg-2">
+          <h6 class="text-white fw-bold mb-3">Administrative</h6>
+          <ul class="list-unstyled small d-grid gap-2">
+            <li><a href="pages/admin.html">Admin Dashboard</a></li>
+            <li><a href="pages/login.html">Demo Portal Login</a></li>
+            <li><a href="pages/resources.html">Beds & Ventilators</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <div class="p-3 rounded-3 bg-dark border border-secondary border-opacity-50">
+            <h6 class="text-white fw-bold mb-1"><i class="bi bi-shield-check text-warning me-1"></i>Academic Safety Notice</h6>
+            <p class="small text-secondary mb-0">
+              Information shown by this academic system is for demonstration and informational purposes only. Availability and healthcare decisions should be confirmed directly with the healthcare provider.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom text-center">
+        <p class="mb-0">Final Year B.Tech Computer Science (Data Science) Capstone Project &copy; 2026. Academic Information System.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Sample Data -->
+  <script src="js/sample-data.js"></script>
+  <!-- Core Framework -->
+  <script src="js/app.js"></script>
+  <!-- Homepage Controller -->
+  <script>
+    let homeTopHospitals = [];
+
+    function openHomeExplainModal(idx) {
+      if (homeTopHospitals && homeTopHospitals[idx]) {
+        App.showExplainableModal(homeTopHospitals[idx]);
+      }
+    }
+
+    document.addEventListener("DOMContentLoaded", async function () {
+      // 1. Fetch live system metrics from Flask /api/resources & /api/analytics
+      const resourcesRes = await App.apiGet("/resources");
+      const analyticsRes = await App.apiGet("/analytics");
+
+      const hCount = document.getElementById("statHospitals");
+      const bCount = document.getElementById("statAvailBeds");
+      const icuCount = document.getElementById("statAvailIcu");
+      const bloodCount = document.getElementById("statBloodUnits");
+
+      if (resourcesRes && resourcesRes.success && resourcesRes.summary) {
+        if (hCount) hCount.textContent = resourcesRes.hospitals ? resourcesRes.hospitals.length : 1000;
+        if (bCount) bCount.textContent = resourcesRes.summary.available_beds.toLocaleString();
+        if (icuCount) icuCount.textContent = resourcesRes.summary.available_icu_beds.toLocaleString();
+      } else if (window.SAMPLE_DATA) {
+        const fallbackBeds = window.SAMPLE_DATA.hospitals.reduce((s, h) => s + (h.available_beds || 0), 0);
+        const fallbackIcu = window.SAMPLE_DATA.hospitals.reduce((s, h) => s + (h.available_icu_beds || 0), 0);
+        if (hCount) hCount.textContent = window.SAMPLE_DATA.hospitals.length;
+        if (bCount) bCount.textContent = fallbackBeds.toLocaleString();
+        if (icuCount) icuCount.textContent = fallbackIcu.toLocaleString();
+      }
+
+      if (analyticsRes && analyticsRes.success && analyticsRes.analytics) {
+        if (bloodCount) bloodCount.textContent = analyticsRes.analytics.overview.total_blood_units.toLocaleString();
+      } else if (window.SAMPLE_DATA) {
+        const fallbackBlood = window.SAMPLE_DATA.bloodBanks.reduce((s, b) => s + (b.available_units || 0), 0);
+        if (bloodCount) bloodCount.textContent = fallbackBlood.toLocaleString();
+      }
+
+      // 2. Fetch Top 3 Recommended Hospitals from Backend POST /api/recommend
+      const previewGrid = document.getElementById("homeRecommendedGrid");
+      if (previewGrid) {
+        previewGrid.innerHTML = `
+          <div class="col-12 text-center py-4">
+            <div class="spinner-border spinner-border-sm text-primary" role="status"></div>
+            <span class="ms-2 small text-muted">Retrieving authoritative recommendations from backend engine...</span>
+          </div>
+        `;
+
+        const recRes = await App.fetchRecommendations({ district: "All", specialty: "All", sort_by: "score_desc" });
+        homeTopHospitals = (recRes.recommendations || []).slice(0, 3);
+
+        const bannerHtml = !recRes.isLive ? `
+          <div class="col-12">
+            <div class="alert alert-warning py-2 px-3 small border-warning d-flex align-items-center justify-content-between mb-3">
+              <span><i class="bi bi-exclamation-triangle-fill text-warning me-2"></i>Backend unavailable — showing demonstration data.</span>
+              <span class="badge bg-warning text-dark">Demo Fallback</span>
+            </div>
+          </div>
+        ` : '';
+
+        if (homeTopHospitals.length === 0) {
+          previewGrid.innerHTML = `${bannerHtml}<div class="col-12 text-muted text-center py-3">No recommendation data returned.</div>`;
+          return;
+        }
+
+        previewGrid.innerHTML = bannerHtml + homeTopHospitals.map((h, i) => `
+          <div class="col-lg-4">
+            <div class="hospital-card ${i === 0 ? 'border-primary' : ''}" data-hospital-id="${h.id}" title="Double-click or double-tap to view full hospital details">
+              <div class="hospital-card-header">
+                <div>
+                  <span class="hospital-specialty-pill mb-1">${h.specialty}</span>
+                  <h5 class="hospital-title">${h.name}</h5>
+                  <div class="small text-muted">
+                    <i class="bi bi-geo-alt-fill text-danger me-1"></i>${h.location} &bull; <i class="bi bi-star-fill text-warning"></i>${h.rating}
+                  </div>
+                </div>
+                <div class="score-badge-circle">${h.recommendationScore}%<small>Match</small></div>
+              </div>
+              <div class="hospital-card-body">
+                <div class="meta-grid">
+                  <div class="meta-item">
+                    <span class="meta-item-label">Available Beds</span>
+                    <span class="meta-item-value text-primary">${h.availableBeds} / ${h.totalBeds}</span>
+                  </div>
+                  <div class="meta-item">
+                    <span class="meta-item-label">ICU Units</span>
+                    <span class="meta-item-value text-success">${h.availableIcuBeds} Free</span>
+                  </div>
+                  <div class="meta-item">
+                    <span class="meta-item-label">Estimated Wait</span>
+                    <span class="meta-item-value">${App.getWaitTimeBadge(h.averageWaitTime)}</span>
+                  </div>
+                  <div class="meta-item">
+                    <span class="meta-item-label">Standard Cost</span>
+                    <span class="meta-item-value">${App.formatCurrency(h.estimatedCost)}</span>
+                  </div>
+                </div>
+
+                <div class="explainable-breakdown">
+                  <div class="explainable-title">
+                    <span>Backend Scoring Analysis</span>
+                    <a href="javascript:void(0)" onclick="openHomeExplainModal(${i})" class="text-primary text-decoration-none fw-semibold">
+                      Why this score?
+                    </a>
+                  </div>
+                  <div class="factor-meter">
+                    <div class="factor-label-row">
+                      <span>Match Quality</span>
+                      <span class="fw-bold">${h.recommendationScore}%</span>
+                    </div>
+                    <div class="progress progress-thin">
+                      <div class="progress-bar bg-primary" style="width: ${h.recommendationScore}%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="hospital-card-footer">
+                <a href="pages/hospital-details.html?id=${h.id}" class="btn btn-sm btn-outline-primary w-100">
+                  <i class="bi bi-eye me-1"></i>View Full Profile & Resources
+                </a>
+                <div class="card-dblclick-hint text-center text-muted mt-1" style="font-size: 0.72rem;">
+                  <i class="bi bi-cursor-fill me-1"></i>Double-click to view details
+                </div>
+              </div>
+            </div>
+          </div>
+        `).join("");
+
+        if (previewGrid && App.attachHospitalCardDoubleAction) {
+          App.attachHospitalCardDoubleAction(previewGrid);
+        }
+      }
+    });
+  </script>
+</body>
+</html>

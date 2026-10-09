@@ -1,0 +1,15 @@
+district,hospital_count,total_district_beds,available_district_beds,total_district_icu,available_district_icu,avg_rating,avg_treatment_cost,avg_wait_minutes,district_bed_occupancy_pct,location
+Thrissur,86,42712,10871,4438,1005,4.15,49723.0,50.9,74.5,Thrissur
+Kasaragod,81,40688,9275,4243,851,4.12,48726.0,49.2,77.2,Kasaragod
+Palakkad,80,37607,9244,3750,872,4.15,48531.0,53.5,75.4,Palakkad
+Kannur,80,36398,8258,3850,814,4.21,47775.0,42.6,77.3,Kannur
+Kollam,77,38729,9115,3958,814,4.07,42768.0,55.4,76.5,Kollam
+Kozhikode,72,34485,8555,3564,635,4.15,53483.0,50.3,75.2,Kozhikode
+Alappuzha,71,32839,7924,3502,667,4.19,42592.0,53.4,75.9,Alappuzha
+Malappuram,70,34927,9464,3475,651,4.21,46124.0,46.3,72.9,Malappuram
+Wayanad,70,33606,8059,3602,738,4.1,44615.0,49.9,76.0,Wayanad
+Ernakulam,69,29058,6614,3094,670,4.13,47409.0,52.7,77.2,Ernakulam
+Kottayam,67,36206,9544,3713,798,4.07,45688.0,47.6,73.6,Kottayam
+Thiruvananthapuram,63,30691,8024,3331,640,4.19,48171.0,49.6,73.9,Thiruvananthapuram
+Idukki,58,24425,6175,2532,664,4.2,46054.0,46.4,74.7,Idukki
+Pathanamthitta,56,27737,6155,2941,599,4.14,47021.0,46.3,77.8,Pathanamthitta

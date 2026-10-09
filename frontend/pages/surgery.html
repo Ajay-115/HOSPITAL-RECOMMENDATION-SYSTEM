@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Surgery Search & Recommendation | MediPulse</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <!-- Top Academic Disclaimer Banner -->
+  <div class="academic-disclaimer-banner text-center">
+    <i class="bi bi-info-circle-fill me-1"></i>
+    <strong>ACADEMIC PROJECT DEMONSTRATOR:</strong>
+    Information shown by this academic system is for demonstration and informational purposes only. Availability and healthcare decisions should be confirmed directly with the healthcare provider.
+  </div>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom sticky-top py-2 shadow-sm">
+    <div class="container-fluid px-lg-5">
+      <a class="navbar-brand navbar-brand-custom" href="../index.html">
+        <div class="brand-icon-box"><i class="bi bi-hospital"></i></div>
+        <div>
+          <span>MediPulse</span>
+          <div style="font-size: 0.65rem; color: #64748b; font-weight: 500; letter-spacing: 0.5px;">HEALTHCARE RESOURCE INTELLIGENCE</div>
+        </div>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4 gap-1">
+          <li class="nav-item"><a class="nav-link" href="../index.html"><i class="bi bi-house-door me-1"></i>Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="hospitals.html"><i class="bi bi-building me-1"></i>Hospitals</a></li>
+          <li class="nav-item"><a class="nav-link active" href="surgery.html"><i class="bi bi-scissors me-1"></i>Surgeries</a></li>
+          <li class="nav-item"><a class="nav-link" href="blood.html"><i class="bi bi-droplet-fill text-danger me-1"></i>Blood Bank</a></li>
+          <li class="nav-item"><a class="nav-link" href="resources.html"><i class="bi bi-activity me-1"></i>Resources</a></li>
+          <li class="nav-item"><a class="nav-link" href="waiting-time.html"><i class="bi bi-clock-history me-1"></i>Wait Times</a></li>
+        </ul>
+
+        <div class="d-flex align-items-center gap-2">
+          <a href="admin.html" class="btn btn-outline-primary btn-sm px-3 fw-semibold">
+            <i class="bi bi-shield-lock me-1"></i>Admin Portal
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <div class="bg-white border-bottom py-4">
+    <div class="container px-lg-5">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb small mb-1">
+          <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Surgery Recommendations</li>
+        </ol>
+      </nav>
+      <h2 class="fw-bold mb-1 text-dark">Surgery Scheduling & Cost Recommendations</h2>
+      <p class="text-muted small mb-0">Search procedure availability, estimated costs, waiting times, and hospital operating slot capacities.</p>
+    </div>
+  </div>
+
+  <div class="container px-lg-5 py-4">
+    <div class="row g-4">
+      <!-- Search Filters -->
+      <div class="col-lg-4 col-xl-3">
+        <div class="filter-card">
+          <div class="filter-header">
+            <div class="filter-title"><i class="bi bi-scissors text-primary"></i> Surgery Filters</div>
+            <button type="button" id="resetSurgeryBtn" class="btn btn-link btn-sm text-decoration-none p-0 text-muted">
+              Reset
+            </button>
+          </div>
+
+          <form id="surgeryFilterForm">
+            <!-- Surgery Name -->
+            <div class="mb-3">
+              <label for="filterSurgeryType" class="form-label-bold">Surgical Procedure</label>
+              <select id="filterSurgeryType" class="form-select form-select-sm">
+                <option value="All">All Procedures</option>
+              </select>
+            </div>
+
+            <!-- Specialty -->
+            <div class="mb-3">
+              <label for="filterSurgerySpecialty" class="form-label-bold">Medical Specialty</label>
+              <select id="filterSurgerySpecialty" class="form-select form-select-sm">
+                <option value="All">All Specialties</option>
+                <option value="Cardiology">Cardiology</option>
+                <option value="Neurology">Neurology</option>
+                <option value="Orthopedics">Orthopedics</option>
+                <option value="Oncology">Oncology</option>
+                <option value="General Medicine">General Medicine</option>
+                <option value="Gynecology">Gynecology</option>
+                <option value="Pediatrics">Pediatrics</option>
+                <option value="Dermatology">Dermatology</option>
+              </select>
+            </div>
+
+            <!-- Location -->
+            <div class="mb-3">
+              <label for="filterSurgeryLocation" class="form-label-bold">District</label>
+              <select id="filterSurgeryLocation" class="form-select form-select-sm">
+                <option value="All">All Districts</option>
+                <option value="Alappuzha">Alappuzha</option>
+                <option value="Ernakulam">Ernakulam</option>
+                <option value="Idukki">Idukki</option>
+                <option value="Kannur">Kannur</option>
+                <option value="Kasaragod">Kasaragod</option>
+                <option value="Kollam">Kollam</option>
+                <option value="Kottayam">Kottayam</option>
+                <option value="Kozhikode">Kozhikode</option>
+                <option value="Malappuram">Malappuram</option>
+                <option value="Palakkad">Palakkad</option>
+                <option value="Pathanamthitta">Pathanamthitta</option>
+                <option value="Thiruvananthapuram">Thiruvananthapuram</option>
+                <option value="Thrissur">Thrissur</option>
+                <option value="Wayanad">Wayanad</option>
+              </select>
+            </div>
+
+            <!-- Budget Range -->
+            <div class="mb-3">
+              <div class="d-flex justify-content-between align-items-center mb-1">
+                <label for="filterSurgeryBudget" class="form-label-bold mb-0">Max Budget</label>
+                <span id="budgetValDisplay" class="slider-val-badge">₹4,00,000</span>
+              </div>
+              <input type="range" class="form-range" min="30000" max="400000" step="10000" id="filterSurgeryBudget" value="400000">
+            </div>
+
+            <!-- Max Waiting Days -->
+            <div class="mb-3">
+              <label for="filterSurgeryWaitDays" class="form-label-bold">Max Waiting Days</label>
+              <select id="filterSurgeryWaitDays" class="form-select form-select-sm">
+                <option value="10">Within 10 Days</option>
+                <option value="5">Within 5 Days</option>
+                <option value="3">Within 3 Days</option>
+                <option value="1">Next Day Emergency (1 Day)</option>
+              </select>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-sm w-100 fw-semibold py-2">
+              <i class="bi bi-funnel me-1"></i>Filter Surgeries
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Surgery Results Grid -->
+      <div class="col-lg-8 col-xl-9">
+        <div class="d-flex flex-wrap justify-content-between align-items-center mb-3 p-2 bg-white rounded-3 border">
+          <div class="fw-semibold text-muted small" id="surgeryCount">
+            Showing matching surgeries...
+          </div>
+
+          <div class="d-flex align-items-center gap-2">
+            <label for="sortSurgery" class="small fw-semibold text-muted mb-0">Sort By:</label>
+            <select id="sortSurgery" class="form-select form-select-sm" style="width: auto;">
+              <option value="match">Best Match Score</option>
+              <option value="cost_asc">Lowest Cost</option>
+              <option value="wait_asc">Lowest Waiting Days</option>
+              <option value="slots_desc">Most Available Slots</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row" id="surgeryGrid">
+          <!-- Rendered dynamically by surgery.js -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container px-lg-5">
+      <div class="row g-4">
+        <div class="col-lg-6">
+          <div class="navbar-brand-custom text-white mb-2">
+            <div class="brand-icon-box bg-primary"><i class="bi bi-hospital"></i></div>
+            <span class="text-white">MediPulse</span>
+          </div>
+          <p class="small text-secondary mb-0">Surgery Recommendation Module &bull; Final Year B.Tech Project.</p>
+        </div>
+        <div class="col-lg-6 text-lg-end">
+          <p class="small text-secondary mb-0">Information shown for academic informational purposes only.</p>
+        </div>
+      </div>
+      <div class="footer-bottom text-center">
+        <p class="mb-0">MediPulse &copy; 2026. Academic Healthcare Recommendation System.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../js/sample-data.js"></script>
+  <script src="../js/app.js"></script>
+  <script src="../js/surgery.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+resource_name,resource_type,hospital_instances,total_units_installed,available_units_ready,in_use_units,utilization_percentage
+Blood Storage Unit,Blood Services,1000,5532,1552,3980,71.9
+Hemodialysis Station,Specialized Care,1000,11002,3356,7646,69.5
+Ventilator,Critical Care,1000,21316,6564,14752,69.2
+Oxygen Cylinder,Oxygen,1000,79160,25068,54092,68.3
+ICU Bed,Critical Care,1000,42062,13378,28684,68.2
+General Ward Bed,Beds,1000,308811,100409,208402,67.5
